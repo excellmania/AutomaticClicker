@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/list_padding" android:paddingRight="@dimen/list_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/title" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/run_indefinitely" />
+                <TextView android:textSize="14.0sp" android:id="@id/value" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/infinity" />
+            </LinearLayout>
+            <RadioButton android:id="@id/radio_run_indefinitely" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" />
+        </LinearLayout>
+        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <simplehat.automaticclicker.views.IntervalSettingView android:id="@id/stop_after_time_range" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:description="@string/description_stop_after_amount_of_time" app:title="@string/stop_after_amount_of_time" />
+            <RadioButton android:id="@id/radio_stop_after_time_range" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" />
+        </LinearLayout>
+        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <simplehat.automaticclicker.views.TimePickerSettingView android:id="@id/stop_at_time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:description="@string/description_stop_at_specific_time" app:mode="INTEGER" app:suffix="@string/pixels" app:title="@string/stop_at_specific_time" />
+            <RadioButton android:id="@id/radio_stop_at_time" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" />
+        </LinearLayout>
+        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <simplehat.automaticclicker.views.StringSettingView android:id="@id/stop_after_run_count" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:description="@string/description_stop_after_run_count" app:mode="INTEGER" app:suffix="@string/runs" app:title="@string/stop_after_run_count" />
+            <RadioButton android:id="@id/radio_stop_after_run_count" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" />
+        </LinearLayout>
+        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

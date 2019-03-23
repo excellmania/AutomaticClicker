@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidDomInspection -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="59" android:versionName="4.6.1" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="simplehat.clicker" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="28"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:configChanges="orientation" android:allowBackup="true" android:supportsRtl="true" android:resizeableActivity="true" android:roundIcon="@mipmap/ic_launcher_round" android:appComponentFactory="android.support.v4.app.CoreComponentFactory">
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-1893210617438190~9246558963"/>
+        <activity android:name="simplehat.automaticclicker.activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="simplehat.automaticclicker.activities.CheckPermissionsActivity"/>
+        <activity android:name="simplehat.automaticclicker.activities.SingleTargetInstructionsActivity"/>
+        <activity android:name="simplehat.automaticclicker.activities.MultiTargetInstructionsActivity"/>
+        <activity android:label="@string/title_settings_single_target" android:name="simplehat.automaticclicker.activities.SingleTargetSettingsActivity"/>
+        <activity android:label="@string/title_settings_multi_target" android:name="simplehat.automaticclicker.activities.MultiTargetSettingsActivity"/>
+        <activity android:label="@string/title_settings_auto_start" android:name="simplehat.automaticclicker.activities.AutoStartSettingsActivity"/>
+        <activity android:label="@string/title_saved_configurations" android:name="simplehat.automaticclicker.activities.ConfigListActivity"/>
+        <activity android:name="simplehat.automaticclicker.activities.ConfigEditActivity"/>
+        <activity android:label="@string/title_edit_action" android:name="simplehat.automaticclicker.activities.ActionEditActivity"/>
+        <service android:name="simplehat.automaticclicker.services.SingleTargetOverlayService"/>
+        <service android:name="simplehat.automaticclicker.services.MultiTargetOverlayService"/>
+        <service android:name="simplehat.automaticclicker.services.AccessibilityService3" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/serviceconfig"/>
+        </service>
+        <activity android:theme="@style/Theme.Translucent" android:name="com.google.android.gms.ads.AdActivity" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <provider android:name="com.google.android.gms.ads.MobileAdsInitProvider" android:exported="false" android:authorities="simplehat.clicker.mobileadsinitprovider" android:initOrder="100"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.android.billingclient.api.ProxyBillingActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize"/>
+        <provider android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer" android:exported="false" android:multiprocess="true" android:authorities="simplehat.clicker.lifecycle-trojan"/>
+        <meta-data android:name="android.support.VERSION" android:value="26.1.0"/>
+    </application>
+</manifest>

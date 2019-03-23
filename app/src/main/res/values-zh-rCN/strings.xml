@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">转到主屏幕</string>
+    <string name="abc_action_bar_up_description">转到上一层级</string>
+    <string name="abc_action_menu_overflow_description">更多选项</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">选择应用</string>
+    <string name="abc_capital_off">关闭</string>
+    <string name="abc_capital_on">开启</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">Delete 键</string>
+    <string name="abc_menu_enter_shortcut_label">Enter 键</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">空格键</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">搜索…</string>
+    <string name="abc_searchview_description_clear">清除查询</string>
+    <string name="abc_searchview_description_query">搜索查询</string>
+    <string name="abc_searchview_description_search">搜索</string>
+    <string name="abc_searchview_description_submit">提交查询</string>
+    <string name="abc_searchview_description_voice">语音搜索</string>
+    <string name="abc_shareactionprovider_share_with">分享方式</string>
+    <string name="abc_shareactionprovider_share_with_application">使用%s分享</string>
+    <string name="abc_toolbar_collapse_description">收起</string>
+    <string name="about_ads">有关我们的广告</string>
+    <string name="about_ads_body">"当叠加层为蓝色时，表明已经准备好显示广告。
+
+单击播放按钮时，广告将显示，叠加层将恢复正常颜色-此后按下播放钮，将像往常一样开始点击。
+
+叠加层将每隔几分钟准备一次广告，但是从不会在点击活跃时播放。"</string>
+    <string name="accessibility_service">无障碍服务</string>
+    <string name="accessibility_service_description">"启用此辅助功能服务将允许自动点击器代表您发送点击。
+
+对于所有辅助功能服务，“观察您的操作”都是必要的。我们的软件永远不会监控或收集您未明确指示收集的任何数据。"</string>
+    <string name="accessibility_service_text">为自动点击器开启无障碍服务，以允许本应用程序代表您发送点击。您可以随时禁用此功能，但是要运行自动点击器就必须启用此功能。</string>
+    <string name="action_type">操作类型</string>
+    <string name="app_name">自动点击器</string>
+    <string name="auto_start_settings">自动打开设置</string>
+    <string name="cancel">取消</string>
+    <string name="change">更改</string>
+    <string name="click_duration">点击持续时间</string>
+    <string name="clickswipe_duration">点击/滑动持续时间</string>
+    <string name="close">关闭</string>
+    <string name="common_google_play_services_unknown_issue">%1$s无法访问 Google Play 服务，请重试。</string>
+    <string name="config_already_exists">"已存在具有该名称的已保存配置。
+
+您想覆盖它吗？"</string>
+    <string name="confirm_delete_target">删除此目标吗？</string>
+    <string name="coordinates">坐标</string>
+    <string name="copy">复制</string>
+    <string name="copy_verb">复制</string>
+    <string name="create">创造</string>
+    <string name="current_configuration">当前配置</string>
+    <string name="delay">延迟：</string>
+    <string name="delete">删除</string>
+    <string name="delete_action_confirm">您确定要删除此操作吗？</string>
+    <string name="delete_configuration_confirm">删除此配置吗？</string>
+    <string name="description_auto_start">选择打开此应用程序时要执行的默认操作。</string>
+    <string name="description_click_coordinates">手机屏幕上供点击的坐标。</string>
+    <string name="description_click_duration">设置此点击的持续时间。</string>
+    <string name="description_click_duration_plural">设置每次点击按住的时间。</string>
+    <string name="description_clickswipe_duration_default">"设置每个操作的默认持续时间。
+
+对于点击， 这就是点击持续的时间长度。
+
+对于滑动， 这可以控制滑动完成所需要的时间。"</string>
+    <string name="description_delay">设置点击之间的延迟</string>
+    <string name="description_disable_after">"设置在禁用此操作之前完成的完整运行次数。
+
+一次完整运行包括所有重复。其他操作将不会受到影响。
+
+（0=不禁用）"</string>
+    <string name="description_end_coordinates">滑动的结束坐标。</string>
+    <string name="description_end_delay">设置此操作之后发生的延迟。</string>
+    <string name="description_end_delay_default">设置每个操作之后发生的默认延迟。</string>
+    <string name="description_pause_on_app_change">"启用后，在应用程序之间切换时， 单击将暂停。
+
+如果Android下拉通知栏移动到点击区域，此设置也会暂停点击。"</string>
+    <string name="description_preserve_physical_target_location">"启用后，目标将在旋转屏幕时保持其物理位置。
+
+禁用时， 目标将保持相对于屏幕左上角的位置。"</string>
+    <string name="description_randomization_radius">"以像素为单位，设置随机选择单击/滑动坐标的目标周边的半径。
+
+（0=无随机）"</string>
+    <string name="description_randomization_range">"选择绘制随机值的时间间隔。
+
+然后从延迟中随机地添加或减去该值。 
+
+（0=无随机）"</string>
+    <string name="description_repeat">"在继续下一个操作之前，请选择此操作重复多少次。
+
+（0=不重复）"</string>
+    <string name="description_show_active_targets">"启用后，单击屏幕时目标将可见并显示为绿色。
+
+如果禁用，则单击时目标将不可见。"</string>
+    <string name="description_start_coordinates">滑动的起始坐标。</string>
+    <string name="description_start_delay">设置此操作之前发生的延迟。</string>
+    <string name="description_start_delay_default">设置每个操作之前发生的默认延迟。</string>
+    <string name="description_stop_after">选择暂停应用程序的触发器。</string>
+    <string name="description_stop_after_amount_of_time">设置点击的时间长度。</string>
+    <string name="description_stop_after_run_count">设定通过所有设定目标的运行次数。</string>
+    <string name="description_stop_at_specific_time">设置停止点击的时间。</string>
+    <string name="description_swipe_duration">设置此滑动完成所需的时间。</string>
+    <string name="description_target_programmability">"启用后，点击目标将允许您进行各自独立的设置。
+
+禁用后， 仅目标可移动。"</string>
+    <string name="disable">禁用</string>
+    <string name="disabled">已禁用</string>
+    <string name="display_coordinates">X：%1$d Y：%2$d</string>
+    <string name="display_edit_target_number">编辑目标：%1$d</string>
+    <string name="display_max">最大：%1$d</string>
+    <string name="display_min">最小：%1$d</string>
+    <string name="display_run_order_with_type">%1$d - 类型：%2$s</string>
+    <string name="display_stop_after">在%1$s后停止</string>
+    <string name="display_stop_after_runs">在%1$s次运行后停止</string>
+    <string name="display_value_with_range">%1$s±%2$s</string>
+    <string name="display_value_with_unit">%1$s %2$s</string>
+    <string name="do_not_disable">不禁用</string>
+    <string name="do_not_repeat">不重复</string>
+    <string name="do_nothing">什么都不做</string>
+    <string name="enable">启用</string>
+    <string name="enabled">已启用</string>
+    <string name="end_coordinates_noun">结束坐标</string>
+    <string name="end_delay_title_noun">结束延迟</string>
+    <string name="end_noun">结束</string>
+    <string name="end_verb">结束</string>
+    <string name="first_use_multi_mode_end">"我们建议您阅读详细说明，以完全了解此应用程序及其功能。
+
+您想现在开始吗？"</string>
+    <string name="first_use_multi_mode_start">"看起来您是第一次使用此模式。
+
+请花一点时间查看我们的控制图："</string>
+    <string name="first_use_single_mode">"看起来您是第一次使用此模式。
+
+请花点时间阅读说明， 了解应用程序中的所有功能。
+
+您想现在开始吗？"</string>
+    <string name="grant_verb">授予</string>
+    <string name="header_actions">操作：</string>
+    <string name="header_advanced_settings">高级设置：</string>
+    <string name="header_basic_settings">基本设置：</string>
+    <string name="header_default_settings">默认设置：</string>
+    <string name="header_delay">延迟：</string>
+    <string name="header_randomization">随机化：</string>
+    <string name="header_settings">设置：</string>
+    <string name="infinity">∞</string>
+    <string name="instructions">说明</string>
+    <string name="instructions_emergency_stop">紧急停止</string>
+    <string name="instructions_multi_target_configuring">配置目标</string>
+    <string name="instructions_multi_target_configuring_body">轻点目标将允许您配置其设置。每个目标都可以单独配置各种设置。</string>
+    <string name="instructions_multi_target_overlay">多目标模式覆盖有五个按钮，功能会有所不同，具体取决于您是点击还是按住它们。</string>
+    <string name="instructions_multi_target_overlay_add_hold">按住：添加滑动目标。</string>
+    <string name="instructions_multi_target_overlay_add_tap">轻点：添加点击目标。</string>
+    <string name="instructions_multi_target_overlay_collapse_hold">按住：重新定位叠加层。</string>
+    <string name="instructions_multi_target_overlay_collapse_tap">轻点：折叠所有叠加层。</string>
+    <string name="instructions_multi_target_overlay_header">使用叠加层</string>
+    <string name="instructions_multi_target_overlay_play_tap">轻点：开始/结束点击。</string>
+    <string name="instructions_multi_target_overlay_remove_hold">按住：删除所有目标。</string>
+    <string name="instructions_multi_target_overlay_remove_tap">轻点：删除添加的最后一个目标。</string>
+    <string name="instructions_multi_target_overlay_settings_tap">轻点：打开选项和设置。</string>
+    <string name="instructions_multi_target_proper_settings">"您的手机及其各种应用程序在点击方式和速度方面存在局限性。
+
+请务必注意，点击超过50毫秒可能会导致应用程序无法注册点击或可能锁住您的手机。
+
+如果出现上述任何一种问题，请锁住手机或关闭屏幕电源以停止应用程序，然后更改配置。"</string>
+    <string name="instructions_multi_target_proper_settings_header">恰当的设置</string>
+    <string name="instructions_multi_target_subtitle">多目标模式</string>
+    <string name="instructions_multi_target_swipe">按住加号将在屏幕上添加新的滑动目标。这些将从标记为“开始”的圆圈的中心向标记为“结束”的圆圈的中心滑动。</string>
+    <string name="instructions_multi_target_swipe_header">设置滑动目标</string>
+    <string name="instructions_multi_target_target">点击加号将创建一个新目标。每个目标都有编号，并将按顺序运行。所有点击/滑动都来自目标的中心。在最后一个目标运行后，序列将循环回到第一个目标。</string>
+    <string name="instructions_multi_target_target_header">添加目标</string>
+    <string name="instructions_onoff_abort">"锁定手机或关闭屏幕将暂停应用程序。
+
+如果您的手机没有响应或看起来已经冻结，请按一下电源按钮强迫点击器停止。"</string>
+    <string name="instructions_single_target_base">请花点时间阅读我们的说明并了解如何使用此应用程序。</string>
+    <string name="instructions_single_target_closing">点击X符号将关闭叠加并停止应用程序。</string>
+    <string name="instructions_single_target_closing_header">关闭叠加层</string>
+    <string name="instructions_single_target_moving">" "<b></b>拖动叠加层的两侧以在屏幕上移动它。</string>
+    <string name="instructions_single_target_moving_header">移动叠加层</string>
+    <string name="instructions_single_target_onoff">"当您点击播放按钮时，叠加层将变为绿色并开始为您单击。
+
+在点击暂停按钮之前，无法重新定位叠加层。"</string>
+    <string name="instructions_single_target_onoff_header">开始和停止</string>
+    <string name="instructions_single_target_subtitle">单目标模式</string>
+    <string name="instructions_single_target_target">" "<b>点击</b>叠加层的两侧以更改要点击的角落。这允许您单击屏幕的任何角落。</string>
+    <string name="instructions_single_target_target_header">更改目标角落</string>
+    <string name="instructions_take_a_moment">请花点时间阅读这些说明并了解如何使用此应用程序。</string>
+    <string name="load">加载</string>
+    <string name="load_config">加载配置：</string>
+    <string name="manage_configurations">管理配置</string>
+    <string name="name">名称</string>
+    <string name="no">否</string>
+    <string name="no_configs_to_load">您没有要加载的已保存配置。</string>
+    <string name="none">没有</string>
+    <string name="not_set">未设置</string>
+    <string name="ok">好的</string>
+    <string name="open_multi_target_mode_no_config">打开多目标模式（无配置）</string>
+    <string name="open_single_target_mode">打开单目标模式</string>
+    <string name="overlay_permission">叠加权限</string>
+    <string name="overlay_permission_text">授予此权限，允许我们创建叠加，以便您控制自动点击器。</string>
+    <string name="overwrite_current_config">覆盖当前配置？</string>
+    <string name="overwrite_current_config_confirm">您确定要覆盖当前配置吗？</string>
+    <string name="pause_on_app_change">应用程序更改时暂停</string>
+    <string name="pixels">像素</string>
+    <string name="please_note">请注意</string>
+    <string name="preserve_location">保留物理目标位置</string>
+    <string name="randomization_radius">随机化半径</string>
+    <string name="randomization_range">随机化范围：</string>
+    <string name="remove">移除</string>
+    <string name="remove_ads">移除广告</string>
+    <string name="remove_ads_description">从自动点击器中删除所有广告</string>
+    <string name="run_indefinitely">无限期运行</string>
+    <string name="runs">运行</string>
+    <string name="s1">保存图片</string>
+    <string name="s2">允许广告将图片存储在图库中吗？</string>
+    <string name="s3">接受</string>
+    <string name="s4">拒绝</string>
+    <string name="s5">创建日历活动</string>
+    <string name="s6">允许广告创建日历活动吗？</string>
+    <string name="s7">测试广告</string>
+    <string name="save">保存</string>
+    <string name="search_menu_title">搜索</string>
+    <string name="select_type">选择操作类型：</string>
+    <string name="set_config_copy_name">为此副本设置名称：</string>
+    <string name="set_config_name">为此配置设置名称：</string>
+    <string name="settings">设置</string>
+    <string name="show_active_targets">显示活跃目标</string>
+    <string name="skip">跳过</string>
+    <string name="start_coordinates_noun">开始坐标</string>
+    <string name="start_delay_title_noun">开始延迟</string>
+    <string name="start_multi_target_mode">开始：多目标模式</string>
+    <string name="start_noun">开始</string>
+    <string name="start_single_target_mode">开始：单目标模式</string>
+    <string name="start_verb">开始</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stop_after">在…之后停止</string>
+    <string name="stop_after_amount_of_time">经过一段时间后停止</string>
+    <string name="stop_after_run_count">运行后停止计数</string>
+    <string name="stop_at_specific_time">在特定时间停止</string>
+    <string name="target_programmability">目标可编程性</string>
+    <string name="thanks_for_buying">感谢购买</string>
+    <string name="time_between_clicks">点击之间的时间间隔</string>
+    <string name="title_disable_after">在…之后禁用</string>
+    <string name="title_duration">持续时间</string>
+    <string name="title_edit_action">编辑操作</string>
+    <string name="title_edit_configuration">编辑配置：%1$s</string>
+    <string name="title_repeat">重复</string>
+    <string name="title_saved_configurations">已保存的配置</string>
+    <string name="title_settings_auto_start">设置-自动启动</string>
+    <string name="title_settings_multi_target">设置-多个目标</string>
+    <string name="title_settings_single_target">设置-单个目标</string>
+    <string name="unknown">未知</string>
+    <string name="update">更新</string>
+    <string name="warning">警告</string>
+    <string name="welcome">欢迎</string>
+    <string name="welcome_text">在开始使用自动点击功能之前，您需要在您的设备上授予自动点击器额外权限。</string>
+    <string name="why_ads">我们为什么要显示广告？</string>
+    <string name="why_ads_body">"在SimpleHat Software,我们希望为所有用户提供最好的付费或免费应用程序，而不限制可用的功能。
+
+但是，我们需要资助正在进行的新功能开发和新设备支持。
+
+我们的目标是让这些广告尽可能不引起用户的注目。我们感谢您的理解。"</string>
+    <string name="yes">是</string>
+</resources>

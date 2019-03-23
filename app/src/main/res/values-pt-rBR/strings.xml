@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navegar para a página inicial</string>
+    <string name="abc_action_bar_up_description">Navegar para cima</string>
+    <string name="abc_action_menu_overflow_description">Mais opções</string>
+    <string name="abc_action_mode_done">Concluído</string>
+    <string name="abc_activity_chooser_view_see_all">Ver tudo</string>
+    <string name="abc_activitychooserview_choose_application">Selecione um app</string>
+    <string name="abc_capital_off">DESATIVAR</string>
+    <string name="abc_capital_on">ATIVAR</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">espaço</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Pesquisar...</string>
+    <string name="abc_searchview_description_clear">Limpar consulta</string>
+    <string name="abc_searchview_description_query">Consulta de pesquisa</string>
+    <string name="abc_searchview_description_search">Pesquisar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Pesquisa por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartilhar com %s</string>
+    <string name="abc_toolbar_collapse_description">Recolher</string>
+    <string name="about_ads">Sobre nossos anúncios</string>
+    <string name="about_ads_body">"Quando a sobreposição ficar azul, isto quer dizer que um anúncio está pronto para ser exibido.
+
+Ao clicar no botão Play, o anúncio será exibido e a sobreposição voltará à cor normal - em seguida, o botão Play iniciará os cliques habituais.
+
+A sobreposição exibirá um anúncio em intervalos de alguns minutos, mas nunca enquanto estiver clicando ativamente."</string>
+    <string name="accessibility_service">Serviço de acessibilidade</string>
+    <string name="accessibility_service_description">"Se habilitar o serviço de acessibilidade, o Clicador Automático poderá enviar toques/cliques em seu nome. 
+
+É necessário \"Observar suas ações\" em todos os serviços de acessibilidade. Nosso software nunca monitora ou coleta qualquer dado que você não autorizar explicitamente."</string>
+    <string name="accessibility_service_text">Ao iniciar o serviço de acessibilidade do Clicador Automático, você permitirá ao aplicativo enviar cliques/toques em seu nome. Você pode desabilitar a função a qualquer momento, mas ela precisa estar habilitada para que o Clicador Automático funcione.</string>
+    <string name="action_type">Tipo de acão</string>
+    <string name="app_name">Clicador Automático</string>
+    <string name="auto_start_settings">Configurações de abertura automática</string>
+    <string name="cancel">Cancelar</string>
+    <string name="change">Alterar</string>
+    <string name="click_duration">Duração dos cliques</string>
+    <string name="clickswipe_duration">Duração dos cliques/deslizadas</string>
+    <string name="close">Fechar</string>
+    <string name="common_google_play_services_unknown_issue">O app %1$s está com problemas com o Google Play Services. Tente novamente.</string>
+    <string name="config_already_exists">Já existe uma configuração gravada com este nome. Sobrescrevê-la?</string>
+    <string name="confirm_delete_target">Excluir esta meta?</string>
+    <string name="coordinates">Coordenadas</string>
+    <string name="copy">Cópia</string>
+    <string name="copy_verb">Copiar</string>
+    <string name="create">Criar</string>
+    <string name="current_configuration">Configuração atual</string>
+    <string name="delay">Atraso</string>
+    <string name="delete">Excluir</string>
+    <string name="delete_action_confirm">Tem certeza de que quer excluir esta ação?</string>
+    <string name="delete_configuration_confirm">Excluir esta configuração?</string>
+    <string name="description_auto_start">Defina a ação padrão que deve ocorrer quanto este aplicativo for aberto.</string>
+    <string name="description_click_coordinates">As coordenadas na tela do seu celular para clicar.</string>
+    <string name="description_click_duration">Define o tempo que este clique será mantido pressionado.</string>
+    <string name="description_click_duration_plural">Defina o tempo em que cada clique é mantido pressionado.</string>
+    <string name="description_clickswipe_duration_default">"Definir a duração padrão de cada ação.
+
+Para os cliques, este é o tempo em que o clique será pressionado.
+
+Para deslizadas, esta função controla o tempo que a deslizada leva para ser concluída."</string>
+    <string name="description_delay">Definir o atraso entre cliques.</string>
+    <string name="description_disable_after">"Define quantos ciclos completos devem ocorrer antes que esta ação seja desabilitada.
+
+Um ciclo completo inclui todas as repetições. Outras ações não serão afetadas.
+
+(0 = Não desabilitar)"</string>
+    <string name="description_end_coordinates">As coordenadas finais para a deslizada.</string>
+    <string name="description_end_delay">Definir o atraso depois desta ação.</string>
+    <string name="description_end_delay_default">Definir o atraso padrão após cada ação.</string>
+    <string name="description_pause_on_app_change">"Quando habilitada, um clique pausa a ação durante a troca de aplicativos.
+
+Esta configuração também pausa os cliques se a barra suspensa de notificações do Android se deslocar para a área dos cliques."</string>
+    <string name="description_preserve_physical_target_location">"Quando habilitada, a meta mantém sua posição física quando a tela for girada.
+
+Quando desabilitada, a meta mantém sua posição relativa ao canto superior esquerdo da tela."</string>
+    <string name="description_randomization_radius">"Define o raio em pixels em torno da meta em que as coordenadas do clique/deslizada serão selecionadas aleatoriamente.
+
+(0 = Sem randomização)"</string>
+    <string name="description_randomization_range">"Defina um intervalo para escolha do valor aleatório.
+
+Esse valor será adicionado aleatoriamente ou subtraído do atraso.
+
+(0 = Sem randomização)"</string>
+    <string name="description_repeat">"Defina quantas vezes esta ação deve se repetir antes de passar para a próxima ação.
+
+(0 = Não repetir)"</string>
+    <string name="description_show_active_targets">"Quando habilitada, a meta será visível e colorida de verde ao clicar na sua tela.
+
+Se desabilitada, a meta ficará invisível enquanto estiver clicando."</string>
+    <string name="description_start_coordinates">As coordenadas iniciais para a deslizada.</string>
+    <string name="description_start_delay">Definir o atraso antes desta ação.</string>
+    <string name="description_start_delay_default">Definir o atraso padrão antes de cada ação.</string>
+    <string name="description_stop_after">Selecione um a gatilho para pausar o aplicativo.</string>
+    <string name="description_stop_after_amount_of_time">Define por quanto tempo os cliques continuam.</string>
+    <string name="description_stop_after_run_count">Define quantas vezes a ação deve passar por todas as metas.</string>
+    <string name="description_stop_at_specific_time">Define a hora em que os cliques devem parar.</string>
+    <string name="description_swipe_duration">Define quanto tempo esta deslizada leva para ser concluída.</string>
+    <string name="description_target_programmability">"Quando habilitada, um toque na meta permite definir as configurações individuais.
+
+Quando desabilitada, as metas somente poderão ser movimentadas."</string>
+    <string name="disable">Desabilitar</string>
+    <string name="disabled">Desabilitado</string>
+    <string name="display_coordinates">X: %1$d Y: %2$d</string>
+    <string name="display_edit_target_number">Editar meta: %1$d</string>
+    <string name="display_max">Máx: %1$d</string>
+    <string name="display_min">Mín: %1$d</string>
+    <string name="display_run_order_with_type">%1$d - Tipo: %2$s</string>
+    <string name="display_stop_after">Parar após: %1$s</string>
+    <string name="display_stop_after_runs">Parar após: %1$s Run (s)</string>
+    <string name="display_value_with_range">%1$s ± %2$s</string>
+    <string name="display_value_with_unit">%1$s %2$s</string>
+    <string name="do_not_disable">Não desabilitar</string>
+    <string name="do_not_repeat">Não repetir</string>
+    <string name="do_nothing">Não fazer nada</string>
+    <string name="enable">Habilitar</string>
+    <string name="enabled">Habilitado</string>
+    <string name="end_coordinates_noun">Fim das Coordenadas</string>
+    <string name="end_delay_title_noun">Fim do Atraso</string>
+    <string name="end_noun">Fim</string>
+    <string name="end_verb">Finalizar</string>
+    <string name="first_use_multi_mode_end">"Recomendamos a leitura das instruções detalhadas para compreender totalmente este aplicativo e seus recursos.
+
+Gostaria de vê-las agora?"</string>
+    <string name="first_use_multi_mode_start">"Parece que esta é a primeira vez que você utiliza este modo.
+
+Reserve um tempo e estude o mapa de controle:"</string>
+    <string name="first_use_single_mode">"Parece que esta é a primeira vez que você utiliza este modo.
+
+Reserve um tempo para ler as instruções e ver todos os recursos do aplicativo.
+
+Gostaria de vê-las agora?"</string>
+    <string name="grant_verb">Conceder</string>
+    <string name="header_actions">Ações:</string>
+    <string name="header_advanced_settings">Configurações avançadas:</string>
+    <string name="header_basic_settings">Configurações básicas:</string>
+    <string name="header_default_settings">Configurações padrão:</string>
+    <string name="header_delay">Atraso:</string>
+    <string name="header_randomization">Randomização:</string>
+    <string name="header_settings">Configurações:</string>
+    <string name="infinity">∞</string>
+    <string name="instructions">Instruções</string>
+    <string name="instructions_emergency_stop">Parada de emergência</string>
+    <string name="instructions_multi_target_configuring">Configuração da meta</string>
+    <string name="instructions_multi_target_configuring_body">Um toque na meta permite sua configuração. Cada meta pode ser configurada individualmente, com uma série de parâmetros.</string>
+    <string name="instructions_multi_target_overlay">O modo de sobreposição multimetas tem cinco botões cuja função varia conforme você toca neles ou os mantém pressionados.</string>
+    <string name="instructions_multi_target_overlay_add_hold">Manter pressionado: Adicionar uma meta de deslizamento.</string>
+    <string name="instructions_multi_target_overlay_add_tap">Toque: Adicionar uma meta de cliques.</string>
+    <string name="instructions_multi_target_overlay_collapse_hold">Manter pressionado: Reposicionar a sobreposição.</string>
+    <string name="instructions_multi_target_overlay_collapse_tap">Toque: Fechar todas as sobreposições.</string>
+    <string name="instructions_multi_target_overlay_header">Uso da sobreposição</string>
+    <string name="instructions_multi_target_overlay_play_tap">Toque: Iniciar/parar os cliques.</string>
+    <string name="instructions_multi_target_overlay_remove_hold">Manter pressionado: Remover todas as metas.</string>
+    <string name="instructions_multi_target_overlay_remove_tap">Toque: Remover a última meta adicionada.</string>
+    <string name="instructions_multi_target_overlay_settings_tap">Toque: Abrir as opções e configurações.</string>
+    <string name="instructions_multi_target_proper_settings">"Seu celular e todos os aplicativos têm limitações quanto à forma de clicar e a velocidade dos cliques.
+
+É importante observar que cliques em intervalos inferiores a 50 milissegundos podem impedir o aplicativo de registrar os cliques ou possivelmente bloquear seu celular.
+
+Se qualquer desses problemas ocorrer, bloqueie seu celular ou desligue a tela para interromper o aplicativo. Em seguida, mude as configurações."</string>
+    <string name="instructions_multi_target_proper_settings_header">Configurações adequadas</string>
+    <string name="instructions_multi_target_subtitle">Modo multimetas</string>
+    <string name="instructions_multi_target_swipe">Mantenha o sinal “+” pressionado para adicionar uma nova meta de deslizamento na sua tela. Isto vai gerar uma deslizada do centro do círculo com o termo “Início” até o centro do círculo com o termo “Fim”.</string>
+    <string name="instructions_multi_target_swipe_header">Configuração de meta de deslizadas</string>
+    <string name="instructions_multi_target_target">Um toque no sinal “+” cria uma nova meta. Cada meta é numerada e será executada em sequência. Todos os cliques/deslizadas terão origem no centro da meta. Após a execução da última meta, a sequência entra em ciclo, voltando à primeira meta.</string>
+    <string name="instructions_multi_target_target_header">Para adicionar metas</string>
+    <string name="instructions_onoff_abort">"Em caso de bloqueio do celular ou desligamento da tela, o aplicativo será pausado.
+
+Se o seu celular não estiver respondendo ou estiver aparentemente travado, pressione o botão liga/desliga uma vez para forçar a parada do clicker."</string>
+    <string name="instructions_single_target_base">Reserve um tempo para ler as instruções e aprenda a utilizar este aplicativo.</string>
+    <string name="instructions_single_target_closing">Toque no símbolo X para fechar a sobreposição e interromper o aplicativo.</string>
+    <string name="instructions_single_target_closing_header">Como fechar a sobreposição</string>
+    <string name="instructions_single_target_moving">" "<b> Arraste </b>os lados da sobreposição para movimentá-la pela tela.</string>
+    <string name="instructions_single_target_moving_header">Movimentação da sobreposição</string>
+    <string name="instructions_single_target_onoff">"Quando você toca no botão Play, a sobreposição fica verde e começa a clicar para você. 
+
+Não é possível reposicionar a sobreposição até que o botão de Pausa seja pressionado."</string>
+    <string name="instructions_single_target_onoff_header">Início e parada</string>
+    <string name="instructions_single_target_subtitle">Modo de meta única</string>
+    <string name="instructions_single_target_target">" "<b>Toque</b> nos lados da sobreposição para alterar o canto em que se iniciam os cliques. Isto permite clicar em qualquer canto da tela.</string>
+    <string name="instructions_single_target_target_header">Mudança do canto de destino</string>
+    <string name="instructions_take_a_moment">Reserve um tempo para ler as instruções e aprenda a utilizar este aplicativo.</string>
+    <string name="load">Carregar</string>
+    <string name="load_config">Carregar configuração:</string>
+    <string name="manage_configurations">Gerenciar configurações</string>
+    <string name="name">Nome</string>
+    <string name="no">Não</string>
+    <string name="no_configs_to_load">Você não salvou as configurações para recarga.</string>
+    <string name="none">Nenhum</string>
+    <string name="not_set">Não configurado</string>
+    <string name="ok">OK</string>
+    <string name="open_multi_target_mode_no_config">Abrir modo multimetas (sem Configuração)</string>
+    <string name="open_single_target_mode">Abrir um único modo-alvo</string>
+    <string name="overlay_permission">Permissão de sobreposição</string>
+    <string name="overlay_permission_text">Esta permissão autoriza o app a criar a sobreposição que você vai usar para controlar o Clicador Automático.</string>
+    <string name="overwrite_current_config">Sobrescrever a configuração atual?</string>
+    <string name="overwrite_current_config_confirm">Tem certeza de que quer sobrescrever a configuração atual?</string>
+    <string name="pause_on_app_change">Pausa em caso de mudança de aplicativo</string>
+    <string name="pixels">Píxel(s)</string>
+    <string name="please_note">Observe</string>
+    <string name="preserve_location">Preservar a localização da meta física</string>
+    <string name="randomization_radius">Raio de randomização</string>
+    <string name="randomization_range">Intervalo de randomização</string>
+    <string name="remove">Remover</string>
+    <string name="remove_ads">Remover anúncios</string>
+    <string name="remove_ads_description">Remover todos os anúncios do Clicador Automático.</string>
+    <string name="run_indefinitely">Execução por tempo indeterminado</string>
+    <string name="runs">Execução(ões)</string>
+    <string name="s1">Salvar imagem</string>
+    <string name="s2">Permitir que os anúncios armazenem imagens na galeria de imagens?</string>
+    <string name="s3">Aceitar</string>
+    <string name="s4">Recusar</string>
+    <string name="s5">Criar evento na agenda</string>
+    <string name="s6">Permitir que os anúncios criem um evento na agenda?</string>
+    <string name="s7">Anúncio de teste</string>
+    <string name="save">Salvar</string>
+    <string name="search_menu_title">Pesquisar</string>
+    <string name="select_type">Selecione o tipo de ação:</string>
+    <string name="set_config_copy_name">Defina um nome para esta cópia:</string>
+    <string name="set_config_name">Defina um nome para esta configuração:</string>
+    <string name="settings">Configurações</string>
+    <string name="show_active_targets">Exibir metas ativas</string>
+    <string name="skip">Ignorar</string>
+    <string name="start_coordinates_noun">Início das Coordenadas</string>
+    <string name="start_delay_title_noun">Início do Atraso</string>
+    <string name="start_multi_target_mode">Iniciar: Modo multimetas</string>
+    <string name="start_noun">Início</string>
+    <string name="start_single_target_mode">Iniciar: Modo de meta única</string>
+    <string name="start_verb">Iniciar</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stop_after">Parar após</string>
+    <string name="stop_after_amount_of_time">Parada após um período</string>
+    <string name="stop_after_run_count">Parada após N execuções</string>
+    <string name="stop_at_specific_time">Parada em horário específico</string>
+    <string name="target_programmability">Programabilidade das metas</string>
+    <string name="thanks_for_buying">Obrigado pela compra</string>
+    <string name="time_between_clicks">Tempo entre cliques</string>
+    <string name="title_disable_after">Desabilitar após</string>
+    <string name="title_duration">Duração</string>
+    <string name="title_edit_action">Editar ação</string>
+    <string name="title_edit_configuration">Editar configuração: %1$s</string>
+    <string name="title_repeat">Repetições</string>
+    <string name="title_saved_configurations">Configurações gravadas</string>
+    <string name="title_settings_auto_start">Configurações - Inicio Automático</string>
+    <string name="title_settings_multi_target">Configurações - Metas Múltiplas</string>
+    <string name="title_settings_single_target">Configurações - Meta Única</string>
+    <string name="unknown">Desconhecido</string>
+    <string name="update">Atualizar</string>
+    <string name="warning">Atenção</string>
+    <string name="welcome">SEJA BEM-VINDO</string>
+    <string name="welcome_text">Antes de começar a usar os toques/cliques automáticos, é preciso conceder direitos adicionais ao Clicador Automático no seu dispositivo.</string>
+    <string name="why_ads">Por que exibimos anúncios?</string>
+    <string name="why_ads_body">"Na SimpleHat Software, temos a intenção de oferecer os melhores aplicativos que pudermos a todos os usuários, sejam eles pagos ou gratuitos, sem limitar os recursos que oferecem.
+
+Entretanto, precisamos financiar o desenvolvimento contínuo de novos recursos e o suporte a novos dispositivos.
+
+Nossa meta é que esses anúncios sejam o menos invasivos possível para os usuários. Nós valorizamos sua compreensão."</string>
+    <string name="yes">Sim</string>
+</resources>

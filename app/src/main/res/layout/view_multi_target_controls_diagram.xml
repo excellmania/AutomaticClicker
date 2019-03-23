@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/overlay_multi_controls" />
+    <LinearLayout android:orientation="vertical" android:layout_width="17.0dip" android:layout_height="250.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <View android:layout_gravity="center_vertical" android:background="#e7000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="17.0dip" android:layout_height="50.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <View android:layout_gravity="center_vertical" android:background="#e7000000" android:layout_width="8.0dip" android:layout_height="1.0dip" />
+                <View android:layout_gravity="center_vertical" android:background="#e7000000" android:layout_width="1.0dip" android:layout_height="30.0dip" />
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="50.0dip">
+                    <View android:background="#e7000000" android:layout_width="8.0dip" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" />
+                    <View android:background="#e7000000" android:layout_width="8.0dip" android:layout_height="1.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="17.0dip" android:layout_height="50.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <View android:layout_gravity="center_vertical" android:background="#e7000000" android:layout_width="8.0dip" android:layout_height="1.0dip" />
+                <View android:layout_gravity="center_vertical" android:background="#e7000000" android:layout_width="1.0dip" android:layout_height="30.0dip" />
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="50.0dip">
+                    <View android:background="#e7000000" android:layout_width="8.0dip" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" />
+                    <View android:background="#e7000000" android:layout_width="8.0dip" android:layout_height="1.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <View android:layout_gravity="center_vertical" android:background="#e7000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="17.0dip" android:layout_height="50.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+                <View android:layout_gravity="center_vertical" android:background="#e7000000" android:layout_width="8.0dip" android:layout_height="1.0dip" />
+                <View android:layout_gravity="center_vertical" android:background="#e7000000" android:layout_width="1.0dip" android:layout_height="30.0dip" />
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="50.0dip">
+                    <View android:background="#e7000000" android:layout_width="8.0dip" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" />
+                    <View android:background="#e7000000" android:layout_width="8.0dip" android:layout_height="1.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="250.0dip">
+        <TextView android:textSize="10.0sp" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="@string/instructions_multi_target_overlay_play_tap" />
+        <TextView android:textSize="10.0sp" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="25.0dip" android:text="@string/instructions_multi_target_overlay_add_tap" />
+        <TextView android:textSize="10.0sp" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="25.0dip" android:text="@string/instructions_multi_target_overlay_add_hold" />
+        <TextView android:textSize="10.0sp" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="25.0dip" android:text="@string/instructions_multi_target_overlay_remove_tap" />
+        <TextView android:textSize="10.0sp" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="25.0dip" android:text="@string/instructions_multi_target_overlay_remove_hold" />
+        <TextView android:textSize="10.0sp" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="50.0dip" android:text="@string/instructions_multi_target_overlay_settings_tap" />
+        <TextView android:textSize="10.0sp" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="25.0dip" android:text="@string/instructions_multi_target_overlay_collapse_tap" />
+        <TextView android:textSize="10.0sp" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="25.0dip" android:text="@string/instructions_multi_target_overlay_collapse_hold" />
+    </LinearLayout>
+</LinearLayout>

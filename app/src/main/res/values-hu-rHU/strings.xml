@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_ads">A reklámjainkról</string>
+    <string name="about_ads_body">"Ha az átfedő mező kék színű, az azt jelenti, hogy készen áll egy reklám megjelenítésére.
+
+A lejátszás gombra kattintás után megjelenik a reklám, és az átfedő mező visszatér a normál színéhez - ezt követően a lejátszás gomb megnyomásával szokás szerint újraindul a kattintás.
+
+ Az átfedő mező néhány percenként készít egy hirdetést, de sosem akkor, amikor aktív a kattintás."</string>
+    <string name="accessibility_service">Kisegítő szolgáltatás</string>
+    <string name="accessibility_service_description">"A kisegítő szolgáltatás engedélyezése lehetővé teszi az Automatikus Kattintó számára, hogy az alkalmazás helyetted kattintson/koppintson.
+
+A „Műveletek megfigyelése” szükséges minden kisegítő szolgáltatáshoz. A szoftverünk sosem követ figyelemmel és nem gyűjt adatokat, hacsak nem adsz erre kifejezetten utasítást."</string>
+    <string name="accessibility_service_text">Az Automatikus Kattintó kisegítő szolgáltatásának elindításával lehetővé teszed, hogy az alkalmazás helyetted kattintson/koppintson. Bármikor kikapcsolhatod, de az Automatikus Kattintó működéséhez be kell kapcsolnod.</string>
+    <string name="action_type">Művelet típusa</string>
+    <string name="app_name">Automatikus Kattintó</string>
+    <string name="auto_start_settings">Beállítások automatikus megnyitása</string>
+    <string name="cancel">Mégsem</string>
+    <string name="change">Megváltoztat</string>
+    <string name="click_duration">A kattintása időtartama</string>
+    <string name="clickswipe_duration">Kattintson/pöccintés időtartama</string>
+    <string name="close">Bezár</string>
+    <string name="config_already_exists">"Már el van mentve egy konfiguráció ezzel a névvel.
+
+Szeretnéd felülírni?"</string>
+    <string name="confirm_delete_target">Törlöd ezt a célt?</string>
+    <string name="coordinates">Koordináták</string>
+    <string name="copy">Másolás</string>
+    <string name="copy_verb">Másolás</string>
+    <string name="create">Létrehozás</string>
+    <string name="current_configuration">Jelenlegi konfiguráció</string>
+    <string name="delay">Késleltetés</string>
+    <string name="delete">Törlés</string>
+    <string name="delete_action_confirm">Biztosan törlöd ezt a műveletet?</string>
+    <string name="delete_configuration_confirm">Törlöd a konfigurációt?</string>
+    <string name="description_auto_start">Válaszd ki az alkalmazás megnyitása közbeni alapértelmezett műveletet.</string>
+    <string name="description_click_coordinates">A telefonod képernyőjén a kattintás koordinátái.</string>
+    <string name="description_click_duration">Állítsd be, hogy ez a kattintás mennyi ideig legyen lenyomva.</string>
+    <string name="description_click_duration_plural">Állítsd be, hogy az egyes kattintások mennyire ideig maradjanak lenyomva.</string>
+    <string name="description_clickswipe_duration_default">"Állítsd be az egyes műveletek alapértelmezett időtartamát.
+
+Kattintások esetén ez a kattintás lenyomva tartásának idejét jelenti.
+
+Pöccintések esetében ez a pöccintés végrehajtásának időtartamát szabályozza"</string>
+    <string name="description_delay">Állítsd be a kattintások közötti késleltetést.</string>
+    <string name="description_disable_after">"Állítsd be, a művelet leállítása előtt hány teljes futást hajtson végre.
+
+Egy teljes futás minden ismétlést tartalmaz. Más műveletekre nem lesz hatással.
+
+(0 = Ne tiltsa le)"</string>
+    <string name="description_end_coordinates">A pöccintés végének koordinátái.</string>
+    <string name="description_end_delay">Állítsd be a késleltetést ezután a művelet után.</string>
+    <string name="description_end_delay_default">Állítsd be az egyes műveletek utáni alapértelmezett késleltetést.</string>
+    <string name="description_pause_on_app_change">"Ha be van kapcsolva, akkor az alkalmazások közötti váltáskor a kattintás szünetel.
+
+Ez a beállítás akkor is szünetelteti a kattintást, ha az Android legördülő értesítési sávja a kattintási területre mozog."</string>
+    <string name="description_preserve_physical_target_location">"Ha be van kapcsolva, akkor a célok a képernyő elforgatásakor is megtartják a fizikai pozíciójukat.
+
+Ha ki van kapcsolva, akkor a célok a képernyő bal felső sarkához viszonyított pozíciójukat tartják meg."</string>
+    <string name="description_randomization_radius">"Állítsd be képpontokban megadva a cél körüli sugár méretét, amelyből a kattintás/pöccintés koordinátája véletlenszerűen lesz kiválasztva.
+
+(0 = Nincs véletlenszerűsítés)"</string>
+    <string name="description_randomization_range">"Válassz ki egy időintervallumot, amelyből véletlenszerűen kiválasztható egy érték.
+
+Ezt az értéket ezután véletlenszerűen hozzáadjuk vagy kivonjuk a késleltetésből.
+
+(0 = Nincs véletlenszerűsítés)"</string>
+    <string name="description_repeat">"Állítsd be, hogy hányszor legyen megismételve ez a műveletet, mielőtt továbblépne a következő műveletre.
+
+(0 = Ne ismételje meg)"</string>
+    <string name="description_show_active_targets">"Ha be van kapcsolva, akkor a célok láthatóak lesznek és zöld színnel jelennek meg a képernyő való kattintás közben.
+
+Ha ki van kapcsolva, akkor a célok láthatatlanok lesznek kattintás közben."</string>
+    <string name="description_start_coordinates">A pöccintés kiinduló koordinátái.</string>
+    <string name="description_start_delay">Állítsd be a késleltetést e művelet előtt.</string>
+    <string name="description_start_delay_default">Állítsd be az egyes műveletek előtti alapértelmezett késleltetést.</string>
+    <string name="description_stop_after">Állítsd be, hogy mi szüneteltesse az alkalmazást.</string>
+    <string name="description_stop_after_amount_of_time">Állítsd be, hogy mennyi ideig tartson a kattintás.</string>
+    <string name="description_stop_after_run_count">Állítsd be, hány alkalommal szeretnél végighaladni a beállított célokon.</string>
+    <string name="description_stop_at_specific_time">Állítsd be a kattintás leállításának időpontját.</string>
+    <string name="description_swipe_duration">Állítsd be, hogy ez a pöccintés mennyi idő alatt legyen végrehajtva.</string>
+    <string name="description_target_programmability">"Ha be van kapcsolva, akkor a célra koppintva beállíthatod a cél egyéni beállításait.
+
+Ha ki van kapcsolva, akkor a célokat csak mozgatni lehet."</string>
+    <string name="disable">Kikapcsol</string>
+    <string name="disabled">Kikapcsolva</string>
+    <string name="display_coordinates">X: %1$d Y: %2$d</string>
+    <string name="display_edit_target_number">Cél szerkesztése: %1$d</string>
+    <string name="display_max">Max.: %1$d</string>
+    <string name="display_min">Min.: %1$d</string>
+    <string name="display_run_order_with_type">%1$d - Típus: %2$s</string>
+    <string name="display_stop_after">Leállítás ezt követően: %1$s</string>
+    <string name="display_stop_after_runs">Leállítás %1$s futás után</string>
+    <string name="display_value_with_range">%1$s ± %2$s</string>
+    <string name="display_value_with_unit">%1$s %2$s</string>
+    <string name="do_not_disable">Ne tiltsa le</string>
+    <string name="do_not_repeat">Ne ismételje meg</string>
+    <string name="do_nothing">Ne tegyen semmit</string>
+    <string name="enable">Engedélyez</string>
+    <string name="enabled">Engedélyezve</string>
+    <string name="end_coordinates_noun">Végző koordináták</string>
+    <string name="end_delay_title_noun">Késleltetés vége</string>
+    <string name="end_noun">Vége</string>
+    <string name="end_verb">Vége</string>
+    <string name="first_use_multi_mode_end">"Azt javasoljuk, hogy olvasd el a részletes útmutatót, hogy teljes mértékben értsd ezt az alkalmazást és a funkcióit.
+
+Szeretnéd most megnézni?"</string>
+    <string name="first_use_multi_mode_start">"Úgy tűnik, ez az első alkalom, hogy ezt a módot használod.
+
+Kérjük, szánj egy pillanatot arra, hogy megnézed a vezérlőtérképet:"</string>
+    <string name="first_use_single_mode">"Úgy tűnik, ez az első alkalom, hogy ezt a módot használod.
+
+Kérjük, szánj egy pillanatot arra, hogy elolvasod az utasításokat, és megismered az alkalmazás összes funkcióját.
+
+Szeretnéd most megnézni?"</string>
+    <string name="grant_verb">Engedélyez</string>
+    <string name="header_actions">Műveletek:</string>
+    <string name="header_advanced_settings">Speciális beállítások:</string>
+    <string name="header_basic_settings">Alapvető beállítások:</string>
+    <string name="header_default_settings">Alapértelmezett beállítások:</string>
+    <string name="header_delay">Késleltetés:</string>
+    <string name="header_randomization">Véletlenszerűsítés:</string>
+    <string name="header_settings">Beállítások:</string>
+    <string name="infinity">∞</string>
+    <string name="instructions">Útmutató</string>
+    <string name="instructions_emergency_stop">Vészleállító</string>
+    <string name="instructions_multi_target_configuring">Cél beállítása</string>
+    <string name="instructions_multi_target_configuring_body">A célra koppintva tudod konfigurálni a beállításokat. Minden egyes cél beállításai külön-külön konfigurálhatók.</string>
+    <string name="instructions_multi_target_overlay">Több cél módban az átfedő mező öt gombbal rendelkezik, melyeknek a funkciója attól függ, hogy azokra rákoppintasz vagy lenyomod.</string>
+    <string name="instructions_multi_target_overlay_add_hold">Lenyomva tartás: hozzáad egy pöccintési célt.</string>
+    <string name="instructions_multi_target_overlay_add_tap">Koppintás: hozzáad egy kattintási célt.</string>
+    <string name="instructions_multi_target_overlay_collapse_hold">Lenyomva tartás: az átfedő mező áthelyezése.</string>
+    <string name="instructions_multi_target_overlay_collapse_tap">Koppintás: összecsuk minden átfedő mezőt.</string>
+    <string name="instructions_multi_target_overlay_header">Az átfedő mező használata</string>
+    <string name="instructions_multi_target_overlay_play_tap">Koppintás: elindítja/leállítja a kattintást.</string>
+    <string name="instructions_multi_target_overlay_remove_hold">Lenyomva tartás: töröl minden célt.</string>
+    <string name="instructions_multi_target_overlay_remove_tap">Koppintás: törli a legutoljára hozzáadott célt.</string>
+    <string name="instructions_multi_target_overlay_settings_tap">Koppintás: opciók és beállítások megnyitása.</string>
+    <string name="instructions_multi_target_proper_settings">"A telefonod és a különféle alkalmazások korlátozhatják a kattintások módját és sebességét.
+
+Fontos megjegyezni, hogy az 50 milliszekundumnál gyorsabb kattintások esetén előfordulhat, hogy az alkalmazás nem regisztrálhatja a kattintást, akár zárolhatja is a telefonodat.
+
+Ha a fenti problémák valamelyike ​​előfordul, akkor kapcsold ki a telefont vagy a képernyőt, hogy leálljon az alkalmazás, majd módosítsd a konfigurációt."</string>
+    <string name="instructions_multi_target_proper_settings_header">Megfelelő beállítások</string>
+    <string name="instructions_multi_target_subtitle">Több cél mód</string>
+    <string name="instructions_multi_target_swipe">A plusz jel lenyomva tartásával új pöccintési célt adhatsz hozzá a képernyőn. Ekkor az „Indítás” feliratú kör közepéből indul a pöccintés a „Vége” feliratú kör közepe felé.</string>
+    <string name="instructions_multi_target_swipe_header">Egy pöccintési cél beállítása</string>
+    <string name="instructions_multi_target_target">A plusz jelre koppintva tudsz létrehozni egy új célt. Minden cél számozott és sorrendben fognak futni. Minden kattintás/pöccintés a cél középpontjából indul. Az utolsó cél futása után a sorozat az elejétől újraindul.</string>
+    <string name="instructions_multi_target_target_header">Célok hozzáadása</string>
+    <string name="instructions_onoff_abort">"A telefon zárolásakor vagy a képernyő kikapcsolásakor leáll az alkalmazás.
+
+Ha nem reagál a telefonod, vagy úgy tűnik, hogy lefagyott, akkor kérlek, nyomd meg egyszer a be-/kikapcsoló gombot, mert ezzel leállásra kényszeríted a kattintó alkalmazást."</string>
+    <string name="instructions_single_target_base">Kérjük, szánj egy kis időt arra, hogy elolvasod az utasításokat, és megtudod, hogyan kell használni ezt az alkalmazást.</string>
+    <string name="instructions_single_target_closing">Az X gombra koppintás bezárja az átfedő mezőt és leállítja az alkalmazást.</string>
+    <string name="instructions_single_target_closing_header">Az átfedő mező bezárása</string>
+    <string name="instructions_single_target_moving">" "<b>Húzd</b> az átfedő mező oldalait, hogy mozgathasd a képernyő körül.</string>
+    <string name="instructions_single_target_moving_header">Az átfedő mező mozgatása</string>
+    <string name="instructions_single_target_onoff">"Ha rákoppintasz a lejátszás gombra, az átfedő mező zöldre vált és elkezdi a kattintást.
+
+Csak a szünet gomb megnyomása után módosíthatod az átfedő mező pozícióját."</string>
+    <string name="instructions_single_target_onoff_header">Indítás és leállítás</string>
+    <string name="instructions_single_target_subtitle">Egyszeri célpont mód</string>
+    <string name="instructions_single_target_target">" "<b>Koppints</b> az átfedő mező oldalaira, hogy módosíthasd, mely sarokból induljon a kattintás. Ez lehetővé teszi, hogy a képernyő bármely sarkára rákattints.</string>
+    <string name="instructions_single_target_target_header">A célpont sarkának megváltoztatása</string>
+    <string name="instructions_take_a_moment">Kérjük, szánj egy kis időt arra, hogy elolvasod az utasításokat, és megtanulod, hogyan kell használni ezt az alkalmazást.</string>
+    <string name="load">Betöltés</string>
+    <string name="load_config">Konfiguráció betöltése:</string>
+    <string name="manage_configurations">Konfigurációk kezelése</string>
+    <string name="name">Név</string>
+    <string name="no">Nem</string>
+    <string name="no_configs_to_load">Nincsenek elmentett konfigurációk, amiket be lehetne tölteni.</string>
+    <string name="none">Nincs</string>
+    <string name="not_set">Nincs beállítva</string>
+    <string name="ok">Oké</string>
+    <string name="open_multi_target_mode_no_config">Több cél mód megnyitása (Nincs konfiguráció)</string>
+    <string name="open_single_target_mode">Egyetlen cél mód megnyitása</string>
+    <string name="overlay_permission">Átfedő mező engedélyezése</string>
+    <string name="overlay_permission_text">Az engedély megadásával létrehozhatunk egy átfedő mezőt, amit az Automatikus kattintó vezérléséhez használhatsz.</string>
+    <string name="overwrite_current_config">Felülírod az aktuális konfigurációt?</string>
+    <string name="overwrite_current_config_confirm">Biztosan felülírod az aktuális konfigurációt?</string>
+    <string name="pause_on_app_change">Szünet másik alkalmazásra váltáskor</string>
+    <string name="pixels">Pixel</string>
+    <string name="please_note">Kérlek, vedd figyelembe</string>
+    <string name="preserve_location">Cél fizikai helyének megtartása</string>
+    <string name="randomization_radius">Véletlenszerűsítési sugár</string>
+    <string name="randomization_range">Véletlenszerítés tartománya</string>
+    <string name="remove">Eltávolítás</string>
+    <string name="remove_ads">Reklámok eltávolítása</string>
+    <string name="remove_ads_description">Minden reklám eltávolítása az Automatikus Kattintóból.</string>
+    <string name="run_indefinitely">Futás határozatlan ideig</string>
+    <string name="runs">Futás</string>
+    <string name="save">Mentés</string>
+    <string name="select_type">Válaszd ki a művelet típusát:</string>
+    <string name="set_config_copy_name">Állítsd be a másolat nevét:</string>
+    <string name="set_config_name">Állítsd be a konfiguráció nevét:</string>
+    <string name="settings">Beállítások</string>
+    <string name="show_active_targets">Aktív célok mutatása</string>
+    <string name="skip">Átugrik</string>
+    <string name="start_coordinates_noun">Kiindulási koordináták</string>
+    <string name="start_delay_title_noun">Késleltetés indítása</string>
+    <string name="start_multi_target_mode">Indítás: Több cél mód</string>
+    <string name="start_noun">Indítás</string>
+    <string name="start_single_target_mode">Indítás: Egyetlen cél mód</string>
+    <string name="start_verb">Indítás</string>
+    <string name="stop_after">Leállítás ezt követően</string>
+    <string name="stop_after_amount_of_time">Leállítás egy bizonyos idő elteltével</string>
+    <string name="stop_after_run_count">Leállítás egy meghatározott futás után</string>
+    <string name="stop_at_specific_time">Leállítás egy meghatározott időben</string>
+    <string name="target_programmability">Cél programozhatósága</string>
+    <string name="thanks_for_buying">Köszönjük a vásárlást</string>
+    <string name="time_between_clicks">Kattintások között idő</string>
+    <string name="title_disable_after">Kikapcsolás ezt követően</string>
+    <string name="title_duration">Időtartam</string>
+    <string name="title_edit_action">Művelet szerkesztése</string>
+    <string name="title_edit_configuration">Konfiguráció szerkesztése: %1$s</string>
+    <string name="title_repeat">Ismétlés</string>
+    <string name="title_saved_configurations">Elmentett konfigurációk</string>
+    <string name="title_settings_auto_start">Beállítások - Automatikus indítás</string>
+    <string name="title_settings_multi_target">Beállítások - Több cél</string>
+    <string name="title_settings_single_target">Beállítások - Egyetlen cél</string>
+    <string name="unknown">Ismeretlen</string>
+    <string name="update">Frissítés</string>
+    <string name="warning">Figyelem</string>
+    <string name="welcome">ÜDVÖZLÜNK</string>
+    <string name="welcome_text">Mielőtt elindíthatnád az automatikus kattintásokat/koppintásokat, a készülékeden további jogokat kell adnod az Automatikus kattintónak.</string>
+    <string name="why_ads">Miért mutatunk reklámokat?</string>
+    <string name="why_ads_body">"A SimpleHat Software a lehető legjobb fizetett és ingyenes alkalmazásokat szeretné kínálni minden felhasználónak anélkül, hogy korlátoznánk a rendelkezésre álló funkciókat.
+
+Azonban finanszíroznunk kell az új funkciók folyamatos fejlesztését és az új készülékek támogatását.
+
+Törekszünk arra, hogy ezek a reklámok minél kevésbé zavarják a felhasználókat. Köszönjük a megértéseteket."</string>
+    <string name="yes">Igen</string>
+</resources>

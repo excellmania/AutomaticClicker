@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Điều hướng về trang chủ</string>
+    <string name="abc_action_bar_up_description">Điều hướng lên trên</string>
+    <string name="abc_action_menu_overflow_description">Tùy chọn khác</string>
+    <string name="abc_action_mode_done">Xong</string>
+    <string name="abc_activity_chooser_view_see_all">Xem tất cả</string>
+    <string name="abc_activitychooserview_choose_application">Chọn một ứng dụng</string>
+    <string name="abc_capital_off">TẮT</string>
+    <string name="abc_capital_on">BẬT</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">phím cách</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Tìm kiếm…</string>
+    <string name="abc_searchview_description_clear">Xóa truy vấn</string>
+    <string name="abc_searchview_description_query">Tìm kiếm truy vấn</string>
+    <string name="abc_searchview_description_search">Tìm kiếm</string>
+    <string name="abc_searchview_description_submit">Gửi truy vấn</string>
+    <string name="abc_searchview_description_voice">Tìm kiếm bằng giọng nói</string>
+    <string name="abc_shareactionprovider_share_with">Chia sẻ với</string>
+    <string name="abc_shareactionprovider_share_with_application">Chia sẻ với %s</string>
+    <string name="abc_toolbar_collapse_description">Thu gọn</string>
+    <string name="about_ads">Về quảng cáo của chúng tôi</string>
+    <string name="about_ads_body">"Khi lớp phủ có màu xanh dương, nghĩa là nó đã sẵn sàng để hiển thị một quảng cáo.
+
+Khi nhấp vào nút phát, quảng cáo sẽ hiển thị và lớp phủ sẽ trở lại màu bình thường - sau đó, việc nhấn phát sẽ bắt đầu nhấp như bình thường.
+
+ Lớp phủ sẽ thông báo sẵn sàng mở một quảng cáo cứ sau vài phút nhưng không bao giờ chủ động nhấp vào."</string>
+    <string name="accessibility_service">Dịch vụ trợ năng</string>
+    <string name="accessibility_service_description">"Kích hoạt dịch vụ trợ năng này cho phép Ứng dụng nhấp tự động nhấn/nhấp thay cho bạn.
+
+\"Quan sát hành động của bạn\" là quyền bắt buộc đối với tất cả các dịch vụ trợ năng. Phần mềm của chúng tôi sẽ không bao giờ giám sát hoặc thu thập bất kỳ dữ liệu nào mà bạn không cho phép rõ ràng."</string>
+    <string name="accessibility_service_text">Khởi động dịch vụ trợ năng của Ứng dụng nhấp tự động để ứng dụng này nhấp/nhấn thay cho bạn. Bạn có thể vô hiệu hóa tính năng này bất cứ lúc nào nhưng nó cần được kích hoạt để Ứng dụng nhấp tự động hoạt động.</string>
+    <string name="action_type">Loại hành động</string>
+    <string name="app_name">Ứng dụng nhấp tự động</string>
+    <string name="auto_start_settings">Cài đặt tự động mở</string>
+    <string name="cancel">Hủy</string>
+    <string name="change">Thay đổi</string>
+    <string name="click_duration">Thời lượng nhấp</string>
+    <string name="clickswipe_duration">Thời lượng nhấp/vuốt</string>
+    <string name="close">Đóng</string>
+    <string name="common_google_play_services_unknown_issue">%1$s đang gặp sự cố với các dịch vụ của Google Play. Hãy thử lại.</string>
+    <string name="config_already_exists">"Một cấu hình đã lưu với tên đó đã tồn tại.
+
+ Bạn có muốn ghi đè không?"</string>
+    <string name="confirm_delete_target">Xóa mục tiêu này?</string>
+    <string name="coordinates">Tọa độ</string>
+    <string name="copy">Sao chép</string>
+    <string name="copy_verb">Sao chép</string>
+    <string name="create">Tạo</string>
+    <string name="current_configuration">Cấu hình hiện tại</string>
+    <string name="delay">Độ trễ</string>
+    <string name="delete">Xóa</string>
+    <string name="delete_action_confirm">Bạn có chắc muốn xóa hành động này không?</string>
+    <string name="delete_configuration_confirm">Xóa cấu hình này?</string>
+    <string name="description_auto_start">Chọn hành động mặc định sẽ thực hiện khi mở ứng dụng này.</string>
+    <string name="description_click_coordinates">Các tọa độ trên màn hình điện thoại của bạn để nhấp.</string>
+    <string name="description_click_duration">Đặt thời gian nhấn giữ của lần nhấp này.</string>
+    <string name="description_click_duration_plural">Đặt lượng thời gian nhấn giữ của mỗi lần nhấp.</string>
+    <string name="description_clickswipe_duration_default">"Đặt thời lượng mặc định của mỗi hành động.
+
+Đối với các lần nhấp, đây là khoảng thời gian nhấn giữ của lần nhấp.
+
+Đối với các thao tác vuốt, cách này sẽ kiểm soát thời gian thực hiện thao tác vuốt."</string>
+    <string name="description_delay">Đặt độ trễ giữa các lần nhấp.</string>
+    <string name="description_disable_after">"Đặt số lần chạy đầy đủ để hoàn thành trước khi tắt hành động này.
+
+Một lần chạy đầy đủ bao gồm tất cả hành động lặp lại. Các hành động khác sẽ không bị ảnh hưởng.
+
+(0 = Không tắt)"</string>
+    <string name="description_end_coordinates">Các tọa độ kết thúc để vuốt.</string>
+    <string name="description_end_delay">Đặt độ trễ xảy ra sau hành động này.</string>
+    <string name="description_end_delay_default">Đặt độ trễ mặc định xảy ra sau mỗi hành động.</string>
+    <string name="description_pause_on_app_change">"Khi được bật, hành động nhấp sẽ tạm dừng khi chuyển đổi giữa các ứng dụng.
+
+Cài đặt này cũng sẽ tạm dừng nhấp nếu thanh thông báo kéo xuống của Android di chuyển vào khu vực nhấp."</string>
+    <string name="description_preserve_physical_target_location">"Khi được bật, các mục tiêu sẽ duy trì vị trí thực tế của chúng khi xoay màn hình của bạn.
+
+Khi bị tắt, các mục tiêu sẽ duy trì vị trí của chúng tương ứng với góc trên bên trái màn hình của bạn."</string>
+    <string name="description_randomization_radius">"Đặt bán kính tính bằng pixel quanh mục tiêu mà tọa độ nhấp/vuốt sẽ được chọn ngẫu nhiên từ đó.
+
+(0 = Không ngẫu nhiên)"</string>
+    <string name="description_randomization_range">"Chọn một khoảng thời gian để rút ra một giá trị ngẫu nhiên từ đó.
+
+Giá trị này sau đó được cộng hoặc trừ ngẫu nhiên từ độ trễ.
+
+(0 = Không ngẫu nhiên)"</string>
+    <string name="description_repeat">"Đặt số lần lặp lại hành động này trước khi chuyển sang hành động tiếp theo.
+
+(0 = Không lặp lại)"</string>
+    <string name="description_show_active_targets">"Khi được bật, các mục tiêu sẽ hiển thị và có màu xanh lá khi nhấp vào màn hình của bạn.
+
+Nếu bị tắt, các mục tiêu sẽ ẩn đi trong khi nhấp."</string>
+    <string name="description_start_coordinates">Các tọa độ bắt đầu để vuốt.</string>
+    <string name="description_start_delay">Đặt độ trễ xảy ra trước hành động này.</string>
+    <string name="description_start_delay_default">Đặt độ trễ mặc định xảy ra trước mỗi hành động.</string>
+    <string name="description_stop_after">Chọn một nút để tạm dừng ứng dụng.</string>
+    <string name="description_stop_after_amount_of_time">Đặt lượng thời gian bạn muốn nhấp.</string>
+    <string name="description_stop_after_run_count">Đặt số lần bạn muốn chạy tất cả các mục tiêu đã đặt.</string>
+    <string name="description_stop_at_specific_time">Đặt thời gian để dừng nhấp.</string>
+    <string name="description_swipe_duration">Đặt thời gian cần có để hoàn thành lần vuốt này.</string>
+    <string name="description_target_programmability">"Khi được bật, chạm vào mục tiêu để đặt các cài đặt riêng lẻ.
+
+ Khi bị tắt, bạn chỉ có thể di chuyển các mục tiêu."</string>
+    <string name="disable">Tắt</string>
+    <string name="disabled">Đã tắt</string>
+    <string name="display_coordinates">X: %1$d Y: %2$d</string>
+    <string name="display_edit_target_number">Chỉnh sửa mục tiêu: %1$d</string>
+    <string name="display_max">Tối đa: %1$d</string>
+    <string name="display_min">Tối thiểu: %1$d</string>
+    <string name="display_run_order_with_type">%1$d - Loại: %2$s</string>
+    <string name="display_stop_after">Dừng sau: %1$s</string>
+    <string name="display_stop_after_runs">Dừng sau: %1$s lần chạy</string>
+    <string name="display_value_with_range">%1$s ± %2$s</string>
+    <string name="display_value_with_unit">%1$s %2$s</string>
+    <string name="do_not_disable">Không tắt</string>
+    <string name="do_not_repeat">Không lặp lại</string>
+    <string name="do_nothing">Không làm gì cả</string>
+    <string name="enable">Bật</string>
+    <string name="enabled">Đã bật</string>
+    <string name="end_coordinates_noun">Tọa độ kết thúc</string>
+    <string name="end_delay_title_noun">Đô trễ kết thúc</string>
+    <string name="end_noun">Kết thúc</string>
+    <string name="end_verb">Kết thúc</string>
+    <string name="first_use_multi_mode_end">"Bạn nên đọc hướng dẫn chi tiết để hiểu đầy đủ về ứng dụng này và các tính năng của nó.
+
+Bạn có muốn đến đó ngay không?"</string>
+    <string name="first_use_multi_mode_start">"Có vẻ như đây là lần đầu tiên bạn sử dụng chế độ này.
+
+Vui lòng dành một chút thời gian và xem qua bản đồ điều khiển của chúng tôi:"</string>
+    <string name="first_use_single_mode">"Có vẻ như đây là lần đầu tiên bạn sử dụng chế độ này.
+
+Vui lòng dành chút thời gian để đọc hướng dẫn để xem tất cả các tính năng trong ứng dụng.
+
+Bạn có muốn đến đó ngay không?"</string>
+    <string name="grant_verb">Cấp</string>
+    <string name="header_actions">Hành động:</string>
+    <string name="header_advanced_settings">Cài đặt nâng cao:</string>
+    <string name="header_basic_settings">Cài đặt cơ bản:</string>
+    <string name="header_default_settings">Cài đặt mặc định:</string>
+    <string name="header_delay">Độ trễ:</string>
+    <string name="header_randomization">Ngẫu nhiên:</string>
+    <string name="header_settings">Cài đặt:</string>
+    <string name="infinity">∞</string>
+    <string name="instructions">Hướng dẫn</string>
+    <string name="instructions_emergency_stop">Dừng khẩn cấp</string>
+    <string name="instructions_multi_target_configuring">Cấu hình mục tiêu</string>
+    <string name="instructions_multi_target_configuring_body">Nhấn vào một mục tiêu để cấu hình các cài đặt của nó. Mỗi mục tiêu có thể được cấu hình riêng với nhiều cài đặt khác nhau.</string>
+    <string name="instructions_multi_target_overlay">Lớp phủ chế độ nhiều mục tiêu có năm nút khác nhau, với chức năng khác nhau tùy vào việc bạn chạm hay giữ chúng.</string>
+    <string name="instructions_multi_target_overlay_add_hold">Giữ: Thêm mục tiêu vuốt.</string>
+    <string name="instructions_multi_target_overlay_add_tap">Nhấn: Thêm mục tiêu nhấp.</string>
+    <string name="instructions_multi_target_overlay_collapse_hold">Giữ: Định vị lại lớp phủ.</string>
+    <string name="instructions_multi_target_overlay_collapse_tap">Nhấn: Thu gọn tất cả các lớp phủ.</string>
+    <string name="instructions_multi_target_overlay_header">Sử dụng lớp phủ</string>
+    <string name="instructions_multi_target_overlay_play_tap">Nhấn: Bắt đầu/dừng nhấp.</string>
+    <string name="instructions_multi_target_overlay_remove_hold">Giữ: Xóa tất cả các mục tiêu.</string>
+    <string name="instructions_multi_target_overlay_remove_tap">Nhấn: Xóa mục tiêu cuối cùng đã thêm.</string>
+    <string name="instructions_multi_target_overlay_settings_tap">Nhấn: Mở tùy chọn và cài đặt.</string>
+    <string name="instructions_multi_target_proper_settings">"Điện thoại của bạn và các ứng dụng khác nhau có những hạn chế về cách thức chúng có thể được nhấp và tốc độ.
+
+Điều quan trọng cần lưu ý là nhấp nhanh hơn 50 mili giây có thể khiến ứng dụng không ghi nhận lần nhấp đó hoặc có thể khóa điện thoại của bạn.
+
+Nếu một trong những vấn đề này xảy ra, vui lòng khóa điện thoại hoặc tắt màn hình của bạn để dừng ứng dụng rồi sau đó thay đổi cấu hình."</string>
+    <string name="instructions_multi_target_proper_settings_header">Cài đặt đúng</string>
+    <string name="instructions_multi_target_subtitle">Chế độ nhiều mục tiêu</string>
+    <string name="instructions_multi_target_swipe">Giữ dấu cộng để thêm mục tiêu vuốt mới vào màn hình của bạn. Chúng sẽ vuốt từ giữa vòng tròn có nhãn \"bắt đầu\" về phía giữa vòng tròn có nhãn \"kết thúc\".</string>
+    <string name="instructions_multi_target_swipe_header">Đặt mục tiêu vuốt</string>
+    <string name="instructions_multi_target_target">Nhấn vào dấu cộng để tạo một mục tiêu mới. Mỗi mục tiêu đều được đánh số và sẽ chạy theo thứ tự. Tất cả các lần nhấp/vuốt bắt đầu từ trung tâm của mục tiêu. Sau khi mục tiêu cuối cùng chạy, chuỗi sẽ lặp lại từ đầu.</string>
+    <string name="instructions_multi_target_target_header">Thêm mục tiêu</string>
+    <string name="instructions_onoff_abort">"Việc khóa điện thoại hoặc tắt màn hình của bạn sẽ tạm dừng ứng dụng.
+
+Nếu điện thoại của bạn không phản hồi hoặc có vẻ bị đứng, vui lòng nhấn nút nguồn một lần để buộc ứng dụng dừng lại."</string>
+    <string name="instructions_single_target_base">Vui lòng dành một chút thời gian để đọc hướng dẫn của chúng tôi và tìm hiểu cách sử dụng ứng dụng này.</string>
+    <string name="instructions_single_target_closing">Nhấn vào biểu tượng X để đóng lớp phủ và dừng ứng dụng.</string>
+    <string name="instructions_single_target_closing_header">Đóng lớp phủ</string>
+    <string name="instructions_single_target_moving">" "<b>Kéo</b> các cạnh của lớp phủ để di chuyển xung quanh màn hình của bạn.</string>
+    <string name="instructions_single_target_moving_header">Di chuyển lớp phủ</string>
+    <string name="instructions_single_target_onoff">"Khi bạn nhấn vào nút phát, lớp phủ sẽ chuyển sang màu xanh lá cây và bắt đầu nhấp cho bạn.
+
+Bạn không thể định vị lại lớp phủ cho đến khi bạn nhấn nút tạm dừng."</string>
+    <string name="instructions_single_target_onoff_header">Bắt đầu và dừng lại</string>
+    <string name="instructions_single_target_subtitle">Chế độ một mục tiêu</string>
+    <string name="instructions_single_target_target">" "<b>Nhấn</b> các cạnh của lớp phủ để thay đổi góc cần nhấp vào. Qua đó, bạn có thể nhấp vào bất kỳ góc nào trên màn hình.</string>
+    <string name="instructions_single_target_target_header">Thay đổi góc mục tiêu</string>
+    <string name="instructions_take_a_moment">Vui lòng dành một chút thời gian để đọc các hướng dẫn này và tìm hiểu cách sử dụng ứng dụng này.</string>
+    <string name="load">Tải</string>
+    <string name="load_config">Tải cấu hình:</string>
+    <string name="manage_configurations">Quản lý cấu hình</string>
+    <string name="name">Tên</string>
+    <string name="no">Không</string>
+    <string name="no_configs_to_load">Bạn không có cấu hình đã lưu để tải.</string>
+    <string name="none">Không</string>
+    <string name="not_set">Chưa thiết lập</string>
+    <string name="ok">Ok</string>
+    <string name="open_multi_target_mode_no_config">Mở Chế độ nhiều mục tiêu (Không có cấu hình)</string>
+    <string name="open_single_target_mode">Mở Chế độ một mục tiêu</string>
+    <string name="overlay_permission">Quyền lớp phủ</string>
+    <string name="overlay_permission_text">Cấp quyền này để chúng tôi tạo lớp phủ mà bạn sử dụng để kiểm soát Ứng dụng nhấp tự động.</string>
+    <string name="overwrite_current_config">Ghi đè cấu hình hiện tại?</string>
+    <string name="overwrite_current_config_confirm">Bạn có chắc muốn ghi đè lên cấu hình hiện tại không?</string>
+    <string name="pause_on_app_change">Tạm dừng đổi ứng dụng</string>
+    <string name="pixels">Pixel</string>
+    <string name="please_note">Xin lưu ý</string>
+    <string name="preserve_location">Giữ nguyên vị trí thực tế của mục tiêu</string>
+    <string name="randomization_radius">Bán kính ngẫu nhiên</string>
+    <string name="randomization_range">Phạm vi ngẫu nhiên</string>
+    <string name="remove">Xóa</string>
+    <string name="remove_ads">Loại bỏ quảng cáo</string>
+    <string name="remove_ads_description">Loại bỏ tất cả quảng cáo khỏi Ứng dụng nhấp tự động.</string>
+    <string name="run_indefinitely">Chạy vô thời hạn</string>
+    <string name="runs">Lần chạy</string>
+    <string name="s1">Lưu hình ảnh</string>
+    <string name="s2">Cho phép Quảng cáo lưu trữ hình ảnh trong thư viện Ảnh?</string>
+    <string name="s3">Chấp nhận</string>
+    <string name="s4">Từ chối</string>
+    <string name="s5">Tạo sự kiện lịch</string>
+    <string name="s6">Cho phép Quảng cáo tạo sự kiện lịch?</string>
+    <string name="s7">Quảng cáo thử nghiệm</string>
+    <string name="save">Lưu</string>
+    <string name="search_menu_title">Tìm kiếm</string>
+    <string name="select_type">Chọn loại hành động:</string>
+    <string name="set_config_copy_name">Đặt tên cho bản sao này:</string>
+    <string name="set_config_name">Đặt tên cho cấu hình này:</string>
+    <string name="settings">Cài đặt</string>
+    <string name="show_active_targets">Hiển thị mục tiêu hiện hoạt</string>
+    <string name="skip">Bỏ qua</string>
+    <string name="start_coordinates_noun">Tọa độ bắt đầu</string>
+    <string name="start_delay_title_noun">Độ trễ bắt đầu</string>
+    <string name="start_multi_target_mode">Bắt đầu: Chế độ nhiều mục tiêu</string>
+    <string name="start_noun">Bắt đầu</string>
+    <string name="start_single_target_mode">Bắt đầu: Chế độ một mục tiêu</string>
+    <string name="start_verb">Bắt đầu</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stop_after">Dừng lại sau</string>
+    <string name="stop_after_amount_of_time">Dừng lại sau một khoảng thời gian</string>
+    <string name="stop_after_run_count">Dừng lại sau số lần chạy</string>
+    <string name="stop_at_specific_time">Dừng lại vào thời gian cụ thể</string>
+    <string name="target_programmability">Khả năng lập trình của mục tiêu</string>
+    <string name="thanks_for_buying">Cảm ơn bạn đã mua</string>
+    <string name="time_between_clicks">Thời gian giữa các lần nhấp</string>
+    <string name="title_disable_after">Tắt sau</string>
+    <string name="title_duration">Thời lượng</string>
+    <string name="title_edit_action">Sửa hành động</string>
+    <string name="title_edit_configuration">Sửa cấu hình: %1$s</string>
+    <string name="title_repeat">Lặp lại</string>
+    <string name="title_saved_configurations">Cấu hình đã lưu</string>
+    <string name="title_settings_auto_start">Cài đặt - Tự động bắt đầu</string>
+    <string name="title_settings_multi_target">Cài đặt - Nhiều mục tiêu</string>
+    <string name="title_settings_single_target">Cài đặt - Một mục tiêu</string>
+    <string name="unknown">Không xác định</string>
+    <string name="update">Cập nhật</string>
+    <string name="warning">Cảnh báo</string>
+    <string name="welcome">CHÀO MỪNG BẠN!</string>
+    <string name="welcome_text">Trước khi bắt đầu tự động hóa các lần nhấn/nhấp, bạn cần cấp quyền bổ sung cho Ứng dụng nhấp tự động trên thiết bị của bạn.</string>
+    <string name="why_ads">Tại sao chúng tôi hiển thị quảng cáo?</string>
+    <string name="why_ads_body">"Tại SimpleHat Software, chúng tôi muốn cung cấp các ứng dụng tốt nhất có thể cho tất cả người dùng của chúng tôi, trả phí hoặc miễn phí, mà không giới hạn các tính năng khả dụng.
+
+Tuy nhiên, chúng tôi cần tài trợ để phát triển liên tục các tính năng mới và sự hỗ trợ của các thiết bị mới.
+
+Mục tiêu của chúng tôi là làm sao để các quảng cáo này không xuất hiện quá nhiều cho người dùng nhất có thể. Chúng tôi rất trân trọng sự thông cảm của bạn."</string>
+    <string name="yes">Có</string>
+</resources>

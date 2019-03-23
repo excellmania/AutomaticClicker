@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_ads">À propos de nos pubs</string>
+    <string name="about_ads_body">"Lorsque la superposition est bleue, cela signifie qu'elle est prête à diffuser une pub.
+
+Lorsque vous cliquez sur le bouton de lecture, la pub s'affichera et la superposition retrouvera sa couleur normale. Après cela, appuyer sur le bouton de lecture, démarrera le cliqueur comme à l'ordinaire.
+
+ La superposition préparera une pub toutes les quelques minutes, mais jamais pendant une phase active de clics."</string>
+    <string name="accessibility_service">"Service d'accessibilité"</string>
+    <string name="accessibility_service_description">"L'activation de ce service d'accessibilité permet à Cliqueur Automatique d'envoyer des appuis/clics en votre nom.
+
+« Observez vos actions » est requis pour tous les services d'accessibilité. Notre logiciel ne surveillera ni ne collectera aucune donnée sans votre accord explicite."</string>
+    <string name="accessibility_service_text">"Démarrer le service d'accessibilité de Cliqueur Automatique permet à cette application d'envoyer des clics/appuis en votre nom. Vous pouvez le désactiver à tout moment, mais il devra être activé pour que Cliqueur Automatique fonctionne."</string>
+    <string name="action_type">"Type d'action"</string>
+    <string name="app_name">Cliqueur Automatique</string>
+    <string name="auto_start_settings">Ouvrir automatiquement les paramètres</string>
+    <string name="cancel">Annuler</string>
+    <string name="change">Modifier</string>
+    <string name="click_duration">Durée des clics</string>
+    <string name="clickswipe_duration">Durée du clic/balayage</string>
+    <string name="close">Fermer</string>
+    <string name="config_already_exists">"Une configuration enregistrée portant ce nom existe déjà.
+
+ Voulez-vous la remplacer ?"</string>
+    <string name="confirm_delete_target">Supprimer cette cible ?</string>
+    <string name="coordinates">Coordonnées</string>
+    <string name="copy">Copier</string>
+    <string name="copy_verb">Copier</string>
+    <string name="create">Créer</string>
+    <string name="current_configuration">Configuration actuelle</string>
+    <string name="delay">Délai</string>
+    <string name="delete">Supprimer</string>
+    <string name="delete_action_confirm">Êtes-vous sûr de vouloir supprimer cette action ?</string>
+    <string name="delete_configuration_confirm">Supprimer cette configuration ?</string>
+    <string name="description_auto_start">"Sélectionnez l'action par défaut à effectuer lors de l'ouverture de cette application."</string>
+    <string name="description_click_coordinates">"Les coordonnées sur l'écran de votre téléphone sur lesquelles cliquer."</string>
+    <string name="description_click_duration">Définissez la durée pendant laquelle ce clic sera maintenu.</string>
+    <string name="description_click_duration_plural">Définissez la durée pendant laquelle chaque clic est maintenu.</string>
+    <string name="description_clickswipe_duration_default">"Définissez la durée par défaut de chaque action.
+
+Pour les clics, c'est la durée pendant laquelle le clic sera maintenu.
+
+Pour les balayages, cela contrôle le temps que prendra le balayage."</string>
+    <string name="description_delay">"Définissez l'intervalle entre les clics."</string>
+    <string name="description_disable_after">"Définissez le nombre d'exécutions complètes à effectuer avant de désactiver cette action.
+
+Un cycle complet inclut toutes les répétitions. Les autres actions ne seront pas affectées.
+
+(0 = Ne pas désactiver)"</string>
+    <string name="description_end_coordinates">Les coordonnées de fin du balayage.</string>
+    <string name="description_end_delay">Définissez le délai qui survient après cette action.</string>
+    <string name="description_end_delay_default">Définissez le délai par défaut qui survient après chaque action.</string>
+    <string name="description_pause_on_app_change">"Lorsque cette option est activée, cliquer mettra en pause l'appli lorsque vous passez d’une application à l’autre.
+
+Ce paramètre mettra également en pause les clics si la barre de notification déroulante Android se déplace dans la zone de clic."</string>
+    <string name="description_preserve_physical_target_location">"Lorsque cette option est activée, les cibles conservent leur position physique lors de la rotation de votre écran.
+
+Lorsque cette option est désactivée, les cibles conservent leur position par rapport au coin supérieur gauche de votre écran."</string>
+    <string name="description_randomization_radius">"Définissez le rayon en pixels autour de la cible à partir duquel la coordonnée du clic/balayage sera choisie de manière aléatoire.
+
+(0 = Pas de randomisation)"</string>
+    <string name="description_randomization_range">"Choisissez un intervalle de temps à partir duquel tirer une valeur aléatoire.
+
+Cette valeur est ensuite ajoutée ou soustraite de manière aléatoire.
+
+(0 = pas de randomisation)"</string>
+    <string name="description_repeat">"Définissez combien de fois répéter cette action avant de passer à l’action suivante.
+
+(0 = Ne pas répéter)"</string>
+    <string name="description_show_active_targets">"Lorsque cette option est activée, les cibles sont visibles et colorées en vert lorsque vous cliquez sur votre écran.
+
+Si cette option est désactivée, les cibles seront invisibles en cliquant."</string>
+    <string name="description_start_coordinates">Les coordonnées de départ du balayage.</string>
+    <string name="description_start_delay">Définissez le délai qui se produit avant cette action.</string>
+    <string name="description_start_delay_default">Définissez le délai par défaut qui se produit avant chaque action.</string>
+    <string name="description_stop_after">"Sélectionnez un déclencheur pour suspendre l'application."</string>
+    <string name="description_stop_after_amount_of_time">Définissez combien de temps vous voulez cliquer.</string>
+    <string name="description_stop_after_run_count">Définissez le nombre de fois que vous souhaitez exécuter toutes les cibles définies.</string>
+    <string name="description_stop_at_specific_time">"Définissez une heure pour l'arrêt des clics."</string>
+    <string name="description_swipe_duration">"Définissez combien de temps ce balayage prendra pour s'effectuer."</string>
+    <string name="description_target_programmability">"Lorsque cette option est activée, appuyer sur une cible vous permettra de définir ses paramètres individuels.
+
+ Lorsque cette option est désactivée, les cibles ne peuvent qu’être déplacées."</string>
+    <string name="disable">Désactiver</string>
+    <string name="disabled">Désactivé</string>
+    <string name="display_coordinates">X : %1$d Y : %2$d</string>
+    <string name="display_edit_target_number">Modifier la cible : %1$d</string>
+    <string name="display_max">Max : %1$d</string>
+    <string name="display_min">Min : %1$d</string>
+    <string name="display_run_order_with_type">%1$d - Type : %2$s</string>
+    <string name="display_stop_after">Arrêter après : %1$s</string>
+    <string name="display_stop_after_runs">Arrêter après : %1$s exécution(s)</string>
+    <string name="display_value_with_range">%1$s ± %2$s</string>
+    <string name="display_value_with_unit">%1$s %2$s</string>
+    <string name="do_not_disable">Ne pas désactiver</string>
+    <string name="do_not_repeat">Ne pas répéter</string>
+    <string name="do_nothing">Ne rien faire</string>
+    <string name="enable">Activer</string>
+    <string name="enabled">Activé</string>
+    <string name="end_coordinates_noun">Coordonnées de fin</string>
+    <string name="end_delay_title_noun">Délai de fin</string>
+    <string name="end_noun">Fin</string>
+    <string name="end_verb">Arrêter</string>
+    <string name="first_use_multi_mode_end">"Nous vous recommandons de lire ces instructions détaillées pour bien comprendre cette application et ses fonctionnalités.
+
+Voulez-vous y aller maintenant ?"</string>
+    <string name="first_use_multi_mode_start">"Il semblerait que ce soit la première fois que vous utilisez ce mode.
+
+Veuillez prendre un moment pour regarder notre carte de contrôle :"</string>
+    <string name="first_use_single_mode">"Il semblerait que ce soit la première fois que vous utilisez ce mode.
+
+Veuillez prendre un moment pour lire les instructions pour voir toutes les fonctionnalités de l'appli.
+
+Voulez-vous y aller maintenant ?"</string>
+    <string name="grant_verb">Accorder</string>
+    <string name="header_actions">Actions :</string>
+    <string name="header_advanced_settings">Paramètres avancés :</string>
+    <string name="header_basic_settings">Paramètres de base :</string>
+    <string name="header_default_settings">Paramètres par défaut :</string>
+    <string name="header_delay">Délai :</string>
+    <string name="header_randomization">Randomisation :</string>
+    <string name="header_settings">Paramètres :</string>
+    <string name="infinity">∞</string>
+    <string name="instructions">Instructions</string>
+    <string name="instructions_emergency_stop">"Arrêt d'urgence"</string>
+    <string name="instructions_multi_target_configuring">Configurer une cible</string>
+    <string name="instructions_multi_target_configuring_body">Appuyer sur une cible vous permettra de configurer ses paramètres. Chaque cible peut être configurée individuellement avec une variété de paramètres.</string>
+    <string name="instructions_multi_target_overlay">La superposition en mode cibles multiples comporte cinq boutons dont la fonction varie selon que vous appuyez dessus ou que vous les maintenez enfoncés.</string>
+    <string name="instructions_multi_target_overlay_add_hold">Appui maintenu : Ajouter une cible de balayage.</string>
+    <string name="instructions_multi_target_overlay_add_tap">Appui : Ajouter une cible de clic.</string>
+    <string name="instructions_multi_target_overlay_collapse_hold">Appui maintenu : Repositionner la superposition.</string>
+    <string name="instructions_multi_target_overlay_collapse_tap">Appui : Réduire toutes les superpositions.</string>
+    <string name="instructions_multi_target_overlay_header">Utilisation de la superposition</string>
+    <string name="instructions_multi_target_overlay_play_tap">Appui : Démarrer/arrêter les clics.</string>
+    <string name="instructions_multi_target_overlay_remove_hold">Appui maintenu : Supprimer toutes les cibles.</string>
+    <string name="instructions_multi_target_overlay_remove_tap">Appui : Supprimer la dernière cible ajoutée.</string>
+    <string name="instructions_multi_target_overlay_settings_tap">Appui : Ouvrir les options et les paramètres.</string>
+    <string name="instructions_multi_target_proper_settings">"Votre téléphone et ses différentes applis ont des limitations concernant les clics et les vitesses des clics.
+
+Il est important de noter que cliquer plus vite que 50 millisecondes peut empêcher une appli d'enregistrer le clic ou peut même verrouiller votre téléphone.
+
+Si l'un de ces problèmes se produit, verrouillez votre téléphone ou éteignez votre écran pour arrêter l'application, puis modifiez la configuration."</string>
+    <string name="instructions_multi_target_proper_settings_header">Paramètres appropriés</string>
+    <string name="instructions_multi_target_subtitle">Mode cibles multiples</string>
+    <string name="instructions_multi_target_swipe">En maintenant le signe plus enfoncé, vous ajouterez une nouvelle cible à votre écran. Le balayage partira du centre du cercle nommé « début » vers le centre du cercle nommé « fin ».</string>
+    <string name="instructions_multi_target_swipe_header">Définir une cible de balayage</string>
+    <string name="instructions_multi_target_target">"Appuyez sur le signe plus pour créer une nouvelle cible. Chaque cible est numérotée et s'exécutera en séquence. Tous les clics/balayages proviennent du centre de la cible. Après l'exécution de la dernière cible, la séquence recommencera au début."</string>
+    <string name="instructions_multi_target_target_header">Ajout de cibles</string>
+    <string name="instructions_onoff_abort">"Verrouiller votre téléphone ou éteindre votre écran mettra l'application en pause.
+
+Si votre téléphone ne répond pas ou semble s'être figé, appuyez une fois sur le bouton d'alimentation pour forcer le cliqueur à s'arrêter."</string>
+    <string name="instructions_single_target_base">Veuillez prendre un moment pour lire nos instructions et apprendre à utiliser cette application.</string>
+    <string name="instructions_single_target_closing">"Appuyez sur le symbole X pour fermer la superposition et arrêter l'application."</string>
+    <string name="instructions_single_target_closing_header">Fermeture de la superposition</string>
+    <string name="instructions_single_target_moving">" "<b>Faites glisser</b> les côtés de la superposition pour la déplacer sur votre écran.</string>
+    <string name="instructions_single_target_moving_header">Déplacement de la superposition</string>
+    <string name="instructions_single_target_onoff">"Lorsque vous appuyez sur le bouton de lecture, la superposition devient verte et commence à cliquer pour vous.
+
+Vous ne pouvez pas repositionner la superposition tant que vous n'avez pas appuyé sur le bouton de pause."</string>
+    <string name="instructions_single_target_onoff_header">Démarrage et arrêt</string>
+    <string name="instructions_single_target_subtitle">Mode cible unique</string>
+    <string name="instructions_single_target_target">" "<b>Appuyez sur</b> les côtés de la superposition pour changer le coin depuis lequel cliquer. Cela vous permet de cliquer dans n’importe quel coin de votre écran.</string>
+    <string name="instructions_single_target_target_header">Changement du coin de cible</string>
+    <string name="instructions_take_a_moment">"Veuillez prendre un moment pour lire ces instructions afin d'apprendre à utiliser cette application."</string>
+    <string name="load">Charger</string>
+    <string name="load_config">Charger une configuration :</string>
+    <string name="manage_configurations">Gérer les configurations</string>
+    <string name="name">Nom</string>
+    <string name="no">Non</string>
+    <string name="no_configs_to_load">"Vous n'avez aucune configuration enregistrée à charger."</string>
+    <string name="none">Aucun</string>
+    <string name="not_set">Pas défini</string>
+    <string name="ok">OK</string>
+    <string name="open_multi_target_mode_no_config">Ouvrir le mode cibles multiples (sans configuration)</string>
+    <string name="open_single_target_mode">Ouvrir le mode cible unique</string>
+    <string name="overlay_permission">Autorisation de superposition</string>
+    <string name="overlay_permission_text">Accorder cette autorisation nous permet de créer la superposition que vous utilisez pour contrôler Cliqueur Automatique.</string>
+    <string name="overwrite_current_config">Remplacer la configuration actuelle ?</string>
+    <string name="overwrite_current_config_confirm">Êtes-vous sûr de vouloir remplacer la configuration actuelle ?</string>
+    <string name="pause_on_app_change">"Pause pendant le changement d'appli"</string>
+    <string name="pixels">Pixel(s)</string>
+    <string name="please_note">Veuillez noter</string>
+    <string name="preserve_location">Garder la position de la cible physique</string>
+    <string name="randomization_radius">Rayon de randomisation</string>
+    <string name="randomization_range">Gamme de randomisation</string>
+    <string name="remove">Retirer</string>
+    <string name="remove_ads">Supprimer les pubs</string>
+    <string name="remove_ads_description">Supprimez toutes les publicités de Cliqueur Automatique.</string>
+    <string name="run_indefinitely">Exécuter indéfiniment</string>
+    <string name="runs">Exécution(s)</string>
+    <string name="save">Enregistrer</string>
+    <string name="select_type">"Sélectionnez le type d'action :"</string>
+    <string name="set_config_copy_name">Définissez un nom pour cette copie :</string>
+    <string name="set_config_name">Définissez un nom pour cette configuration :</string>
+    <string name="settings">Paramètres</string>
+    <string name="show_active_targets">Afficher les cibles actives</string>
+    <string name="skip">Sauter</string>
+    <string name="start_coordinates_noun">Coordonnées de début</string>
+    <string name="start_delay_title_noun">Délai de début</string>
+    <string name="start_multi_target_mode">Démarrer : mode cibles multiples</string>
+    <string name="start_noun">Début</string>
+    <string name="start_single_target_mode">Démarrer : mode cible unique</string>
+    <string name="start_verb">Démarrer</string>
+    <string name="stop_after">Arrêter après</string>
+    <string name="stop_after_amount_of_time">Arrêter après une certaine durée</string>
+    <string name="stop_after_run_count">"Arrêter après un nombre d'exécutions"</string>
+    <string name="stop_at_specific_time">Arrêter à une heure précise</string>
+    <string name="target_programmability">Programmabilité de la cible</string>
+    <string name="thanks_for_buying">Merci pour votre achat</string>
+    <string name="time_between_clicks">Intervalle entre les clics</string>
+    <string name="title_disable_after">Désactiver après</string>
+    <string name="title_duration">Durée</string>
+    <string name="title_edit_action">"Modifier l'action"</string>
+    <string name="title_edit_configuration">Modifier la configuration : %1$s</string>
+    <string name="title_repeat">Répéter</string>
+    <string name="title_saved_configurations">Configurations enregistrées</string>
+    <string name="title_settings_auto_start">Paramètres - Démarrage automatique</string>
+    <string name="title_settings_multi_target">Paramètres - Cibles multiples</string>
+    <string name="title_settings_single_target">Paramètres - Cible unique</string>
+    <string name="unknown">Inconnu</string>
+    <string name="update">Mettre à jour</string>
+    <string name="warning">Avertissement</string>
+    <string name="welcome">BIENVENUE</string>
+    <string name="welcome_text">Avant de pouvoir automatiser les appuis/clics, vous devez accorder à Cliqueur Automatique des droits supplémentaires sur votre appareil.</string>
+    <string name="why_ads">Pourquoi diffusons-nous des pubs ?</string>
+    <string name="why_ads_body">"À SimpleHat Software, nous voulons offrir les meilleures applications possible, payantes ou gratuites, à tous nos utilisateurs, sans limiter les fonctionnalités disponibles.
+
+Cependant, nous devons financer le développement en cours de nouvelles fonctionnalités et la prise en charge de nouveaux appareils.
+
+Notre objectif est de rendre ces publicités aussi discrètes que possible pour nos utilisateurs. Nous apprécions votre compréhension."</string>
+    <string name="yes">Oui</string>
+</resources>

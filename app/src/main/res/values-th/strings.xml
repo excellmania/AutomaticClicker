@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">นำทางไปหน้าแรก</string>
+    <string name="abc_action_bar_up_description">นำทางขึ้น</string>
+    <string name="abc_action_menu_overflow_description">ตัวเลือกอื่น</string>
+    <string name="abc_action_mode_done">เสร็จสิ้น</string>
+    <string name="abc_activity_chooser_view_see_all">ดูทั้งหมด</string>
+    <string name="abc_activitychooserview_choose_application">เลือกแอป</string>
+    <string name="abc_capital_off">ปิด</string>
+    <string name="abc_capital_on">เปิด</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">Space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">เมนู+</string>
+    <string name="abc_search_hint">ค้นหา…</string>
+    <string name="abc_searchview_description_clear">ล้างข้อความค้นหา</string>
+    <string name="abc_searchview_description_query">ข้อความค้นหา</string>
+    <string name="abc_searchview_description_search">ค้นหา</string>
+    <string name="abc_searchview_description_submit">ส่งข้อความค้นหา</string>
+    <string name="abc_searchview_description_voice">ค้นหาด้วยเสียง</string>
+    <string name="abc_shareactionprovider_share_with">แชร์กับ</string>
+    <string name="abc_shareactionprovider_share_with_application">แชร์ทาง %s</string>
+    <string name="abc_toolbar_collapse_description">ยุบ</string>
+    <string name="about_ads">เกี่ยวกับโฆษณาของเรา</string>
+    <string name="about_ads_body">"เมื่อพื้นที่วางซ้อนเป็นสีน้ำเงินจะหมายความว่าโฆษณาพร้อมที่จะแสดงแล้ว
+
+เมื่อคลิกปุ่มเล่น โฆษณาจะปรากฏขึ้นและพื้นที่วางซ้อนจะกลับมาเป็นสีปกติ - หลังจากนั้น เมื่อกดปุ่มเล่น แอพจะเริ่มคลิกตามปกติ
+
+ พื้นที่วางซ้อนพร้อมที่จะแสดงโฆษณาทุกสองสามนาที แต่จะไม่แสดงขณะที่ใช้งานการคลิกอยู่"</string>
+    <string name="accessibility_service">บริการการช่วยสำหรับการเข้าถึง</string>
+    <string name="accessibility_service_description">"การเปิดใช้งานบริการการช่วยสำหรับการเข้าถึงจะเป็นการอนุญาตให้คลิกเกอร์อัตโนมัติแตะ/คลิกในนามของคุณ
+
+คุณต้อง \"ระมัดระวังการกระทำของคุณ\" สำหรับบริการการช่วยสำหรับการเข้าถึงทุกรูปแบบ ซอฟต์แวร์ของเราจะไม่เฝ้าสังเกตหรือเก็บข้อมูลใดๆ ที่คุณไม่ได้แจ้งอย่างชัดเจน"</string>
+    <string name="accessibility_service_text">การเริ่มต้นบริการการช่วยสำหรับการเข้าถึงของคลิกเกอร์อัตโนมัติช่วยให้แอพพลิเคชันนี้สามารถส่งการคลิก/แตะแทนคุณได้ คุณสามารถปิดใช้งานเมื่อใดก็ได้ แต่จะต้องเปิดใช้งานเมื่อต้องการให้คลิกเกอร์อัตโนมัติสามารถทำงานได้</string>
+    <string name="action_type">ประเภทการกระทำ</string>
+    <string name="app_name">คลิกเกอร์อัตโนมัติ</string>
+    <string name="auto_start_settings">การตั้งค่าเปิดอัตโนมัติ</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="change">เปลี่ยน</string>
+    <string name="click_duration">ระยะเวลาคลิกค้าง</string>
+    <string name="clickswipe_duration">ระยะเวลาการคลิก/ปัดหน้าจอ</string>
+    <string name="close">ปิด</string>
+    <string name="common_google_play_services_unknown_issue">%1$s มีปัญหาเกี่ยวกับบริการของ Google Play โปรดลองอีกครั้ง</string>
+    <string name="config_already_exists">"มีการกำหนดค่าที่บันทึกด้วยชื่อนั้นแล้ว
+
+ คุณต้องการจะเขียนทับหรือไม่"</string>
+    <string name="confirm_delete_target">ลบเป้าหมายนี้หรือไม่</string>
+    <string name="coordinates">พิกัด</string>
+    <string name="copy">สำเนา</string>
+    <string name="copy_verb">คัดลอก</string>
+    <string name="create">สร้าง</string>
+    <string name="current_configuration">การกำหนดค่าปัจจุบัน</string>
+    <string name="delay">หน่วงเวลา</string>
+    <string name="delete">ลบ</string>
+    <string name="delete_action_confirm">คุณแน่ใจหรือไม่ว่าต้องการลบการกระทำนี้</string>
+    <string name="delete_configuration_confirm">ลบการกำหนดค่านี้หรือไม่</string>
+    <string name="description_auto_start">เลือกการกระทำเริ่มต้นที่จะใช้เมื่อเปิดแอพพลิเคชันนี้</string>
+    <string name="description_click_coordinates">พิกัดบนหน้าจอโทรศัพท์ของคุณที่จะคลิก</string>
+    <string name="description_click_duration">กำหนดระยะเวลาการคลิกค้าง</string>
+    <string name="description_click_duration_plural">กำหนดระยะเวลากดค้างสำหรับแต่ละคลิก</string>
+    <string name="description_clickswipe_duration_default">"กำหนดระยะเวลาเริ่มต้นของแต่ละการกระทำ
+
+สำหรับการคลิก ส่วนนี้คือระยะเวลาที่การคลิกค้าง
+
+สำหรับการปัดหน้าจอ ส่วนนี้จะเป็นการควบคุมว่าการปัดจะใช้เวลาแค่ไหน"</string>
+    <string name="description_delay">ตั้งค่าหน่วงเวลาระหว่างการคลิก</string>
+    <string name="description_disable_after">"กำหนดจำนวนรอบใช้งานก่อนที่จะหยุดการกระทำนี้
+
+รอบใช้งานหนึ่งรอบจะมีการทำซ้ำกี่รอบก็ได้ การกระทำอื่นๆ จะไม่ได้รับผลกระทบ
+
+(0 = ไม่หยุดการกระทำ)"</string>
+    <string name="description_end_coordinates">พิกัดสิ้นสุดที่จะปัดหน้าจอ</string>
+    <string name="description_end_delay">ตั้งค่าหน่วงเวลาหลังการกระทำนี้</string>
+    <string name="description_end_delay_default">ตั้งค่าหน่วงเวลาเริ่มต้นหลังการกระทำแต่ละครั้ง</string>
+    <string name="description_pause_on_app_change">"เมื่อเปิดใช้งาน การคลิกจะหยุดชั่วคราวเมื่อเปลี่ยนแอพพลิเคชัน
+
+การตั้งค่านี้ยังจะหยุดการคลิกชั่วคราว หากแถบการแจ้งเตือนแบบเลื่อนลงของ Android เลื่อนไปยังพื้นที่คลิก"</string>
+    <string name="description_preserve_physical_target_location">"เมื่อเปิดใช้งาน เป้าหมายจะอยู่ที่เดิมเมื่อหมุนหน้าจอ
+
+เมื่อปิดใช้งาน เป้าหมายจะอยู่บริเวณมุมซ้ายบนของหน้าจอ"</string>
+    <string name="description_randomization_radius">"กำหนดรัศมีเป็นพิกเซลรอบๆ เป้าหมายที่พิกัดการคลิก/ปัดหน้าจอจะถูกสุ่มเลือก
+
+(0 = ไม่สุ่ม)"</string>
+    <string name="description_randomization_range">"เลือกช่วงเวลาที่ต้องการให้สุ่มค่า
+
+ค่านี้จะสุ่มเพิ่มหรือลบออกจากหน่วงเวลา
+
+(0 = ไม่สุ่ม)"</string>
+    <string name="description_repeat">"กำหนดจำนวนครั้งที่จะทำซ้ำการกระทำนี้ก่อนที่จะไปการกระทำถัดไป
+
+(0 = ไม่ทำซ้ำ)"</string>
+    <string name="description_show_active_targets">"เมื่อเปิดใช้งาน คุณจะสามารถมองเห็นเป้าหมายและมีสีเขียวเมื่อคลิกที่หน้าจอของคุณ
+
+หากปิดใช้งาน เป้าหมายจะไม่ปรากฏขณะที่คลิก"</string>
+    <string name="description_start_coordinates">พิกัดเริ่มต้นที่จะปัดหน้าจอ</string>
+    <string name="description_start_delay">ตั้งค่าหน่วงเวลาก่อนการกระทำนี้</string>
+    <string name="description_start_delay_default">ตั้งค่าหน่วงเวลาเริ่มต้นก่อนการกระทำแต่ละครั้ง</string>
+    <string name="description_stop_after">เลือกตัวหยุดแอพพลิเคชัน</string>
+    <string name="description_stop_after_amount_of_time">กำหนดระยะเวลาที่คุณต้องการคลิก</string>
+    <string name="description_stop_after_run_count">กำหนดจำนวนครั้งที่คุณต้องการใช้งานเป้าหมายที่ตั้งไว้ทั้งหมด</string>
+    <string name="description_stop_at_specific_time">กำหนดช่วงเวลาที่จะให้หยุดคลิก</string>
+    <string name="description_swipe_duration">กำหนดระยะเวลาการปัด</string>
+    <string name="description_target_programmability">"เมื่อเปิดใช้งาน การแตะเป้าหมายจะเป็นการกำหนดการตั้งค่าเป้าหมายนั้นๆ
+
+ เมื่อปิดใช้งาน เป้าหมายสามารถเคลื่อนย้ายได้เพียงอย่างเดียว"</string>
+    <string name="disable">ปิดใช้งาน</string>
+    <string name="disabled">ปิดใช้งานแล้ว</string>
+    <string name="display_coordinates">X: %1$d Y: %2$d</string>
+    <string name="display_edit_target_number">แก้ไขเป้าหมาย: %1$d</string>
+    <string name="display_max">สูงสุด: %1$d</string>
+    <string name="display_min">ต่ำสุด: %1$d</string>
+    <string name="display_run_order_with_type">%1$d - ประเภท: %2$s</string>
+    <string name="display_stop_after">หยุดหลังจาก: %1$s</string>
+    <string name="display_stop_after_runs">หยุดหลังจาก: %1$s รอบ</string>
+    <string name="display_value_with_range">%1$s ± %2$s</string>
+    <string name="display_value_with_unit">%1$s %2$s</string>
+    <string name="do_not_disable">ไม่หยุดการกระทำ</string>
+    <string name="do_not_repeat">ไม่ทำซ้ำ</string>
+    <string name="do_nothing">ไม่ต้องทำอะไร</string>
+    <string name="enable">เปิดใช้งาน</string>
+    <string name="enabled">เปิดใช้งานแล้ว</string>
+    <string name="end_coordinates_noun">พิกัดสิ้นสุด</string>
+    <string name="end_delay_title_noun">หน่วงเวลาสิ้นสุด</string>
+    <string name="end_noun">สิ้นสุด</string>
+    <string name="end_verb">สิ้นสุด</string>
+    <string name="first_use_multi_mode_end">"เราขอแนะนำให้อ่านคำแนะนำอย่างละเอียดเพื่อทำความเข้าใจแอพพลิเคชันนี้และฟีเจอร์ต่างๆ
+
+อยากจะอ่านเลยไหม"</string>
+    <string name="first_use_multi_mode_start">"ดูเหมือนว่านี่คือครั้งแรกที่ใช้งานโหมดนี้
+
+โปรดสละเวลาสักครู่เพื่อดูแผนผังควบคุมของเรา"</string>
+    <string name="first_use_single_mode">"ดูเหมือนว่านี่คือครั้งแรกที่ใช้งานโหมดนี้
+
+โปรดสละเวลาสักครู่เพื่ออ่านคำแนะนำของฟีเจอร์ทั้งหมดภายในแอพ
+
+อยากจะอ่านเลยไหม"</string>
+    <string name="grant_verb">อนุญาต</string>
+    <string name="header_actions">การกระทำ:</string>
+    <string name="header_advanced_settings">การตั้งค่าขั้นสูง:</string>
+    <string name="header_basic_settings">การตั้งค่าพื้นฐาน:</string>
+    <string name="header_default_settings">การตั้งค่าเริ่มต้น:</string>
+    <string name="header_delay">หน่วงเวลา:</string>
+    <string name="header_randomization">การสุ่ม:</string>
+    <string name="header_settings">การตั้งค่า:</string>
+    <string name="infinity">∞</string>
+    <string name="instructions">คำแนะนำ</string>
+    <string name="instructions_emergency_stop">หยุดฉุกเฉิน</string>
+    <string name="instructions_multi_target_configuring">การกำหนดค่าเป้าหมาย</string>
+    <string name="instructions_multi_target_configuring_body">แตะที่เครื่องหมายเพื่อปรับตั้งค่า แต่ละเป้าหมายสามารถปรับตั้งค่าได้หลายได้</string>
+    <string name="instructions_multi_target_overlay">พื้นที่วางซ้อนของโหมดหลายเป้าหมายจะมีอยู่ 5 ปุ่มหลายฟังก์ชั่น ทั้งนี้ขึ้นอยู่กับว่าคุณจะแตะหรือกดค้าง</string>
+    <string name="instructions_multi_target_overlay_add_hold">กดค้าง: เพิ่มเป้าหมายการปัดหน้าจอ</string>
+    <string name="instructions_multi_target_overlay_add_tap">แตะ: เพิ่มเป้าหมายการคลิก</string>
+    <string name="instructions_multi_target_overlay_collapse_hold">กดค้าง: เปลี่ยนตำแหน่งพื้นที่วางซ้อน</string>
+    <string name="instructions_multi_target_overlay_collapse_tap">แตะ: ยุบพื้นที่วางซ้อนทั้งหมด</string>
+    <string name="instructions_multi_target_overlay_header">การใช้พื้นที่วางซ้อน</string>
+    <string name="instructions_multi_target_overlay_play_tap">แตะ: เริ่ม/หยุดคลิก</string>
+    <string name="instructions_multi_target_overlay_remove_hold">กดค้าง: ลบเป้าหมายทั้งหมด</string>
+    <string name="instructions_multi_target_overlay_remove_tap">แตะ: ลบเป้าหมายที่เพิ่มล่าสุด</string>
+    <string name="instructions_multi_target_overlay_settings_tap">แตะ: เปิดตัวเลือกและการตั้งค่า</string>
+    <string name="instructions_multi_target_proper_settings">"โทรศัพท์และแอพต่างๆ ของคุณมีข้อจำกัดในเรื่องวิธีและความเร็วในการคลิก
+
+โปรดทราบว่าการคลิกเร็วกว่า 50 มิลลิวินาทีอาจทำให้คลิกไม่ติดหรืออาจล็อคโทรศัพท์ของคุณ
+
+หากปัญหาเหล่านี้เกิดขึ้น กรุณาล็อคโทรศัพท์ของคุณหรือปิดหน้าจอเพื่อหยุดแอพพลิเคชันแล้วเปลี่ยนการกำหนดค่า"</string>
+    <string name="instructions_multi_target_proper_settings_header">การตั้งค่าที่เหมาะสม</string>
+    <string name="instructions_multi_target_subtitle">โหมดหลายเป้าหมาย</string>
+    <string name="instructions_multi_target_swipe">กดเครื่องหมายบวกค้างไว้เพื่อเพิ่มเป้าหมายการปัดหน้าจอไปบนหน้าจอ โดยจะปัดหน้าจอจากศูนย์กลางของวงกลมที่เขียนว่า \"เริ่มต้น\" ไปยังศูนย์กลางของวงกลมที่เขียนว่า \"สิ้นสุด\"</string>
+    <string name="instructions_multi_target_swipe_header">การตั้งค่าเป้าหมายการปัดหน้าจอ</string>
+    <string name="instructions_multi_target_target">แตะที่เครื่องหมายบวกเพื่อสร้างเป้าหมายใหม่ โดยแต่ละเป้าหมายจะมีหมายเลขกำกับและจะทำงานตามลำดับ การคลิก/การปัดหน้าจอทั้งหมดจะเริ่มจากศูนย์กลางของเป้าหมาย เมื่อเป้าหมายสุดท้ายทำงาน ลำดับจะวนกลับไปที่เป้าหมายแรก</string>
+    <string name="instructions_multi_target_target_header">การเพิ่มเป้าหมาย</string>
+    <string name="instructions_onoff_abort">"การล็อคโทรศัพท์หรือปิดหน้าจอจะเป็นการหยุดแอพพลิเคชันชั่วคราว
+
+หากโทรศัพท์ของคุณไม่ตอบสนองหรือดูเหมือนจะหยุดชะงัก โปรดกดปุ่มเปิดปิดหนึ่งครั้งเพื่อบังคับให้คลิกเกอร์หยุด"</string>
+    <string name="instructions_single_target_base">โปรดสละเวลาสักครู่เพื่ออ่านคำแนะนำของเราและเรียนรู้วิธีใช้แอพพลิเคชันนี้</string>
+    <string name="instructions_single_target_closing">เมื่อแตะที่สัญลักษณ์ X จะเป็นการปิดพื้นที่วางซ้อนและหยุดแอพพลิเคชัน</string>
+    <string name="instructions_single_target_closing_header">การปิดพื้นที่วางซ้อน</string>
+    <string name="instructions_single_target_moving">" "<b>ลาก</b>ด้านข้างของพื้นที่วางซ้อนเพื่อเลื่อนไปมารอบๆ หน้าจอของคุณ</string>
+    <string name="instructions_single_target_moving_header">การย้ายพื้นที่วางซ้อน</string>
+    <string name="instructions_single_target_onoff">"เมื่อคุณแตะปุ่มเล่น พื้นที่วางซ้อนจะเปลี่ยนเป็นสีเขียวและเริ่มคลิก
+
+คุณไม่สามารถเปลี่ยนตำแหน่งพื้นที่วางซ้อนได้จนกว่าจะกดหยุด"</string>
+    <string name="instructions_single_target_onoff_header">การเริ่มต้นและการหยุด</string>
+    <string name="instructions_single_target_subtitle">โหมดเป้าหมายเดียว</string>
+    <string name="instructions_single_target_target">" "<b>แตะ</b>ด้านข้างของพื้นที่วางซ้อนเพื่อเปลี่ยนมุมที่จะคลิก ซึ่งช่วยให้คุณคลิกที่มุมใดก็ได้บนหน้าจอของคุณ</string>
+    <string name="instructions_single_target_target_header">การเปลี่ยนมุมเป้าหมาย</string>
+    <string name="instructions_take_a_moment">โปรดสละเวลาสักครู่เพื่ออ่านคำแนะนำเหล่านี้และเรียนรู้วิธีใช้แอพพลิเคชันนี้</string>
+    <string name="load">โหลด</string>
+    <string name="load_config">โหลดการกำหนดค่า:</string>
+    <string name="manage_configurations">จัดการการกำหนดค่า</string>
+    <string name="name">ชื่อ</string>
+    <string name="no">ไม่</string>
+    <string name="no_configs_to_load">คุณไม่มีการกำหนดค่าที่บันทึกไว้ให้โหลดได้</string>
+    <string name="none">ไม่มี</string>
+    <string name="not_set">ไม่ได้ตั้งค่า</string>
+    <string name="ok">ตกลง</string>
+    <string name="open_multi_target_mode_no_config">เปิดโหมดหลายเป้าหมาย (ไม่มีการกำหนดค่า)</string>
+    <string name="open_single_target_mode">เปิดโหมดเป้าหมายเดี่ยว</string>
+    <string name="overlay_permission">การให้สิทธิ์พื้นที่วางซ้อน</string>
+    <string name="overlay_permission_text">การให้สิทธิ์นี้จะช่วยให้เราสามารถสร้างโฆษณาแบบซ้อนทับที่คุณสามารถใช้เพื่อควบคุมคลิกเกอร์อัตโนมัติ</string>
+    <string name="overwrite_current_config">เขียนทับการกำหนดค่าปัจจุบันหรือไม่</string>
+    <string name="overwrite_current_config_confirm">คุณแน่ใจหรือไม่ว่าต้องการเขียนทับการกำหนดค่าปัจจุบัน</string>
+    <string name="pause_on_app_change">หยุดชั่วคราวหากเปลี่ยนแอพ</string>
+    <string name="pixels">พิกเซล</string>
+    <string name="please_note">โปรดทราบว่า</string>
+    <string name="preserve_location">คงตำแหน่งเป้าหมาย</string>
+    <string name="randomization_radius">รัศมีการสุ่ม</string>
+    <string name="randomization_range">ช่วงการสุ่ม</string>
+    <string name="remove">ลบ</string>
+    <string name="remove_ads">เอาโฆษณาออก</string>
+    <string name="remove_ads_description">เอาโฆษณาทั้งหมดออกจากคลิกเกอร์อัตโนมัติ</string>
+    <string name="run_indefinitely">ทำงานไปเรื่อยๆ</string>
+    <string name="runs">รอบ</string>
+    <string name="s1">บันทึกรูปภาพ</string>
+    <string name="s2">อนุญาตให้โฆษณาจัดเก็บรูปภาพในแกลเลอรีภาพไหม</string>
+    <string name="s3">ยอมรับ</string>
+    <string name="s4">ปฏิเสธ</string>
+    <string name="s5">สร้างกิจกรรมในปฏิทิน</string>
+    <string name="s6">อนุญาตให้โฆษณาสร้างกิจกรรมในปฏิทินไหม</string>
+    <string name="s7">โฆษณาทดสอบ</string>
+    <string name="save">บันทึก</string>
+    <string name="search_menu_title">ค้นหา</string>
+    <string name="select_type">เลือกประเภทของการกระทำ:</string>
+    <string name="set_config_copy_name">ตั้งชื่อสำหรับสำเนานี้:</string>
+    <string name="set_config_name">ตั้งชื่อสำหรับการกำหนดค่านี้:</string>
+    <string name="settings">การตั้งค่า</string>
+    <string name="show_active_targets">แสดงเป้าหมายที่ใช้งานอยู่</string>
+    <string name="skip">ข้าม</string>
+    <string name="start_coordinates_noun">พิกัดเริ่มต้น</string>
+    <string name="start_delay_title_noun">หน่วงเวลาเริ่มต้น</string>
+    <string name="start_multi_target_mode">เริ่ม: โหมดหลายเป้าหมาย</string>
+    <string name="start_noun">เริ่มต้น</string>
+    <string name="start_single_target_mode">เริ่ม: โหมดเป้าหมายเดียว</string>
+    <string name="start_verb">เริ่มต้น</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stop_after">หยุดหลังจาก</string>
+    <string name="stop_after_amount_of_time">หยุดหลังจากผ่านไปแล้ว</string>
+    <string name="stop_after_run_count">หยุดหลังจากทำงานครบรอบ</string>
+    <string name="stop_at_specific_time">หยุดในเวลาที่กำหนด</string>
+    <string name="target_programmability">ความสามารถในการโปรแกรมเป้าหมาย</string>
+    <string name="thanks_for_buying">ขอบคุณสำหรับการซื้อ</string>
+    <string name="time_between_clicks">เวลาระหว่างการคลิก</string>
+    <string name="title_disable_after">ปิดใช้งานหลังจาก</string>
+    <string name="title_duration">ระยะเวลา</string>
+    <string name="title_edit_action">แก้ไขการกระทำ</string>
+    <string name="title_edit_configuration">แก้ไขการกำหนดค่า: %1$s</string>
+    <string name="title_repeat">ทำซ้ำ</string>
+    <string name="title_saved_configurations">การกำหนดค่าที่บันทึกไว้</string>
+    <string name="title_settings_auto_start">การตั้งค่า - เริ่มอัตโนมัติ</string>
+    <string name="title_settings_multi_target">การตั้งค่า - หลายเป้าหมาย</string>
+    <string name="title_settings_single_target">การตั้งค่า - เป้าหมายเดียว</string>
+    <string name="unknown">ไม่ระบุ</string>
+    <string name="update">อัพเดต</string>
+    <string name="warning">คำเตือน</string>
+    <string name="welcome">ยินดีต้อนรับ</string>
+    <string name="welcome_text">ก่อนที่คุณจะสามารถเริ่มการแตะ/การคลิกอัตโนมัติ คุณจะต้องให้สิทธิ์เพิ่มเติมในอุปกรณ์ของคุณแก่คลิกเกอร์อัตโนมัติ</string>
+    <string name="why_ads">ทำไมเราถึงแสดงโฆษณา</string>
+    <string name="why_ads_body">"SimpleHat Software อยากที่จะให้ผู้ใช้ทุกคนได้เพลิดเพลินกับแอพพลิเคชั่นที่ดีที่สุด ไม่ว่าจะเสียค่าบริการหรือใช้ฟรีก็สามารถใช้ได้ทุกฟีเจอร์ไม่มีกั๊ก
+
+อย่างไรก็ตาม การพัฒนาฟีเจอร์ใหม่ๆ อย่างต่อเนื่องและการพัฒนาเพื่อรองรับอุปกรณ์ใหม่ๆ ล้วนต้องใช้เงินทุน
+
+เป้าหมายของเราคือการทำให้โฆษณาเหล่านี้ไม่สร้างความรำคาญให้ผู้ใช้ของเรา ขอขอบคุณที่เข้าใจเรา"</string>
+    <string name="yes">ใช่</string>
+</resources>

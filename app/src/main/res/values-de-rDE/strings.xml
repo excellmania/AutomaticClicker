@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_ads">Über unsere Anzeigen</string>
+    <string name="about_ads_body">"Wenn das Overlay blau ist, bedeutet dies, dass es bereit ist, eine Anzeige zu schalten.
+
+Wenn Sie auf die Play-Taste drücken, wird die Anzeige eingeblendet und das Overlay wird wieder in die normale Farbe zurückgesetzt. Nach dem Drücken auf Play beginnt das Klicken wie gewohnt.
+
+ Das Overlay zeigt alle paar Minuten eine Anzeige, jedoch niemals während des aktiven Klickens."</string>
+    <string name="accessibility_service">Eingabehilfe</string>
+    <string name="accessibility_service_description">"Wenn Sie diese Eingabehilfe aktivieren, kann der Automatische Klicker in Ihrem Namen Taps/Klicks senden.
+
+\"Alle Aktionen beachten\" ist für alle Eingabehilfen erforderlich. Unsere Software überwacht oder erfasst niemals Daten, für die Sie dies nicht ausdrücklich angewiesen haben."</string>
+    <string name="accessibility_service_text">Mit dem Start der Eingabehilfe des Automatischen Klickers kann diese Anwendung für Sie Klicks/Taps senden. Man kann sie jederzeit deaktivieren, für den Betrieb des Automatischen Klickers muss sie jedoch aktiviert sein.</string>
+    <string name="action_type">Aktionstyp</string>
+    <string name="app_name">Automatischer Klicker</string>
+    <string name="auto_start_settings">Einstellungen zum automatischen Öffnen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="change">Ändern</string>
+    <string name="click_duration">Klickdauer</string>
+    <string name="clickswipe_duration">Klick-/Wischdauer</string>
+    <string name="close">Schließen</string>
+    <string name="config_already_exists">"Es wurde bereits eine Konfiguration mit diesem Namen gespeichert.
+
+ Möchten Sie sie überschreiben?"</string>
+    <string name="confirm_delete_target">Dieses Ziel löschen?</string>
+    <string name="coordinates">Koordinaten</string>
+    <string name="copy">Kopieren</string>
+    <string name="copy_verb">Kopieren</string>
+    <string name="create">Erstellen</string>
+    <string name="current_configuration">Aktuelle Konfiguration</string>
+    <string name="delay">Verzögerung</string>
+    <string name="delete">Löschen</string>
+    <string name="delete_action_confirm">Möchten Sie diese Aktion wirklich löschen?</string>
+    <string name="delete_configuration_confirm">Diese Konfiguration löschen?</string>
+    <string name="description_auto_start">Standardaktion auswählen, die beim Öffnen dieser App ausgeführt werden soll.</string>
+    <string name="description_click_coordinates">Die Koordinaten auf dem Bildschirm Ihres Handys, auf die Sie klicken können.</string>
+    <string name="description_click_duration">Festlegen, wie lange dieser Klick gedrückt werden soll.</string>
+    <string name="description_click_duration_plural">Zeit festlegen, die jeder Klick dauern soll.</string>
+    <string name="description_clickswipe_duration_default">"Standarddauer für jede Aktion festlegen.
+
+Bei Klicks wird der Klick so lange gedrückt gehalten.
+
+Bei Wischvorgängen wird hierdurch gesteuert, wie lange der Wischvorgang dauert."</string>
+    <string name="description_delay">Verzögerung zwischen den Klicks festlegen.</string>
+    <string name="description_disable_after">"Festlegen, wie viele vollständige Läufe abgeschlossen werden sollen, bevor Sie diese Aktion deaktivieren.
+
+Ein vollständiger Lauf beinhaltet alle Wiederholungen. Andere Aktionen werden nicht beeinflusst.
+
+(0 = Nicht deaktivieren)"</string>
+    <string name="description_end_coordinates">Die Endkoordinaten zum Wischen.</string>
+    <string name="description_end_delay">Verzögerung nach dieser Aktion festlegen.</string>
+    <string name="description_end_delay_default">Standardverzögerung nach jeder Aktion festlegen.</string>
+    <string name="description_pause_on_app_change">"Wenn diese Option aktiviert ist, wird das Klicken unterbrochen, wenn Sie zwischen Apps wechseln.
+
+Diese Einstellung unterbricht auch das Klicken, wenn sich die Benachrichtigungsleiste von Android in den Klickbereich bewegt."</string>
+    <string name="description_preserve_physical_target_location">"Wenn diese Option aktiviert ist, behalten Ziele ihre physische Position, wenn Sie Ihren Bildschirm drehen.
+
+Wenn diese Option deaktiviert ist, behalten Ziele ihre Position in Bezug zur oberen linken Ecke des Bildschirms."</string>
+    <string name="description_randomization_radius">"Radius in Pixeln um das Ziel festlegen, aus dem die Klick-/Wischkoordinate zufällig ausgewählt wird.
+
+(0 = Keine Randomisierung)"</string>
+    <string name="description_randomization_range">"Zeitintervall wählen, aus dem ein Zufallswert gezogen werden soll.
+
+Dieser Wert wird dann zufällig zur Verzögerung addiert oder davon abgezogen.
+
+(0 = Keine Randomisierung)"</string>
+    <string name="description_repeat">"Festlegen, wie oft diese Aktion wiederholt werden soll, bevor Sie mit der nächsten Aktion fortfahren.
+
+(0 = Nicht wiederholen)"</string>
+    <string name="description_show_active_targets">"Wenn diese Option aktiviert ist, sind Ziele sichtbar und werden grün angezeigt, wenn Sie auf Ihren Bildschirm klicken.
+
+Wenn diese Option deaktiviert ist, sind Ziele beim Klicken nicht sichtbar."</string>
+    <string name="description_start_coordinates">Die Startkoordinaten zum Wischen.</string>
+    <string name="description_start_delay">Verzögerung vor dieser Aktion festlegen.</string>
+    <string name="description_start_delay_default">Standardverzögerung vor jeder Aktion festlegen.</string>
+    <string name="description_stop_after">Auslöser zum Pausieren der Anwendung wählen.</string>
+    <string name="description_stop_after_amount_of_time">Festlegen, wie lange Sie klicken möchten.</string>
+    <string name="description_stop_after_run_count">Festlegen, wie oft Sie alle festgelegten Ziele durchlaufen möchten.</string>
+    <string name="description_stop_at_specific_time">Eine Zeit festlegen, zu der das Klicken aufhört.</string>
+    <string name="description_swipe_duration">Festlegen, wie lange das Wischen dauern soll.</string>
+    <string name="description_target_programmability">"Wenn diese Option aktiviert ist, können Sie durch Tippen auf ein Ziel die individuellen Einstellungen festlegen.
+
+ Wenn diese Option deaktiviert ist, können Ziele nur verschoben werden."</string>
+    <string name="disable">Deaktivieren</string>
+    <string name="disabled">Deaktiviert</string>
+    <string name="display_coordinates">X: %1$d Y: %2$d</string>
+    <string name="display_edit_target_number">Ziel bearbeiten: %1$d</string>
+    <string name="display_max">Max.: %1$d</string>
+    <string name="display_min">Min.: %1$d</string>
+    <string name="display_run_order_with_type">%1$d - Typ: %2$s</string>
+    <string name="display_stop_after">Stopp nach: %1$s</string>
+    <string name="display_stop_after_runs">Stopp nach: %1$s Lauf/Läufen</string>
+    <string name="display_value_with_range">%1$s ± %2$s</string>
+    <string name="display_value_with_unit">%1$s %2$s</string>
+    <string name="do_not_disable">Nicht deaktivieren</string>
+    <string name="do_not_repeat">Nicht wiederholen</string>
+    <string name="do_nothing">Nichts tun</string>
+    <string name="enable">Aktivieren</string>
+    <string name="enabled">Aktiviert</string>
+    <string name="end_coordinates_noun">End-Koordinaten</string>
+    <string name="end_delay_title_noun">End-Verzögerung</string>
+    <string name="end_noun">Ende</string>
+    <string name="end_verb">Beenden</string>
+    <string name="first_use_multi_mode_end">"Wir empfehlen Ihnen, die ausführliche Anleitung zu lesen, um diese Anwendung und ihre Funktionen vollständig zu verstehen.
+
+Möchten Sie jetzt zur Anleitung?"</string>
+    <string name="first_use_multi_mode_start">"Anscheinend verwenden Sie diesen Modus zum ersten Mal.
+
+Bitte nehmen Sie sich einen Moment Zeit und werfen Sie einen Blick auf unsere Steuerungskarte:"</string>
+    <string name="first_use_single_mode">"Anscheinend verwenden Sie diesen Modus zum ersten Mal.
+
+Bitte nehmen Sie sich einen Moment Zeit, um die Anleitung zu lesen und alle Funktionen der Anwendung kennenzulernen.
+
+Möchten Sie jetzt zur Anleitung?"</string>
+    <string name="grant_verb">Gewähren</string>
+    <string name="header_actions">Aktionen:</string>
+    <string name="header_advanced_settings">Erweiterte Einstellungen:</string>
+    <string name="header_basic_settings">Basis-Einstellungen:</string>
+    <string name="header_default_settings">Standardeinstellungen:</string>
+    <string name="header_delay">Verzögerung:</string>
+    <string name="header_randomization">Randomisierung:</string>
+    <string name="header_settings">Einstellungen:</string>
+    <string name="infinity">∞</string>
+    <string name="instructions">Anleitung</string>
+    <string name="instructions_emergency_stop">Not-Halt</string>
+    <string name="instructions_multi_target_configuring">Ein Ziel konfigurieren</string>
+    <string name="instructions_multi_target_configuring_body">Wenn Sie auf ein Ziel tippen, können Sie dessen Einstellungen konfigurieren. Jedes Ziel kann mit verschiedenen Einstellungen individuell konfiguriert werden.</string>
+    <string name="instructions_multi_target_overlay">Das Mehrfachziel-Overlay verfügt über fünf Schaltflächen, deren Funktion davon abhängt, ob Sie darauf tippen oder sie gedrückt halten.</string>
+    <string name="instructions_multi_target_overlay_add_hold">Halten: Wischziel hinzufügen</string>
+    <string name="instructions_multi_target_overlay_add_tap">Tippen: Klickziel hinzufügen.</string>
+    <string name="instructions_multi_target_overlay_collapse_hold">Halten: Overlay verschieben.</string>
+    <string name="instructions_multi_target_overlay_collapse_tap">Tippen: Alle Overlays ausblenden.</string>
+    <string name="instructions_multi_target_overlay_header">Verwendung des Overlays</string>
+    <string name="instructions_multi_target_overlay_play_tap">Tippen: Klicken starten/stoppen.</string>
+    <string name="instructions_multi_target_overlay_remove_hold">Halten: Alle Ziele entfernen.</string>
+    <string name="instructions_multi_target_overlay_remove_tap">Tippen: Zuletzt hinzugefügtes Ziel entfernen.</string>
+    <string name="instructions_multi_target_overlay_settings_tap">Tippen: Optionen und Einstellungen öffnen.</string>
+    <string name="instructions_multi_target_proper_settings">"Ihr Handy und die verschiedenen Apps haben Einschränkungen, wie und in welcher Geschwindigkeit Klicks erfolgen können.
+
+Bitte beachten Sie, dass schnelleres Klicken als 50 Millisekunden dazu führen kann, dass eine App den Klick nicht registriert oder das Handy blockiert.
+
+Wenn eines dieser Probleme auftritt, sperren Sie das Handy oder schalten Sie den Bildschirm aus, um die Anwendung zu stoppen, und ändern Sie dann die Konfiguration."</string>
+    <string name="instructions_multi_target_proper_settings_header">Richtige Einstellungen</string>
+    <string name="instructions_multi_target_subtitle">Mehrfachzielmodus</string>
+    <string name="instructions_multi_target_swipe">Wenn Sie das Pluszeichen gedrückt halten, wird Ihrem Bildschirm ein neues Wischziel hinzugefügt. Dieses wischt vom Mittelpunkt des Kreises, der mit \"Start\" bezeichnet ist, zum Mittelpunkt des Kreises, der mit \"Ende\" bezeichnet ist.</string>
+    <string name="instructions_multi_target_swipe_header">Ein Wischziel festlegen</string>
+    <string name="instructions_multi_target_target">Durch Tippen auf das Pluszeichen wird ein neues Ziel erstellt. Jedes Ziel ist nummeriert und wird nacheinander ausgeführt. Alle Klicks/Wischbewegungen stammen aus der Mitte des Ziels. Nachdem das letzte Ziel ausgeführt wurde, springt die Sequenz zum ersten zurück.</string>
+    <string name="instructions_multi_target_target_header">Ziele hinzufügen</string>
+    <string name="instructions_onoff_abort">"Wenn Sie Ihr Handy sperren oder den Bildschirm ausschalten, wird die App angehalten.
+
+Wenn Ihr Handy nicht reagiert oder festgefroren zu sein scheint, drücken Sie einmal die Ein-/Aus-Taste, um den Klicker zu stoppen."</string>
+    <string name="instructions_single_target_base">Bitte nehmen Sie sich einen Moment Zeit, um unsere Anleitung zu lesen und zu erfahren, wie man diese Anwendung nutzt.</string>
+    <string name="instructions_single_target_closing">Durch Tippen auf das X-Symbol wird das Overlay geschlossen und die Anwendung angehalten.</string>
+    <string name="instructions_single_target_closing_header">Overlay schließen</string>
+    <string name="instructions_single_target_moving">" "<b>Ziehen</b> Sie an den Seiten des Overlays, um es auf Ihrem Bildschirm zu verschieben.</string>
+    <string name="instructions_single_target_moving_header">Overlay verschieben</string>
+    <string name="instructions_single_target_onoff">"Wenn Sie auf die Play-Taste tippen, wird das Overlay grün und beginnt, für Sie zu klicken.
+
+Sie können das Overlay erst nach Drücken der Pause-Taste neu positionieren."</string>
+    <string name="instructions_single_target_onoff_header">Starten und Stoppen</string>
+    <string name="instructions_single_target_subtitle">Einzelzielmodus</string>
+    <string name="instructions_single_target_target">" "<b>Tippen</b> Sie auf die Seiten des Overlays, um die Ecke zu ändern, aus der Sie klicken möchten. Dadurch können Sie auf eine beliebige Ecke Ihres Bildschirms klicken.</string>
+    <string name="instructions_single_target_target_header">Zielecke ändern</string>
+    <string name="instructions_take_a_moment">Bitte nehmen Sie sich einen Moment Zeit, um diese Anleitung zu lesen und sich mit der App vertraut zu machen.</string>
+    <string name="load">Laden</string>
+    <string name="load_config">Konfiguration laden:</string>
+    <string name="manage_configurations">Konfigurationen verwalten</string>
+    <string name="name">Name</string>
+    <string name="no">Nein</string>
+    <string name="no_configs_to_load">Sie haben keine gespeicherten Konfigurationen zum Laden.</string>
+    <string name="none">Kein(e)</string>
+    <string name="not_set">Nicht eingestellt</string>
+    <string name="ok">OK</string>
+    <string name="open_multi_target_mode_no_config">Mehrfachzielmodus öffnen (keine Konfiguration)</string>
+    <string name="open_single_target_mode">Einzelzielmodus öffnen</string>
+    <string name="overlay_permission">Overlay-Berechtigung</string>
+    <string name="overlay_permission_text">Durch diese Berechtigung können wir das Overlay erstellen, das Sie für die Steuerung des Automatischen Klickers brauchen.</string>
+    <string name="overwrite_current_config">Aktuelle Konfiguration überschreiben?</string>
+    <string name="overwrite_current_config_confirm">Möchten Sie die aktuelle Konfiguration wirklich überschreiben?</string>
+    <string name="pause_on_app_change">Beim App-Wechsel anhalten</string>
+    <string name="pixels">Pixel</string>
+    <string name="please_note">Bitte beachten</string>
+    <string name="preserve_location">Physischen Zielort beibehalten</string>
+    <string name="randomization_radius">Randomisierungsradius</string>
+    <string name="randomization_range">Randomisierungsbereich</string>
+    <string name="remove">Entfernen</string>
+    <string name="remove_ads">Werbung entfernen</string>
+    <string name="remove_ads_description">Alle Anzeigen aus dem Automatischen Klicker entfernen</string>
+    <string name="run_indefinitely">Unbegrenzt laufen</string>
+    <string name="runs">Lauf/Läufe</string>
+    <string name="save">Speichern</string>
+    <string name="select_type">Art der Aktion auswählen:</string>
+    <string name="set_config_copy_name">Namen für diese Kopie festlegen:</string>
+    <string name="set_config_name">Namen für diese Konfiguration festlegen:</string>
+    <string name="settings">Einstellungen</string>
+    <string name="show_active_targets">Aktive Ziele anzeigen</string>
+    <string name="skip">Überspringen</string>
+    <string name="start_coordinates_noun">Start-Koordinaten</string>
+    <string name="start_delay_title_noun">Start-Verzögerung</string>
+    <string name="start_multi_target_mode">Start: Mehrfachzielmodus</string>
+    <string name="start_noun">Start</string>
+    <string name="start_single_target_mode">Start: Einzelzielmodus</string>
+    <string name="start_verb">Starten</string>
+    <string name="stop_after">Stoppen nach</string>
+    <string name="stop_after_amount_of_time">Nach einem bestimmten Zeitraum stoppen</string>
+    <string name="stop_after_run_count">Nach Lauf-Anzahl stoppen</string>
+    <string name="stop_at_specific_time">Zu einer bestimmten Zeit stoppen</string>
+    <string name="target_programmability">Zielprogrammierbarkeit</string>
+    <string name="thanks_for_buying">Danke für den Kauf</string>
+    <string name="time_between_clicks">Zeit zwischen Klicks</string>
+    <string name="title_disable_after">Deaktivieren nach</string>
+    <string name="title_duration">Dauer</string>
+    <string name="title_edit_action">Aktion bearbeiten</string>
+    <string name="title_edit_configuration">Konfiguration bearbeiten: %1$s</string>
+    <string name="title_repeat">Wiederholung</string>
+    <string name="title_saved_configurations">Gespeicherte Konfigurationen</string>
+    <string name="title_settings_auto_start">Einstellungen - Autostart</string>
+    <string name="title_settings_multi_target">Einstellungen - Mehrfachziele</string>
+    <string name="title_settings_single_target">Einstellungen - Einzelziel</string>
+    <string name="unknown">Unbekannt</string>
+    <string name="update">Aktualisieren</string>
+    <string name="warning">Warnung</string>
+    <string name="welcome">WILLKOMMEN</string>
+    <string name="welcome_text">Bevor Sie mit der Automatisierung von Taps/Klicks beginnen können, müssen Sie dem Automatischen Klicker zusätzliche Rechte auf Ihrem Gerät gewähren.</string>
+    <string name="why_ads">Warum zeigen wir Werbung?</string>
+    <string name="why_ads_body">"Wir bei SimpleHat Software möchten allen unseren Nutzern die besten Apps bieten, kostenpflichtig oder kostenlos, ohne die verfügbaren Funktionen einzuschränken.
+
+Wir müssen jedoch die laufende Entwicklung für neue Funktionen und die Unterstützung neuer Geräte finanzieren.
+
+Unser Ziel ist es, diese Werbung für unsere Nutzer so unauffällig wie möglich zu gestalten. Wir danken Ihnen für ihr Verständnis."</string>
+    <string name="yes">Ja</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidDomInspection -->
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+        <EditText android:id="@id/interval_value" android:padding="20.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:digits="0123456789.," android:layout_weight="0.5" android:inputType="number" android:textAlignment="center" />
+        <Spinner android:entries="@array/base_units" android:id="@id/interval_units" android:padding="20.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5" />
+    </LinearLayout>
+</LinearLayout>

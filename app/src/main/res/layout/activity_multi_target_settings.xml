@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidDomInspection -->
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:fadeScrollbars="false">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/colorCallout" android:paddingLeft="@dimen/list_padding" android:paddingRight="@dimen/list_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/header_default_settings" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <simplehat.automaticclicker.views.IntervalWithRangeSettingView android:id="@id/start_delay_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:delay_description="@string/description_start_delay" app:description="@string/description_start_delay_default" app:title="@string/start_delay_title_noun" />
+                    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" />
+                    <simplehat.automaticclicker.views.IntervalWithRangeSettingView android:id="@id/end_delay_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:delay_description="@string/description_end_delay" app:description="@string/description_end_delay_default" app:title="@string/end_delay_title_noun" />
+                    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" />
+                    <simplehat.automaticclicker.views.IntervalSettingView android:id="@id/duration_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:description="@string/description_clickswipe_duration_default" app:title="@string/clickswipe_duration" />
+                    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" />
+                    <simplehat.automaticclicker.views.StopAfterSettingView android:id="@id/stop_after_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:description="@string/description_stop_after" app:title="@string/stop_after" />
+                    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" />
+                    <TextView android:textColor="@color/colorCallout" android:paddingLeft="@dimen/list_padding" android:paddingRight="@dimen/list_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/header_randomization" />
+                    <simplehat.automaticclicker.views.StringSettingView android:id="@id/randomization_radius_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:description="@string/description_randomization_radius" app:mode="INTEGER" app:suffix="@string/pixels" app:title="@string/randomization_radius" />
+                    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" />
+                    <TextView android:textColor="@color/colorCallout" android:paddingLeft="@dimen/list_padding" android:paddingRight="@dimen/list_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/header_advanced_settings" />
+                    <simplehat.automaticclicker.views.BooleanSettingView android:id="@id/show_active_targets_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:description="@string/description_show_active_targets" app:enableCheckbox="false" app:title="@string/show_active_targets" />
+                    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" />
+                    <simplehat.automaticclicker.views.BooleanSettingView android:id="@id/target_programmability_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:description="@string/description_target_programmability" app:title="@string/target_programmability" />
+                    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" />
+                    <simplehat.automaticclicker.views.BooleanSettingView android:id="@id/pause_on_app_change_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:description="@string/description_pause_on_app_change" app:title="@string/pause_on_app_change" />
+                    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <Button android:textColor="#ffffffff" android:id="@id/manage_configurations" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_padding" android:layout_marginRight="@dimen/list_padding" android:layout_marginBottom="16.0dip" android:text="@string/manage_configurations" android:layout_weight="0.0" android:backgroundTint="@color/colorPrimary" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

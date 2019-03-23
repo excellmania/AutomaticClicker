@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidDomInspection -->
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/colorCallout" android:paddingLeft="@dimen/list_padding" android:paddingRight="@dimen/list_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/header_delay" />
+            <simplehat.automaticclicker.views.IntervalSettingView android:id="@id/delay_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:description="@string/description_delay" app:title="@string/delay" />
+            <TextView android:textColor="@color/colorCallout" android:paddingLeft="@dimen/list_padding" android:paddingRight="@dimen/list_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/header_randomization" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <simplehat.automaticclicker.views.IntervalSettingView android:id="@id/range_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:description="@string/description_randomization_range" app:title="@string/randomization_range" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

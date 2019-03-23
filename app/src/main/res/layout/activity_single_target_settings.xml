@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidDomInspection -->
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/colorCallout" android:paddingLeft="@dimen/list_padding" android:paddingRight="@dimen/list_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/header_settings" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <simplehat.automaticclicker.views.IntervalWithRangeSettingView android:id="@id/time_between_clicks_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/time_between_clicks" />
+                <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" />
+                <simplehat.automaticclicker.views.IntervalSettingView android:id="@id/click_duration_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:description="@string/description_click_duration_plural" app:title="@string/click_duration" />
+                <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" />
+                <simplehat.automaticclicker.views.StopAfterSettingView android:id="@id/stop_after_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:description="@string/description_stop_after" app:title="@string/stop_after" />
+                <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" />
+                <simplehat.automaticclicker.views.BooleanSettingView android:id="@id/pause_on_app_change_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:description="@string/description_pause_on_app_change" app:title="@string/pause_on_app_change" />
+                <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

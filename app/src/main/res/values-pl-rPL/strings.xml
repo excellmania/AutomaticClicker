@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_ads">O naszych reklamach</string>
+    <string name="about_ads_body">"Gdy nakładka jest niebieska, oznacza to, że jest gotowa do wyświetlenia reklamy.
+
+Kliknięcie przycisku odtwarzania spowoduje wyświetlenie reklamy, a nakładka powróci do normalnego koloru - po tym naciśnięciu rozpocznie się normalne klikanie.
+
+ Nakładka będzie przygotowywać reklamę co kilka minut, ale nigdy podczas aktywnego klikania."</string>
+    <string name="accessibility_service">Usługa ułatwień dostępu</string>
+    <string name="accessibility_service_description">"Włączenie tej usługi ułatwień dostępu umożliwia aplikacji Automatyczny Klikacz wysyłanie dotknięć/kliknięć w Twoim imieniu.
+
+\"Obserwuj swoje akcje\" jest wymagane dla wszystkich usług dostępności. Nasze oprogramowanie nigdy nie monitoruje ani nie gromadzi żadnych danych, których wyraźnie nie zaleca."</string>
+    <string name="accessibility_service_text">Uruchomienie usługi ułatwień dostępu aplikacji Automatyczny Klikacz umożliwia tej aplikacji wysyłanie kliknięć/naciśnięć w Twoim imieniu. Możesz wyłączyć ją w dowolnym momencie, ale uruchomienie aplikacji Automatyczny Klikacz wymaga włączenia tej usługi.</string>
+    <string name="action_type">Rodzaj akcji</string>
+    <string name="app_name">Automatyczny Klikacz</string>
+    <string name="auto_start_settings">Automatyczne otwieranie ustawień</string>
+    <string name="cancel">Anuluj</string>
+    <string name="change">Zmień</string>
+    <string name="click_duration">Czas trwania kliknięcia</string>
+    <string name="clickswipe_duration">Czas trwania kliknięcia/przeciągnięcia</string>
+    <string name="close">Zamknij</string>
+    <string name="config_already_exists">"Zapisana konfiguracja o tej nazwie już istnieje.
+
+ Czy chcesz go zastąpić?"</string>
+    <string name="confirm_delete_target">Chcesz usunąć ten cel?</string>
+    <string name="coordinates">Współrzędne</string>
+    <string name="copy">Kopiuj</string>
+    <string name="copy_verb">Kopiuj</string>
+    <string name="create">Utwórz</string>
+    <string name="current_configuration">Bieżąca konfiguracja</string>
+    <string name="delay">Opóźnienie</string>
+    <string name="delete">Kasuj</string>
+    <string name="delete_action_confirm">Czy na pewno chcesz usunąć tę akcję?</string>
+    <string name="delete_configuration_confirm">Chcesz usunąć tę konfigurację?</string>
+    <string name="description_auto_start">Wybierz domyślną akcję do wykonania podczas otwierania tej aplikacji.</string>
+    <string name="description_click_coordinates">Współrzędne na ekranie telefonu do kliknięcia.</string>
+    <string name="description_click_duration">Określ czas, przez jaki będzie przytrzymywane to kliknięcie.</string>
+    <string name="description_click_duration_plural">Ustaw czas, przez który każde kliknięcie jest przytrzymane.</string>
+    <string name="description_clickswipe_duration_default">"Ustaw domyślny czas trwania każdej akcji.
+
+W przypadku kliknięć czas kliknięcia zostanie wstrzymany.
+
+W przypadku przeciągnięć określa to, ile czasu zajmuje przeciągniecie palcem."</string>
+    <string name="description_delay">Ustaw opóźnienie między kliknięciami.</string>
+    <string name="description_disable_after">"Ustaw liczbę pełnych uruchomień do wykonania przed wyłączeniem tej akcji.
+
+Jeden pełny przebieg obejmuje dowolne powtórzenia. Inne działania nie zostaną naruszone.
+
+(0 = Nie wyłączaj)"</string>
+    <string name="description_end_coordinates">Końcowe współrzędne do przeciągnięcia.</string>
+    <string name="description_end_delay">Ustaw opóźnienie, które wystąpi po wykonaniu tej akcji.</string>
+    <string name="description_end_delay_default">Ustaw domyślne opóźnienie, które występuje po każdej akcji.</string>
+    <string name="description_pause_on_app_change">"Po włączeniu kliknięcie zatrzyma się podczas zmiany między aplikacjami.
+
+To ustawienie również wstrzyma klikanie, jeśli pasek powiadomień z rozwijaniem Androida zostanie przeniesiony do obszaru kliknięcia."</string>
+    <string name="description_preserve_physical_target_location">"Po włączeniu, obiekty będą utrzymywać swoją fizyczną pozycję podczas obracania ekranu.
+
+Po wyłączeniu cele będą utrzymywać swoją pozycję względem lewego górnego rogu ekranu."</string>
+    <string name="description_randomization_radius">"Ustaw promień w pikselach wokół celu, z którego zostanie wybrana losowo koordynacja kliknięcia/ przeciągnięcia.
+
+(0 = Bez randomizacji)"</string>
+    <string name="description_randomization_range">"Wybierz przedział czasu, od którego należy losować wartość.
+
+Ta wartość jest następnie losowo dodawana lub odejmowana od opóźnienia.
+
+(0 = Bez randomizacji)"</string>
+    <string name="description_repeat">"Ustaw ile razy powtórzyć tę akcje przed przejściem do następnej akcji.
+
+(0 = nie powtarzaj)"</string>
+    <string name="description_show_active_targets">"Po włączeniu, cele będą widoczne i pokolorowane na zielono po kliknięciu twojego ekranu.
+
+Jeśli wyłączone, cele będą niewidoczne podczas klikania."</string>
+    <string name="description_start_coordinates">Startowe współrzędne do przeciągnięcia.</string>
+    <string name="description_start_delay">Ustaw opóźnienie, które wystąpi przed tą akcją.</string>
+    <string name="description_start_delay_default">Ustaw domyślne opóźnienie, które ma miejsce przed każdą akcją.</string>
+    <string name="description_stop_after">Wybierz wyzwalacz do wstrzymania aplikacji.</string>
+    <string name="description_stop_after_amount_of_time">Ustaw, jak długo chcesz kliknąć.</string>
+    <string name="description_stop_after_run_count">Ustaw, ile razy chcesz przejść przez wszystkie ustawione cele.</string>
+    <string name="description_stop_at_specific_time">Ustaw czas, aby przestać klikać.</string>
+    <string name="description_swipe_duration">Określ czas, jaki potrwa, zanim przeciągnięcie to zostanie ukończone.</string>
+    <string name="description_target_programmability">"Po włączeniu dotknięcie celu pozwoli Ci ustawić jego indywidualne ustawienia.
+
+ Po wyłączeniu cele mogą być przenoszone."</string>
+    <string name="disable">Wyłącz</string>
+    <string name="disabled">Wyłączone</string>
+    <string name="display_coordinates">X: %1$d Y: %2$d</string>
+    <string name="display_edit_target_number">Edytuj cel: %1$d</string>
+    <string name="display_max">Maks: %1$d</string>
+    <string name="display_min">Min: %1$d</string>
+    <string name="display_run_order_with_type">%1$d - Rodzaj: %2$s</string>
+    <string name="display_stop_after">Zatrzymuj po: %1$s</string>
+    <string name="display_stop_after_runs">Zatrzymaj po: %1$s uruchamiań</string>
+    <string name="display_value_with_range">%1$s ± %2$s</string>
+    <string name="display_value_with_unit">%1$s %2$s</string>
+    <string name="do_not_disable">Nie wyłączaj</string>
+    <string name="do_not_repeat">nie powtarzaj</string>
+    <string name="do_nothing">Nic nie rób</string>
+    <string name="enable">Włącz</string>
+    <string name="enabled">Włączone</string>
+    <string name="end_coordinates_noun">Współrzędne zakończenia</string>
+    <string name="end_delay_title_noun">Opóźnienie zakończenia</string>
+    <string name="end_noun">Zakończenie</string>
+    <string name="end_verb">Zakończenie</string>
+    <string name="first_use_multi_mode_end">"Zalecamy przeczytanie szczegółowych instrukcji, aby w pełni zrozumieć tę aplikację i jej funkcje.
+
+Chciałbyś tam teraz pójść?"</string>
+    <string name="first_use_multi_mode_start">"Wygląda na to, że pierwszy raz korzystasz z tego trybu.
+
+Poświęć chwilę i spójrz na naszą mapę kontrolną:"</string>
+    <string name="first_use_single_mode">"Wygląda na to, że pierwszy raz korzystasz z tego trybu.
+
+Poświęć chwilę, aby zapoznać się z instrukcjami, aby zobaczyć wszystkie funkcje w aplikacji.
+
+Chciałbyś tam teraz pójść?"</string>
+    <string name="grant_verb">Przyznaj</string>
+    <string name="header_actions">Akcje:</string>
+    <string name="header_advanced_settings">Zaawansowane ustawienia:</string>
+    <string name="header_basic_settings">Podstawowe ustawienia:</string>
+    <string name="header_default_settings">Ustawienia domyślne:</string>
+    <string name="header_delay">Opóźnienie:</string>
+    <string name="header_randomization">Randomizacja:</string>
+    <string name="header_settings">Ustawienia:</string>
+    <string name="infinity">∞</string>
+    <string name="instructions">Instrukcje</string>
+    <string name="instructions_emergency_stop">Awaryjny postój</string>
+    <string name="instructions_multi_target_configuring">Konfigurowanie celu</string>
+    <string name="instructions_multi_target_configuring_body">Dotknięcie celu pozwoli Ci skonfigurować jego ustawienia. Każdy cel może być indywidualnie skonfigurowany z różnymi ustawieniami.</string>
+    <string name="instructions_multi_target_overlay">Nakładka trybu multi celu ma pięć przycisków, które różnią się funkcją w zależności od tego, czy je dotykasz, czy je przytrzymujesz.</string>
+    <string name="instructions_multi_target_overlay_add_hold">Przytrzymanie: dodanie celu przeciągnij palcem.</string>
+    <string name="instructions_multi_target_overlay_add_tap">Naciśnięcie: dodanie celu kliknięcia.</string>
+    <string name="instructions_multi_target_overlay_collapse_hold">Przytrzymanie: zmiana położenia nakładki.</string>
+    <string name="instructions_multi_target_overlay_collapse_tap">Naciśnięcie: zwinięcie wszystkich nakładek.</string>
+    <string name="instructions_multi_target_overlay_header">Używanie nakładki</string>
+    <string name="instructions_multi_target_overlay_play_tap">Naciśnięcie: uruchomienie/zatrzymanie klikania.</string>
+    <string name="instructions_multi_target_overlay_remove_hold">Przytrzymanie: usunięcie wszystkich celów.</string>
+    <string name="instructions_multi_target_overlay_remove_tap">Naciśnięcie: usunięcie ostatniego dodanego celu.</string>
+    <string name="instructions_multi_target_overlay_settings_tap">Naciśnięcie: otworzenie opcji i ustawień.</string>
+    <string name="instructions_multi_target_proper_settings">"Twój telefon i różne aplikacje mają ograniczenia, w jaki sposób można je kliknąć i na jaką szybkość.
+
+Należy pamiętać, że kliknięcie dłuższe niż 50 milisekund może spowodować, że aplikacja nie zarejestruje kliknięcia lub nie zablokuje telefonu.
+
+Jeśli wystąpi którykolwiek z tych problemów, zablokuj telefon lub wyłącz ekran, aby zatrzymać aplikację, a następnie zmień konfigurację."</string>
+    <string name="instructions_multi_target_proper_settings_header">Właściwe ustawienia</string>
+    <string name="instructions_multi_target_subtitle">Tryb Multi Celu</string>
+    <string name="instructions_multi_target_swipe">Przytrzymanie znaku plus doda nowy cel przeciągnięcia do ekranu. Będzie ona przeciągać ze środka okręgu oznaczonego \"start\" w kierunku środka okręgu oznaczonego \"koniec\".</string>
+    <string name="instructions_multi_target_swipe_header">Ustawianie celu przeciągnięcia palcem</string>
+    <string name="instructions_multi_target_target">Dotknięcie znaku plus spowoduje utworzenie nowego celu. Każdy cel jest ponumerowany i będzie działał w sekwencji. Wszystkie kliknięcia/przeciągnięcia palcem pochodzą ze środku celu. Po uruchomieniu ostatniego celu sekwencja wróci do pierwszego.</string>
+    <string name="instructions_multi_target_target_header">Dodawanie celów</string>
+    <string name="instructions_onoff_abort">"Zablokowanie telefonu lub wyłączenie ekranu spowoduje zatrzymanie aplikacji.
+
+Jeśli telefon nie reaguje lub wydaje się, że został zamrożony, naciśnij raz przycisk zasilania, aby wymusić zatrzymanie pilota."</string>
+    <string name="instructions_single_target_base">Poświęć chwilę, aby przeczytać nasze instrukcje i dowiedzieć się, jak korzystać z tej aplikacji.</string>
+    <string name="instructions_single_target_closing">Naciśnięcie symbolu X spowoduje zamknięcie nakładki i zatrzymanie aplikacji.</string>
+    <string name="instructions_single_target_closing_header">Zamykanie nakładki</string>
+    <string name="instructions_single_target_moving">" "<b> Przeciągnij </b> strony nakładki, aby przesunąć ją po ekranie.</string>
+    <string name="instructions_single_target_moving_header">Przenoszenie nakładki</string>
+    <string name="instructions_single_target_onoff">"Po dotknięciu przycisku odtwarzania nakładka zmieni kolor na zielony i zacznie klikać.
+
+Nie możesz zmienić położenia nakładki, dopóki nie naciśniesz przycisku pauzy."</string>
+    <string name="instructions_single_target_onoff_header">Uruchamianie i zatrzymywanie</string>
+    <string name="instructions_single_target_subtitle">Tryb pojedynczego celu</string>
+    <string name="instructions_single_target_target">" "<b> Naciśnij przycisk </b> boków nakładki, aby zmienić, z którego rogu ma zostać kliknięty. Pozwala to kliknąć w dowolnym rogu ekranu.</string>
+    <string name="instructions_single_target_target_header">Zmiana docelowego narożnika</string>
+    <string name="instructions_take_a_moment">Poświęć chwilę, aby przeczytać te instrukcje i dowiedzieć się, jak korzystać z tej aplikacji.</string>
+    <string name="load">Załaduj</string>
+    <string name="load_config">Załaduj konfigurację:</string>
+    <string name="manage_configurations">Zarządzaj ustawieniami</string>
+    <string name="name">Nazwa</string>
+    <string name="no">Nie</string>
+    <string name="no_configs_to_load">Nie masz zapisanych konfiguracji do załadowania.</string>
+    <string name="none">Brak</string>
+    <string name="not_set">Nie ustawiony</string>
+    <string name="ok">OK</string>
+    <string name="open_multi_target_mode_no_config">Otwórz tryb Multi celu (bez konfiguracji)</string>
+    <string name="open_single_target_mode">Otwórz tryb pojedynczego celu</string>
+    <string name="overlay_permission">Zezwolenie na nakładkę</string>
+    <string name="overlay_permission_text">Przyznanie tego uprawnienia pozwoli nam utworzyć nakładkę, której używasz do sterowania aplikacją Automatyczny Klikacz</string>
+    <string name="overwrite_current_config">Zastąpić aktualną konfigurację?</string>
+    <string name="overwrite_current_config_confirm">Czy na pewno chcesz nadpisać bieżącą konfigurację?</string>
+    <string name="pause_on_app_change">Wstrzymaj w zmianę aplikacji</string>
+    <string name="pixels">Piksele</string>
+    <string name="please_note">Proszę zauważyć</string>
+    <string name="preserve_location">Zachowaj fizyczną lokalizację celu</string>
+    <string name="randomization_radius">Promieniowanie randomizacji</string>
+    <string name="randomization_range">Zakres Randomizacji</string>
+    <string name="remove">Usuń</string>
+    <string name="remove_ads">Usuń reklamy</string>
+    <string name="remove_ads_description">Usuń wszystkie reklamy z aplikacji Automatyczny Klikacz</string>
+    <string name="run_indefinitely">Uruchom na czas nieokreślony</string>
+    <string name="runs">Uruchamiania</string>
+    <string name="save">Zapisz</string>
+    <string name="select_type">Wybierz rodzaj akcji:</string>
+    <string name="set_config_copy_name">Ustaw nazwę dla tej kopii:</string>
+    <string name="set_config_name">Ustaw nazwę dla tej konfiguracji:</string>
+    <string name="settings">Ustawienia</string>
+    <string name="show_active_targets">Pokaż aktywne cele</string>
+    <string name="skip">Pomiń</string>
+    <string name="start_coordinates_noun">Współrzędne uruchomienia</string>
+    <string name="start_delay_title_noun">Opóźnienie uruchomienia</string>
+    <string name="start_multi_target_mode">Start: tryb Multi Cel</string>
+    <string name="start_noun">Uruchomienie</string>
+    <string name="start_single_target_mode">Start: tryb pojedynczego celu</string>
+    <string name="start_verb">Uruchomienie</string>
+    <string name="stop_after">Zatrzymaj pożnij</string>
+    <string name="stop_after_amount_of_time">Zatrzymaj po upływie czasu</string>
+    <string name="stop_after_run_count">Zatrzymaj po liczeniu czasu</string>
+    <string name="stop_at_specific_time">Zatrzymaj w określonym czasie</string>
+    <string name="target_programmability">Docelowa programowalność</string>
+    <string name="thanks_for_buying">Dziękuje za kupno</string>
+    <string name="time_between_clicks">Czas między kliknięciami</string>
+    <string name="title_disable_after">Wyłącz pożnij</string>
+    <string name="title_duration">Czas trwania</string>
+    <string name="title_edit_action">Edytuj działanie</string>
+    <string name="title_edit_configuration">Edytuj konfigurację: %1$s</string>
+    <string name="title_repeat">Powtórz</string>
+    <string name="title_saved_configurations">Zapisane konfiguracje</string>
+    <string name="title_settings_auto_start">Ustawienia - Automatyczny start</string>
+    <string name="title_settings_multi_target">Ustawienia - Multi Cel</string>
+    <string name="title_settings_single_target">Ustawienia - Pojedynczy cel</string>
+    <string name="unknown">Nieznany</string>
+    <string name="update">Aktualizacja</string>
+    <string name="warning">Ostrzeżenie</string>
+    <string name="welcome">WITAJ</string>
+    <string name="welcome_text">Zanim zaczniesz automatyzować kliknięcia/naciśnięcia, musisz przyznać aplikacji Automatyczny Klikacz dodatkowe prawa na urządzeniu.</string>
+    <string name="why_ads">Dlaczego wyświetlami reklamy?</string>
+    <string name="why_ads_body">"W SimpleHat Software chcemy zaoferować najlepsze aplikacje, które możemy dla wszystkich naszych użytkowników, płatne lub bezpłatne, bez ograniczania dostępnych funkcji.
+
+Musimy jednak finansować stały rozwój nowych funkcji i obsługi nowych urządzeń.
+
+Naszym celem jest, aby reklamy były tak dyskretne, jak to tylko możliwe dla naszych użytkowników. Doceniamy twoje zrozumienie."</string>
+    <string name="yes">Tak</string>
+</resources>

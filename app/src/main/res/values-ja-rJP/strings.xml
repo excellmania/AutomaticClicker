@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_ads">広告について</string>
+    <string name="about_ads_body">"オーバーレイが青の場合は、広告を表示する準備ができています。
+
+再生ボタンをクリックすると広告が表示され、オーバーレイは通常の色に戻ります。このボタンを押すと、通常どおりクリックが開始されます。
+
+オーバーレイは数分ごとに広告を表示しますが、アクティブにクリックしている間は表示しません。"</string>
+    <string name="accessibility_service">アクセシビリティ・サービス</string>
+    <string name="accessibility_service_description">"このアクセシビリティサービスを有効にすると、オートクリッカーはユーザー代わってタップ/クリックを送信します。
+
+「アクションを監視する」はすべてのアクセシビリティサービスに必要です。当社のソフトウェアは、ユーザーが明確に指示していないデータを監視または収集することは決してありません。"</string>
+    <string name="accessibility_service_text">本アプリがユーザーに代わってクリックやタップの情報を送信するには、オートクリッカーのアクセシビリティ・サービスを起動する必要があります。このサービスはいつでも無効にすることができますが、オートクリッカーが正常に動作するにはこのサービスを有効にするが必要です。</string>
+    <string name="action_type">アクションの種類</string>
+    <string name="app_name">オートクリッカー</string>
+    <string name="auto_start_settings">設定の自動オープン</string>
+    <string name="cancel">キャンセルする</string>
+    <string name="change">変更する</string>
+    <string name="click_duration">クリック持続時間</string>
+    <string name="clickswipe_duration">クリック/スワイプの持続時間</string>
+    <string name="close">閉じる</string>
+    <string name="config_already_exists">"その名称で保存された構成は既に存在します。
+
+ 上書きしますか？"</string>
+    <string name="confirm_delete_target">このターゲットを削除しますか？</string>
+    <string name="coordinates">座標</string>
+    <string name="copy">コピーする</string>
+    <string name="copy_verb">コピー</string>
+    <string name="create">作成する</string>
+    <string name="current_configuration">現在の構成</string>
+    <string name="delay">ディレイ</string>
+    <string name="delete">削除する</string>
+    <string name="delete_action_confirm">このアクションを削除しますか？</string>
+    <string name="delete_configuration_confirm">この構成を削除しますか？</string>
+    <string name="description_auto_start">このアプリケーションを開くときに実行する初期設定のアクションを選択します。</string>
+    <string name="description_click_coordinates">クリックする携帯電話画面上の座標。</string>
+    <string name="description_click_duration">このクリックがホールドされる時間を設定します。</string>
+    <string name="description_click_duration_plural">各クリックがホールドされる時間を設定します。</string>
+    <string name="description_clickswipe_duration_default">"各アクションの初期設定の持続時間を設定します。
+
+クリックの場合、これはクリックがホールドされる時間です。
+
+スワイプの場合、これはスワイプが完了するまでの時間を制御します。"</string>
+    <string name="description_delay">クリック間のディレイを設定します。</string>
+    <string name="description_disable_after">"このアクションを無効にする前に、何回実行するかを設定してください。
+
+1回の実行にはすべての繰り返しが含まれます。他のアクションは影響を受けません。
+
+（0 = 無効にしない）"</string>
+    <string name="description_end_coordinates">スワイプの終了座標。</string>
+    <string name="description_end_delay">このアクションの後に発生するディレイを設定します。</string>
+    <string name="description_end_delay_default">各アクションの後に発生する初期設定のディレイを設定します。</string>
+    <string name="description_pause_on_app_change">"有効にすると、アプリケーション間の切り替え時にクリックが一時停止します。
+
+Androidのプルダウン通知バーがクリック領域に移動した場合も、この設定はクリックを一時停止します。"</string>
+    <string name="description_preserve_physical_target_location">"有効にすると、画面を回転してもターゲットはその位置を維持します。
+
+無効にすると、ターゲットは画面の左上隅を基準にした位置を維持します。"</string>
+    <string name="description_randomization_radius">"クリック/スワイプの座標がランダムに選択されるターゲットの周囲の半径をピクセルで設定します。
+
+（0 =ランダム化なし）"</string>
+    <string name="description_randomization_range">"ランダムな値を引き出す時間の間隔を選択します。
+
+この値は、ランダムにディレイに加算または減算されます。
+
+（0 =ランダム化なし）"</string>
+    <string name="description_repeat">"次のアクションに進む前にこのアクションのリピート回数を設定します。
+
+（0 =リピートなし）"</string>
+    <string name="description_show_active_targets">"有効にするとターゲットが表示され、画面をクリックすると緑色になります。
+
+無効にすると、クリック中にターゲットが表示されなくなります。"</string>
+    <string name="description_start_coordinates">スワイプする開始位置の座標。</string>
+    <string name="description_start_delay">このアクションの前に発生するディレイを設定します。</string>
+    <string name="description_start_delay_default">各アクションの前に発生する初期設定のディレイを設定します。</string>
+    <string name="description_stop_after">アプリケーションを一時停止するためのトリガーを選択します。</string>
+    <string name="description_stop_after_amount_of_time">クリックしたい時間を設定します。</string>
+    <string name="description_stop_after_run_count">設定したすべてのターゲットの実行回数を設定します。</string>
+    <string name="description_stop_at_specific_time">クリックを止める時間を設定します。</string>
+    <string name="description_swipe_duration">このスワイプが完了するまでの時間を設定します。</string>
+    <string name="description_target_programmability">"有効になっている場合、ターゲットをタップすることで個別の設定ができます。
+
+ 無効にすると、ターゲットのみを移動できます。"</string>
+    <string name="disable">無効にする</string>
+    <string name="disabled">無効にした</string>
+    <string name="display_coordinates">X：%1$d Y：%2$d</string>
+    <string name="display_edit_target_number">ターゲットを編集：%1$d</string>
+    <string name="display_max">最大：%1$d</string>
+    <string name="display_min">分：%1$d</string>
+    <string name="display_run_order_with_type">%1$d - タイプ：%2$s</string>
+    <string name="display_stop_after">次の後に停止：%1$s</string>
+    <string name="display_stop_after_runs">次の後に停止：%1$s実行</string>
+    <string name="display_value_with_range">%1$s±%2$s</string>
+    <string name="display_value_with_unit">%1$s %2$s</string>
+    <string name="do_not_disable">無効にしない</string>
+    <string name="do_not_repeat">無効にしない</string>
+    <string name="do_nothing">何もしない</string>
+    <string name="enable">有効にする</string>
+    <string name="enabled">有効にした</string>
+    <string name="end_coordinates_noun">座標終了</string>
+    <string name="end_delay_title_noun">遅延終了</string>
+    <string name="end_noun">終了</string>
+    <string name="end_verb">終了</string>
+    <string name="first_use_multi_mode_end">"このアプリケーションとその機能をよく理解するには、詳細な説明を読むことをお勧めします。
+
+今すぐそこへ移動しますか？"</string>
+    <string name="first_use_multi_mode_start">"このモードを使用するのはこれが初めてのようです。
+
+コントロールマップを確認してください。"</string>
+    <string name="first_use_single_mode">"このモードを使用するのはこれが初めてのようです。
+
+アプリ内の機能すべてを見るには、説明書をお読みください。
+
+今すぐそこへ移動しますか？"</string>
+    <string name="grant_verb">承諾</string>
+    <string name="header_actions">アクション：</string>
+    <string name="header_advanced_settings">高度な設定：</string>
+    <string name="header_basic_settings">基本設定：</string>
+    <string name="header_default_settings">既定の設定：</string>
+    <string name="header_delay">ディレイ：</string>
+    <string name="header_randomization">ランダム化：</string>
+    <string name="header_settings">設定：</string>
+    <string name="infinity">∞</string>
+    <string name="instructions">説明書</string>
+    <string name="instructions_emergency_stop">緊急停止</string>
+    <string name="instructions_multi_target_configuring">ターゲットの設定</string>
+    <string name="instructions_multi_target_configuring_body">ターゲットをタップすると、その設定を構成できます。各ターゲットはさまざまな設定により個別に構成できます。</string>
+    <string name="instructions_multi_target_overlay">マルチターゲット・モードのオーバーレイには5つのボタンがあり、タップするかホールドするかによって機能が異なります。</string>
+    <string name="instructions_multi_target_overlay_add_hold">ホールド：スワイプターゲットを追加します。</string>
+    <string name="instructions_multi_target_overlay_add_tap">タップ：クリックターゲットを追加します。</string>
+    <string name="instructions_multi_target_overlay_collapse_hold">ホールド：オーバーレイを再配置します。</string>
+    <string name="instructions_multi_target_overlay_collapse_tap">タップ：すべてのオーバーレイを折りたたみます。</string>
+    <string name="instructions_multi_target_overlay_header">オーバーレイを使う</string>
+    <string name="instructions_multi_target_overlay_play_tap">タップ：クリックを開始/停止します。</string>
+    <string name="instructions_multi_target_overlay_remove_hold">ホールド：すべてのターゲットを削除します。</string>
+    <string name="instructions_multi_target_overlay_remove_tap">タップ：最後の追加ターゲットを削除します。</string>
+    <string name="instructions_multi_target_overlay_settings_tap">タップ：オプションと設定を開きます。</string>
+    <string name="instructions_multi_target_proper_settings">"お使いの携帯電話とそのさまざまなアプリには、クリック方法や速度に制限があります。
+
+50ミリ秒より速くクリックすると、アプリでクリックが登録されなかったり、携帯電話がロックされたりする可能性があることに注意してください。
+
+以上の問題が発生した場合は、携帯電話をロックするか、電源を切ってアプリケーションを停止して構成を変更してください。"</string>
+    <string name="instructions_multi_target_proper_settings_header">正しい設定</string>
+    <string name="instructions_multi_target_subtitle">マルチターゲット・モード</string>
+    <string name="instructions_multi_target_swipe">プラス記号を押したままにすると、新しいスワイプターゲットが画面に追加されます。これらのターゲットは「開始」と表示された円の中心から「終了」と表示された円の中心に向かってスワイプします。</string>
+    <string name="instructions_multi_target_swipe_header">スワイプターゲットの設定</string>
+    <string name="instructions_multi_target_target">プラス記号をタップすると新しいターゲットが作成されます。各ターゲットには番号が付けられており、順番に実行されます。クリック/スワイプはすべてターゲットの中心から発生します。最後のターゲットが実行された後、その順番は最初のターゲットに戻ります。</string>
+    <string name="instructions_multi_target_target_header">ターゲットの追加</string>
+    <string name="instructions_onoff_abort">"携帯電話をロックするか画面をオフにすると、アプリケーションが一時停止します。
+
+携帯電話が応答しない、またはフリーズしたように見える場合は、電源ボタンを1回押してクリッカーを強制停止させてください。"</string>
+    <string name="instructions_single_target_base">説明書をお読みになり、このアプリケーションの使い方を覚えてください。</string>
+    <string name="instructions_single_target_closing">X記号をタップするとオーバーレイが閉じて、アプリケーションが停止します。</string>
+    <string name="instructions_single_target_closing_header">オーバーレイを閉じる</string>
+    <string name="instructions_single_target_moving">オーバーレイの両側を<b>ドラッグ</b>して画面上で動かします。</string>
+    <string name="instructions_single_target_moving_header">オーバーレイを移動する</string>
+    <string name="instructions_single_target_onoff">"再生ボタンをタップすると、オーバーレイが緑色に変わり、クリックし始めます。
+
+一時停止ボタンを押すまでオーバーレイの位置を変えることはできません。"</string>
+    <string name="instructions_single_target_onoff_header">起動と停止</string>
+    <string name="instructions_single_target_subtitle">シングルターゲット・モード</string>
+    <string name="instructions_single_target_target">①オーバーレイの両側を<b>タップ</b>して、クリックするコーナーを変更します。これにより、画面のコーナーすべてをクリックすることができます。</string>
+    <string name="instructions_single_target_target_header">ターゲットのコーナーを変更する</string>
+    <string name="instructions_take_a_moment">この説明書をお読みになり、このアプリケーションの使い方を覚えてください。</string>
+    <string name="load">読み込む</string>
+    <string name="load_config">構成の読み込み：</string>
+    <string name="manage_configurations">構成を管理する</string>
+    <string name="name">名称</string>
+    <string name="no">いいえ</string>
+    <string name="no_configs_to_load">読み込むための構成は保存されていません。</string>
+    <string name="none">無し</string>
+    <string name="not_set">設定されていません</string>
+    <string name="ok">OK</string>
+    <string name="open_multi_target_mode_no_config">マルチターゲット・モードを開く（構成なし）</string>
+    <string name="open_single_target_mode">シングルターゲット・モードを開く</string>
+    <string name="overlay_permission">オーバーレイ権限</string>
+    <string name="overlay_permission_text">この権限を与えると、オートクリッカーの制御に使用するオーバーレイを作成することができます。</string>
+    <string name="overwrite_current_config">現在の構成を上書きしますか？</string>
+    <string name="overwrite_current_config_confirm">現在の構成を上書きしますか？</string>
+    <string name="pause_on_app_change">アプリ変更時に一時停止する</string>
+    <string name="pixels">ピクセル</string>
+    <string name="please_note">ご注意ください</string>
+    <string name="preserve_location">物理的なターゲットの位置を保存する</string>
+    <string name="randomization_radius">ランダム化された半径</string>
+    <string name="randomization_range">ランダム化された範囲</string>
+    <string name="remove">削除する</string>
+    <string name="remove_ads">広告を削除する</string>
+    <string name="remove_ads_description">自動クリッカーからすべての広告を削除します。</string>
+    <string name="run_indefinitely">無期限に実行する</string>
+    <string name="runs">実行</string>
+    <string name="save">保存する</string>
+    <string name="select_type">アクションの種類を選択します：</string>
+    <string name="set_config_copy_name">このコピーに名称を設定します：</string>
+    <string name="set_config_name">この構成に名称を設定します：</string>
+    <string name="settings">設定</string>
+    <string name="show_active_targets">アクティブなターゲットを表示する</string>
+    <string name="skip">スキップする</string>
+    <string name="start_coordinates_noun">座標開始</string>
+    <string name="start_delay_title_noun">遅延開始</string>
+    <string name="start_multi_target_mode">開始：マルチターゲット・モード</string>
+    <string name="start_noun">開始</string>
+    <string name="start_single_target_mode">開始：シングルターゲット・モード</string>
+    <string name="start_verb">開始</string>
+    <string name="stop_after">後に停止する</string>
+    <string name="stop_after_amount_of_time">一定時間後に停止する</string>
+    <string name="stop_after_run_count">実行カウント後に停止する</string>
+    <string name="stop_at_specific_time">特定の時間に停止する</string>
+    <string name="target_programmability">ターゲットのプログラマビリティ</string>
+    <string name="thanks_for_buying">ご購入ありがとうございます</string>
+    <string name="time_between_clicks">クリック間の時間</string>
+    <string name="title_disable_after">後に無効にする</string>
+    <string name="title_duration">持続時間</string>
+    <string name="title_edit_action">アクションを編集する</string>
+    <string name="title_edit_configuration">構成を編集する%1$s</string>
+    <string name="title_repeat">リピート</string>
+    <string name="title_saved_configurations">構成を保存しました</string>
+    <string name="title_settings_auto_start">設定 - 自動スタート</string>
+    <string name="title_settings_multi_target">設定 - マルチターゲット</string>
+    <string name="title_settings_single_target">設定 - シングルターゲット</string>
+    <string name="unknown">不明</string>
+    <string name="update">更新する</string>
+    <string name="warning">警告</string>
+    <string name="welcome">ようこそ</string>
+    <string name="welcome_text">タップ/クリックの自動化を開始する前に、オートクリッカーにデバイスへの追加権限を付与する必要があります。</string>
+    <string name="why_ads">広告が表示されるのは、なぜですか？</string>
+    <string name="why_ads_body">"SimpleHat Softwareでは、有料、無料に関係なく、また機能の制限を設けることなく最高のアプリケーションをユーザーにお届けしたいと考えています。
+
+しかし、新機能を開発し、新規デバイスに対応するには資金を必要とします。
+
+当社としましては、これらの広告ができるたけユーザーに邪魔にならないよう配慮しています。皆様のご理解をお願いいたします。"</string>
+    <string name="yes">はい</string>
+</resources>

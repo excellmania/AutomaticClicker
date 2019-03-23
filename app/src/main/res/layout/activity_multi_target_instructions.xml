@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="28.0sp" android:textColor="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/instructions" android:textAlignment="center" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/instructions_multi_target_subtitle" android:textAlignment="center" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/instructions_take_a_moment" />
+            <TextView android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/instructions_multi_target_overlay_header" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/instructions_multi_target_overlay" />
+            <LinearLayout android:paddingLeft="8.0dip" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <include layout="@layout/view_multi_target_controls_diagram" />
+            </LinearLayout>
+            <TextView android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/instructions_multi_target_target_header" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/instructions_multi_target_target" />
+            <TextView android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/instructions_multi_target_configuring" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/instructions_multi_target_configuring_body" />
+            <TextView android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/instructions_multi_target_swipe_header" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/instructions_multi_target_swipe" />
+            <TextView android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/instructions_multi_target_proper_settings_header" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/instructions_multi_target_proper_settings" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/about_ads" android:layout_alignParentLeft="true">
+                    <TextView android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/about_ads" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/about_ads_body" />
+                </LinearLayout>
+                <include android:id="@id/about_ads" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" layout="@layout/overlay_multi_controls" />
+            </RelativeLayout>
+            <TextView android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/why_ads" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="25.0dip" android:text="@string/why_ads_body" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_ads">Reklamlarımız Hakkında</string>
+    <string name="about_ads_body">"Katman mavi olduğunda, reklam gösterilmeye hazır demektir.
+
+Oynat düğmesini tıkladığınızda, reklam gösterilecek ve katman normal rengine dönecektir - bu basma işleminden sonra her zamanki gibi tıklama başlayacaktır.
+
+Katman, aktif olarak tıklama yaparken hariç olmak üzere her birkaç dakikada bir reklam hazırlar."</string>
+    <string name="accessibility_service">Erişilebilirlik Hizmeti</string>
+    <string name="accessibility_service_description">"Bu erişilebilirlik hizmetini etkinleştirmek, Otomatik Tıklayıcı'nın sizin adınıza dokunma/tıklama yapmasını sağlar.
+
+Tüm erişilebilirlik hizmetleri için \"İşlemlerinizi İzleyin\" izni gereklidir. Yazılımımız açıkça talimat vermediğiniz sürece asla hiçbir veriyi toplamaz veya izlemez."</string>
+    <string name="accessibility_service_text">"Otomatik Tıklayıcı erişilebilirlik hizmetini başlatmanız, bu uygulamanın sizin adınıza tıklama / dokunma yapmasına izin verir. İstediğiniz zaman devre dışı bırakabilirsiniz ancak Otomatik Tıklayıcı'nın çalışması için etkinleştirilmesi gerekir."</string>
+    <string name="action_type">İşlem Türü</string>
+    <string name="app_name">Otomatik Tıklayıcı</string>
+    <string name="auto_start_settings">Otomatik Açma Ayarları</string>
+    <string name="cancel">İptal</string>
+    <string name="change">Değiştir</string>
+    <string name="click_duration">Tıklama Süresi</string>
+    <string name="clickswipe_duration">Tıklama/Kaydırma Süresi</string>
+    <string name="close">Kapat</string>
+    <string name="config_already_exists">"Bu ada sahip kaydedilmiş bir yapılandırma zaten var.
+
+ Üzerine yazmak ister misiniz?"</string>
+    <string name="confirm_delete_target">Bu hedef silinsin mi?</string>
+    <string name="coordinates">Koordinatlar</string>
+    <string name="copy">Kopyala</string>
+    <string name="copy_verb">Kopyala</string>
+    <string name="create">Oluştur</string>
+    <string name="current_configuration">Geçerli yapılandırma</string>
+    <string name="delay">Gecikme</string>
+    <string name="delete">Sil</string>
+    <string name="delete_action_confirm">Bu işlemi silmek istediğinize emin misiniz?</string>
+    <string name="delete_configuration_confirm">Bu yapılandırma silinsin mi?</string>
+    <string name="description_auto_start">Bu uygulamayı açarken gerçekleştirilecek varsayılan işlemi seçin.</string>
+    <string name="description_click_coordinates">Telefonunuzun ekranındaki tıklanacak koordinatlar.</string>
+    <string name="description_click_duration">Bu tıklamanın ne kadar süreyle basılı tutulacağını ayarlayın.</string>
+    <string name="description_click_duration_plural">Her tıklamanın basılı tutulacağı süreyi ayarlayın.</string>
+    <string name="description_clickswipe_duration_default">"Her bir işlemin varsayılan süresini ayarlayın.
+
+Tıklamalar için bu, tıklamanın ne kadar süreyle basılı tutulacağıdır.
+
+Kaydırmalar için bu, kaydırma işleminin ne kadar süreceğini kontrol eder."</string>
+    <string name="description_delay">Tıklamalar arası gecikmeyi ayarlayın.</string>
+    <string name="description_disable_after">"Bu işlemi devre dışı bırakmadan önce kaç tam çalışmanın gerçekleştireceğini ayarlayın.
+
+Bir tam çalışma tekrarlar içerir. Diğer işlemler etkilenmez.
+
+(0 = Devre Dışı Bırakma)"</string>
+    <string name="description_end_coordinates">Kaydırılacak bitiş ​​koordinatları.</string>
+    <string name="description_end_delay">Bu işlemden sonra oluşan gecikmeyi ayarlayın.</string>
+    <string name="description_end_delay_default">Her işlemden sonra oluşan varsayılan gecikmeyi ayarlayın.</string>
+    <string name="description_pause_on_app_change">"Etkinleştirildiğinde, uygulamalar arasında geçiş yaparken tıklama işlemi duraklar.
+
+Bu ayar aynı zamanda Android açılır bildirim çubuğunun tıklama alanına hareket etmesi durumunda tıklamayı duraklatır."</string>
+    <string name="description_preserve_physical_target_location">"Etkinleştirildiğinde, hedefler ekranınızı döndürürken fiziksel konumlarını koruyacaktır.
+
+Devre dışı bırakıldığında, hedefler ekranınızın sol üst köşesine göre konumlarını koruyacaktır."</string>
+    <string name="description_randomization_radius">"Tıklama/kaydırma koordinatının rastgele seçileceği hedefin çevresindeki yarıçapı piksel cinsinden ayarlayın.
+
+(0 = Rastgele Seçim yok)"</string>
+    <string name="description_randomization_range">"Rastgele bir değerin çekileceği bir zaman aralığı seçin.
+
+Bu değer daha sonra rastgele olarak gecikmeye eklenir veya gecikmeden çıkarılır.
+
+(0 = Rastgele Seçim yok)"</string>
+    <string name="description_repeat">"Bir sonraki işleme geçmeden önce bu işlemin kaç kez tekrarlanacağını ayarlayın.
+
+(0 = Tekrarlama)"</string>
+    <string name="description_show_active_targets">"Etkinleştirildiğinde, ekranınıza tıklandığında hedefler görünür olur ve yeşil renkte görüntülenir.
+
+Devre dışı bırakılırsa, tıklama sırasında hedefler görünmez olacaktır."</string>
+    <string name="description_start_coordinates">Kaydırılacak başlangıç ​​koordinatları.</string>
+    <string name="description_start_delay">Bu işlemden önce oluşan gecikmeyi ayarlayın.</string>
+    <string name="description_start_delay_default">Her işlemden önce oluşan varsayılan gecikmeyi ayarlayın.</string>
+    <string name="description_stop_after">Uygulamayı duraklatmak için bir tetikleyici seçin.</string>
+    <string name="description_stop_after_amount_of_time">Ne kadar süreyle tıklamak istediğinizi ayarlayın.</string>
+    <string name="description_stop_after_run_count">Tüm ayarlanan hedeflerde kaç kez çalıştırmak istediğinizi ayarlayın.</string>
+    <string name="description_stop_at_specific_time">Tıklamayı durdurmak için bir zaman belirleyin.</string>
+    <string name="description_swipe_duration">Bu kaydırmanın tamamlanması için ne kadar süre gerektiğini ayarlayın.</string>
+    <string name="description_target_programmability">"Etkinleştirildiğinde, bir hedefe dokunmak kendi ayarlarını belirlemenizi sağlar.
+
+Devre dışı bırakıldığında, hedefler sadece hareket ettirilebilir."</string>
+    <string name="disable">Devre dışı bırak</string>
+    <string name="disabled">Devre dışı</string>
+    <string name="display_coordinates">X: %1$d Y: %2$d</string>
+    <string name="display_edit_target_number">Hedefi Düzenle: %1$d</string>
+    <string name="display_max">Maks: %1$d</string>
+    <string name="display_min">Min: %1$d</string>
+    <string name="display_run_order_with_type">%1$d - Tür: %2$s</string>
+    <string name="display_stop_after">Şu süre sonrasında durdur: %1$s</string>
+    <string name="display_stop_after_runs">Şu kadar çalışma sonrasında durdur: %1$s çalışma</string>
+    <string name="display_value_with_range">%1$s ± %2$s</string>
+    <string name="display_value_with_unit">%1$s %2$s</string>
+    <string name="do_not_disable">Devre Dışı Bırakma</string>
+    <string name="do_not_repeat">Tekrarlama</string>
+    <string name="do_nothing">Hiçbir şey yapma</string>
+    <string name="enable">Etkinleştir</string>
+    <string name="enabled">Etkin</string>
+    <string name="end_coordinates_noun">Bitiş Koordinatları</string>
+    <string name="end_delay_title_noun">Gecikmeyi Sonlandır</string>
+    <string name="end_noun">Bitiş</string>
+    <string name="end_verb">Bitiş</string>
+    <string name="first_use_multi_mode_end">"Bu uygulamayı ve özelliklerini tam olarak anlamak için ayrıntılı talimatları okumanızı öneririz.
+
+Şimdi oraya gitmek ister misiniz?"</string>
+    <string name="first_use_multi_mode_start">"Bu modu ilk kez kullanıyor gibisiniz.
+
+Lütfen bir dakikanızı ayırın ve kontrol haritamızı gözden geçirin:"</string>
+    <string name="first_use_single_mode">"Bu modu ilk kez kullanıyor gibisiniz.
+
+Lütfen bir dakikanızı ayırarak uygulama içindeki tüm özellikleri görmek için talimatları okuyun.
+
+Şimdi oraya gitmek ister misiniz?"</string>
+    <string name="grant_verb">Yetki Ver</string>
+    <string name="header_actions">İşlemler:</string>
+    <string name="header_advanced_settings">Gelişmiş Ayarlar:</string>
+    <string name="header_basic_settings">Temel Ayarlar:</string>
+    <string name="header_default_settings">Varsayılan Ayarlar:</string>
+    <string name="header_delay">Gecikme:</string>
+    <string name="header_randomization">Rastgele Seçim:</string>
+    <string name="header_settings">Ayarlar:</string>
+    <string name="infinity">∞</string>
+    <string name="instructions">Talimatlar</string>
+    <string name="instructions_emergency_stop">Acil durdurma</string>
+    <string name="instructions_multi_target_configuring">Bir Hedefi Yapılandırma</string>
+    <string name="instructions_multi_target_configuring_body">Bir hedefe dokunduğunuzda ayarları yapılandırabilirsiniz. Her hedef çeşitli ayarlarla ayrı ayrı yapılandırılabilir.</string>
+    <string name="instructions_multi_target_overlay">Çoklu hedef modu katmanı, dokunup dokunmadığınıza veya basılı tutup tutmadığınıza bağlı olarak işleve göre değişen beş adet düğmeye sahiptir.</string>
+    <string name="instructions_multi_target_overlay_add_hold">Basılı tutma: Bir kaydırma hedefi ekler.</string>
+    <string name="instructions_multi_target_overlay_add_tap">Dokunma: Bir tıklama hedefi ekler.</string>
+    <string name="instructions_multi_target_overlay_collapse_hold">Basılı tutma: Katmanı yeniden konumlandırır.</string>
+    <string name="instructions_multi_target_overlay_collapse_tap">Dokunma: Tüm katmanları daraltır.</string>
+    <string name="instructions_multi_target_overlay_header">Katmanı Kullanma</string>
+    <string name="instructions_multi_target_overlay_play_tap">Dokunma: Tıklamayı başlatır / durdurur.</string>
+    <string name="instructions_multi_target_overlay_remove_hold">Basılı tutma: Tüm hedefleri kaldırır.</string>
+    <string name="instructions_multi_target_overlay_remove_tap">Dokunma: Eklenen son hedefi kaldırır.</string>
+    <string name="instructions_multi_target_overlay_settings_tap">Dokunma: Seçenekleri ve ayarları açar.</string>
+    <string name="instructions_multi_target_proper_settings">"Telefonunuzun ve çeşitli uygulamalarının nasıl ve hangi hızda tıklanabilecekleri konusunda sınırlamaları vardır.
+
+50 milisaniyeden daha hızlı tıklamanın, bir uygulamanın tıklamayı kaydetmemesine veya telefonunuzun kilitlenmesine neden olabileceğini unutmayın.
+
+Bu sorunlardan herhangi biri meydana gelirse, uygulamayı durdurmak ve yapılandırmayı değiştirmek için lütfen telefonunuzu kilitleyin veya ekranınızı kapatın."</string>
+    <string name="instructions_multi_target_proper_settings_header">Uygun Ayarlar</string>
+    <string name="instructions_multi_target_subtitle">Çoklu Hedef Modu</string>
+    <string name="instructions_multi_target_swipe">Artı işaretini basılı tuttuğunuzda ekranınıza yeni bir kaydırma hedefi eklenir. Bunlar \"başlat\" olarak etiketlenen dairenin ortasından \"son\" olarak etiketlenen dairenin ortasına doğru kayacaktır.</string>
+    <string name="instructions_multi_target_swipe_header">Bir Kaydırma Hedefi Ayarlama</string>
+    <string name="instructions_multi_target_target">Artı işaretine dokunulduğunda yeni bir hedef oluşur. Her bir hedef numaralandırılır ve sıra ile çalışır. Tüm tıklamalar / kaydırmalar-çekmeler hedefin merkezinden başlar. Son hedef çalıştıktan sonra dizi tekrar başa döner.</string>
+    <string name="instructions_multi_target_target_header">Hedef Ekleme</string>
+    <string name="instructions_onoff_abort">"Telefonunuzu kilitlemek veya ekranınızı kapatmak uygulamayı duraklatır.
+
+Telefonunuz yanıt vermiyorsa veya donuyorsa, tıklayıcıyı durmaya zorlamak için güç düğmesine bir kez basın."</string>
+    <string name="instructions_single_target_base">Lütfen talimatlarımızı okumak ve bu uygulamayı nasıl kullanacağınızı öğrenmek için bir dakikanızı ayırın.</string>
+    <string name="instructions_single_target_closing">X sembolüne dokunduğunuzda, katman kapanır ve uygulamayı durur.</string>
+    <string name="instructions_single_target_closing_header">Katmanı Kapatma</string>
+    <string name="instructions_single_target_moving">Katmanın kenarlarını <b>sürükleyerek</b> ekranda hareket ettirin.</string>
+    <string name="instructions_single_target_moving_header">Katmanı Taşıma</string>
+    <string name="instructions_single_target_onoff">"Oynat düğmesine dokunduğunuzda, katman yeşile dönecek ve sizin için tıklamaya başlayacaktır.
+
+Duraklat düğmesine basıncaya kadar katmanı yeniden konumlandıramazsınız."</string>
+    <string name="instructions_single_target_onoff_header">Başlatma ve Durdurma</string>
+    <string name="instructions_single_target_subtitle">Tek Hedef Modu</string>
+    <string name="instructions_single_target_target">Katmanın kenarlarına <b>dokunarak</b> hangi köşeden tıklayacağınızı değiştirin. Bu, ekranınızın herhangi bir köşesine tıklamanızı sağlar.</string>
+    <string name="instructions_single_target_target_header">Hedef Köşeyi Değiştirme</string>
+    <string name="instructions_take_a_moment">Lütfen bu talimatları okumak ve bu uygulamayı nasıl kullanacağınızı öğrenmek için biraz zaman ayırın.</string>
+    <string name="load">Yükle</string>
+    <string name="load_config">Yapılandırmayı yükleyin:</string>
+    <string name="manage_configurations">Yapılandırmaları Yönet</string>
+    <string name="name">Adı</string>
+    <string name="no">Hayır</string>
+    <string name="no_configs_to_load">Yüklenecek kaydedilmiş yapılandırmanız yok.</string>
+    <string name="none">Yok</string>
+    <string name="not_set">Ayarlanmadı</string>
+    <string name="ok">Tamam</string>
+    <string name="open_multi_target_mode_no_config">Çoklu Hedef Modunu Aç (Yapılandırma Yok)</string>
+    <string name="open_single_target_mode">Tek Hedef Modunu Aç</string>
+    <string name="overlay_permission">Katman İzni</string>
+    <string name="overlay_permission_text">"Bu izni vermek, Otomatik Tıklayıcı'yı kontrol etmek için kullandığınız katmanı oluşturmamızı sağlar."</string>
+    <string name="overwrite_current_config">Mevcut yapılandırmanın üzerine yazılsın mı?</string>
+    <string name="overwrite_current_config_confirm">Mevcut yapılandırmanın üzerine yazmak istediğinize emin misiniz?</string>
+    <string name="pause_on_app_change">Uygulama Değişikliğini Duraklat</string>
+    <string name="pixels">Piksel</string>
+    <string name="please_note">Lütfen unutmayın</string>
+    <string name="preserve_location">Fiziksel Hedef Konumunu Koru</string>
+    <string name="randomization_radius">Rastgele Seçim Yarıçapı</string>
+    <string name="randomization_range">Rastgele Seçim Aralığı</string>
+    <string name="remove">Kaldır</string>
+    <string name="remove_ads">Reklamları kaldır</string>
+    <string name="remove_ads_description">"Otomatik Tıklayıcı'dan tüm reklamları kaldır."</string>
+    <string name="run_indefinitely">Süresiz Çalıştır</string>
+    <string name="runs">Çalışma</string>
+    <string name="save">Kaydet</string>
+    <string name="select_type">İşlem türünü seçin:</string>
+    <string name="set_config_copy_name">Bu kopya için bir ad belirleyin:</string>
+    <string name="set_config_name">Bu yapılandırma için bir ad belirleyin:</string>
+    <string name="settings">Ayarlar</string>
+    <string name="show_active_targets">Aktif Hedefleri Göster</string>
+    <string name="skip">Atla</string>
+    <string name="start_coordinates_noun">Başlangıç Koordinatları</string>
+    <string name="start_delay_title_noun">Gecikmeyi Başlat</string>
+    <string name="start_multi_target_mode">Başlat: Çoklu Hedef Modu</string>
+    <string name="start_noun">Başlangıç</string>
+    <string name="start_single_target_mode">Başlat: Tek Hedef Modu</string>
+    <string name="start_verb">Başlangıç</string>
+    <string name="stop_after">Sonrasında Durdur</string>
+    <string name="stop_after_amount_of_time">Bir Süre Sonra Durdur</string>
+    <string name="stop_after_run_count">Çalışma Sayısından Sonra Durdur</string>
+    <string name="stop_at_specific_time">Belirli Bir Zamanda Durdur</string>
+    <string name="target_programmability">Hedef Programlanabilirliği</string>
+    <string name="thanks_for_buying">Satın aldığınız için teşekkürler</string>
+    <string name="time_between_clicks">Tıklamalar Arası Süre</string>
+    <string name="title_disable_after">Sonrasında Devre Dışı Bırak</string>
+    <string name="title_duration">Süre</string>
+    <string name="title_edit_action">Eylemi Düzenle</string>
+    <string name="title_edit_configuration">Yapılandırmayı Düzenle: %1$s</string>
+    <string name="title_repeat">Tekrarla</string>
+    <string name="title_saved_configurations">Kaydedilen Yapılandırmalar</string>
+    <string name="title_settings_auto_start">Ayarlar - Otomatik Başlat</string>
+    <string name="title_settings_multi_target">Ayarlar - Çoklu Hedef</string>
+    <string name="title_settings_single_target">Ayarlar - Tek Hedef</string>
+    <string name="unknown">Bilinmiyor</string>
+    <string name="update">Güncelle</string>
+    <string name="warning">Uyarı</string>
+    <string name="welcome">HOŞ GELDİNİZ</string>
+    <string name="welcome_text">"Otomatik dokunmalara/tıklamalara başlamadan önce, cihazınızda Otomatik Tıklayıcı'ya ek haklar vermeniz gerekir."</string>
+    <string name="why_ads">Niçin Reklam Gösteriyoruz?</string>
+    <string name="why_ads_body">"SimpleHat Software olarak mevcut özellikleri sınırlamadan tüm kullanıcılarımıza ücretli veya ücretsiz olarak en iyi uygulamaları sunmak istiyoruz.
+
+Bununla birlikte, yeni özellikler ve yeni cihazların desteği için devam eden gelişimleri de finanse etmemiz gerekiyor.
+
+Amacımız bu reklamları kullanıcılarımız için mümkün olduğunca göze çarpmayan hale getirmektir. Anlayışınız için teşekkür ederiz."</string>
+    <string name="yes">Evet</string>
+</resources>

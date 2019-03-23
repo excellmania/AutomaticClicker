@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">瀏覽首頁</string>
+    <string name="abc_action_bar_up_description">向上瀏覽</string>
+    <string name="abc_action_menu_overflow_description">更多選項</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">選擇應用程式</string>
+    <string name="abc_capital_off">關閉</string>
+    <string name="abc_capital_on">開啟</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Delete 鍵</string>
+    <string name="abc_menu_enter_shortcut_label">Enter 鍵</string>
+    <string name="abc_menu_function_shortcut_label">Fn +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">空格鍵</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menu +</string>
+    <string name="abc_search_hint">搜尋…</string>
+    <string name="abc_searchview_description_clear">清除查詢</string>
+    <string name="abc_searchview_description_query">搜尋查詢</string>
+    <string name="abc_searchview_description_search">搜尋</string>
+    <string name="abc_searchview_description_submit">提交查詢</string>
+    <string name="abc_searchview_description_voice">語音搜尋</string>
+    <string name="abc_shareactionprovider_share_with">選擇分享對象</string>
+    <string name="abc_shareactionprovider_share_with_application">與「%s」分享</string>
+    <string name="abc_toolbar_collapse_description">收合</string>
+    <string name="about_ads">關於我們的廣告</string>
+    <string name="about_ads_body">"當覆蓋層為藍色時，表示它已經準備顯示廣告。
+
+點擊播放按鈕時，廣告將顯示，覆蓋層將恢復正常顏色 - 此後按下播放將正常開始點擊。
+
+覆蓋層將每隔幾分鐘準備一次廣告，但從不在活躍點擊過程中出現。"</string>
+    <string name="accessibility_service">無障礙服務</string>
+    <string name="accessibility_service_description">"啟用此無障礙服務允許自動點擊器代表你發送輕擊/點擊。
+
+所有無障礙服務都需要“觀察你的操作”。我們的軟件決不會監控或收集你未明確指示的任何數據。"</string>
+    <string name="accessibility_service_text">開啟自動點擊器無障礙服務允許此應用程式代表你發送點擊/輕擊。你可以隨時將其禁用，但需啟用它才能運行自動點擊器。</string>
+    <string name="action_type">操作類型</string>
+    <string name="app_name">自動點擊器</string>
+    <string name="auto_start_settings">自動打開設定</string>
+    <string name="cancel">取消</string>
+    <string name="change">更改</string>
+    <string name="click_duration">點擊的持續時間</string>
+    <string name="clickswipe_duration">點擊/滑動持續時間</string>
+    <string name="close">關閉</string>
+    <string name="common_google_play_services_unknown_issue">「%1$s」無法存取 Google Play 服務，請再試一次。</string>
+    <string name="config_already_exists">"存在此名稱的已儲存配置。
+
+ 你要覆蓋它嗎？"</string>
+    <string name="confirm_delete_target">刪除此目標？</string>
+    <string name="coordinates">坐標</string>
+    <string name="copy">複製</string>
+    <string name="copy_verb">複製</string>
+    <string name="create">創建</string>
+    <string name="current_configuration">當前配置</string>
+    <string name="delay">延遲</string>
+    <string name="delete">刪除</string>
+    <string name="delete_action_confirm">確定刪除此操作？</string>
+    <string name="delete_configuration_confirm">刪除此配置？</string>
+    <string name="description_auto_start">選擇打開此應用程式時要執行的默認操作。</string>
+    <string name="description_click_coordinates">點擊的手機熒幕坐標。</string>
+    <string name="description_click_duration">設定該點擊的按住時間。</string>
+    <string name="description_click_duration_plural">設定每次點擊的按住時間。</string>
+    <string name="description_clickswipe_duration_default">"設定每個操作的默認持續時間。
+
+對於點擊，此為點擊的按住時間長度。
+
+對於滑動，它將控制滑動完成所需的時間。"</string>
+    <string name="description_delay">設定點擊之間的延遲。</string>
+    <string name="description_disable_after">"設定在禁用此操作之前完成的完整運行次數。
+
+一次完整運行包括任何重複。其他操作不會受到影響。
+
+（0=不禁用）"</string>
+    <string name="description_end_coordinates">滑動的結束坐標。</string>
+    <string name="description_end_delay">設定此操作後發生的延遲。</string>
+    <string name="description_end_delay_default">設定每個操作後發生的默認延遲。</string>
+    <string name="description_pause_on_app_change">"啟用後，在應用程式之間切換時點擊將暫停。
+
+如果安卓下拉通知欄移動到點擊區域，此設定也會暫停點擊。"</string>
+    <string name="description_preserve_physical_target_location">"啟用後，目標將在旋轉屏幕時保持其物理位置。
+
+禁用後，目標將保持其相對於屏幕左上角的位置。"</string>
+    <string name="description_randomization_radius">"設定環繞目標的半徑（以像素為單位），點擊/滑動的坐標將從中隨機選擇。
+
+（0=無隨機化）"</string>
+    <string name="description_randomization_range">"選擇從中繪製隨機值的時間間隔。
+
+該值隨後將從延遲中隨機地添加或減去。
+
+（0=無隨機化）"</string>
+    <string name="description_repeat">"設定在繼續下一個操作之前，此操作的重複次數。
+
+（0=不重複）"</string>
+    <string name="description_show_active_targets">"啟用後，點擊熒幕時目標將可見並標為綠色。
+
+如果禁用，點擊時目標將不可見。"</string>
+    <string name="description_start_coordinates">滑動的開始坐標。</string>
+    <string name="description_start_delay">設定此操作前發生的延遲。</string>
+    <string name="description_start_delay_default">設定每個操作前發生的默認延遲。</string>
+    <string name="description_stop_after">選擇暫停應用程式的觸發器。</string>
+    <string name="description_stop_after_amount_of_time">設定要點擊的時間長度。</string>
+    <string name="description_stop_after_run_count">設定你要在所有已設定目標中運行的次數。</string>
+    <string name="description_stop_at_specific_time">設定停止點擊的時間。</string>
+    <string name="description_swipe_duration">設定該滑動完成所需的時間。</string>
+    <string name="description_target_programmability">"啟用後，點擊目標可以對其進行單獨設定。
+
+ 禁用後，只能移動目標。"</string>
+    <string name="disable">禁用</string>
+    <string name="disabled">已禁用</string>
+    <string name="display_coordinates">X：%1$d Y：%2$d</string>
+    <string name="display_edit_target_number">編輯目標：%1$d</string>
+    <string name="display_max">最大：%1$d</string>
+    <string name="display_min">最小：%1$d</string>
+    <string name="display_run_order_with_type">%1$d - 類型：%2$s</string>
+    <string name="display_stop_after">於此之後停止：%1$s</string>
+    <string name="display_stop_after_runs">於此之後停止：%1$s次運行</string>
+    <string name="display_value_with_range">%1$s ± %2$s</string>
+    <string name="display_value_with_unit">%1$s %2$s</string>
+    <string name="do_not_disable">不禁用</string>
+    <string name="do_not_repeat">不重複</string>
+    <string name="do_nothing">無操作</string>
+    <string name="enable">啟用</string>
+    <string name="enabled">已啟用</string>
+    <string name="end_coordinates_noun">結束坐標</string>
+    <string name="end_delay_title_noun">結束延遲</string>
+    <string name="end_noun">結束</string>
+    <string name="end_verb">結束</string>
+    <string name="first_use_multi_mode_end">"我們建議你閱讀詳細說明，以完全了解此應用程式及其功能。
+
+現在前往嗎？"</string>
+    <string name="first_use_multi_mode_start">"看起來這是你第一次使用此模式。
+
+請花點時間查看我們的控製圖："</string>
+    <string name="first_use_single_mode">"看起來這是你第一次使用此模式。
+
+請花點時間閱讀說明，了解應用程式的所有功能。
+
+現在前往嗎？"</string>
+    <string name="grant_verb">授予</string>
+    <string name="header_actions">操作：</string>
+    <string name="header_advanced_settings">高級設定：</string>
+    <string name="header_basic_settings">基本設定：</string>
+    <string name="header_default_settings">默認設定：</string>
+    <string name="header_delay">延遲：</string>
+    <string name="header_randomization">隨機化：</string>
+    <string name="header_settings">設定：</string>
+    <string name="infinity">∞</string>
+    <string name="instructions">說明</string>
+    <string name="instructions_emergency_stop">緊急停止</string>
+    <string name="instructions_multi_target_configuring">配置目標</string>
+    <string name="instructions_multi_target_configuring_body">通過點擊目標可以配置其設定。每個目標都可以單獨配置各種設定。</string>
+    <string name="instructions_multi_target_overlay">多目標模式覆蓋層有五個功能不同的按鈕，具體取決於你是點擊還是按住它們。</string>
+    <string name="instructions_multi_target_overlay_add_hold">按住：添加滑動目標。</string>
+    <string name="instructions_multi_target_overlay_add_tap">點擊：添加點擊目標。</string>
+    <string name="instructions_multi_target_overlay_collapse_hold">按住：重新定位覆蓋層。</string>
+    <string name="instructions_multi_target_overlay_collapse_tap">點擊：折疊所有覆蓋層。</string>
+    <string name="instructions_multi_target_overlay_header">使用覆蓋層</string>
+    <string name="instructions_multi_target_overlay_play_tap">點擊：開始/停止點擊。</string>
+    <string name="instructions_multi_target_overlay_remove_hold">按住：移除所有目標。</string>
+    <string name="instructions_multi_target_overlay_remove_tap">點擊：移除最後添加的目標。</string>
+    <string name="instructions_multi_target_overlay_settings_tap">點擊：打開選項和設定。</string>
+    <string name="instructions_multi_target_proper_settings">"你的手機和裡面的各種應用程式將對它們的點擊狀況和速率產生限制。
+
+請務必注意，點擊間隔快於50毫秒可能會導致應用程式無法註冊點擊或可能鎖定你的手機。
+
+如出現上述任何問題，請鎖定手機或關閉熒幕電源以停止應用程式，然後更改配置。"</string>
+    <string name="instructions_multi_target_proper_settings_header">正確的設定</string>
+    <string name="instructions_multi_target_subtitle">多目標模式</string>
+    <string name="instructions_multi_target_swipe">按住加號將在熒幕上添加新的滑動目標。將從標記為“開始”的圓圈中心向標記為“結束”的圓圈中心滑動。</string>
+    <string name="instructions_multi_target_swipe_header">設定滑動目標</string>
+    <string name="instructions_multi_target_target">點擊加號將創建一個新目標。每個目標都有編號，並將按順序運行。所有點擊/滑動都發生於目標的中心。在最後一個目標運行後，序列將循環回到第一個目標。</string>
+    <string name="instructions_multi_target_target_header">添加目標</string>
+    <string name="instructions_onoff_abort">"鎖定手機或關閉屏幕將暫停應用程式。
+
+如果你的手機沒有響應或看起來已經凍屏，請按電源按鈕強制點擊器停止。"</string>
+    <string name="instructions_single_target_base">請花點時間閱讀我們的說明並了解如何使用此應用程式。</string>
+    <string name="instructions_single_target_closing">點擊X符號將關閉覆蓋層並停止應用程式。</string>
+    <string name="instructions_single_target_closing_header">關閉覆蓋層</string>
+    <string name="instructions_single_target_moving">" "<b>拖動</b>覆蓋層的邊緣可在熒幕上移動它。</string>
+    <string name="instructions_single_target_moving_header">移動覆蓋層</string>
+    <string name="instructions_single_target_onoff">"當你點擊播放按鈕時，覆蓋層將變為綠色並開始點擊。
+
+在按暫停按鈕之前，無法重新定位覆蓋層。"</string>
+    <string name="instructions_single_target_onoff_header">開始和停止</string>
+    <string name="instructions_single_target_subtitle">單目標模式</string>
+    <string name="instructions_single_target_target">" "<b>點擊</b>覆蓋層的邊緣以更改要點擊的角落。這樣你可以點擊熒幕的任何角落。</string>
+    <string name="instructions_single_target_target_header">改變目標角落</string>
+    <string name="instructions_take_a_moment">請花點時間閱讀這些說明並了解如何使用此應用程式。</string>
+    <string name="load">加載</string>
+    <string name="load_config">加載配置：</string>
+    <string name="manage_configurations">管理配置</string>
+    <string name="name">名稱</string>
+    <string name="no">否</string>
+    <string name="no_configs_to_load">你沒有可加載的已儲存配置。</string>
+    <string name="none">無</string>
+    <string name="not_set">沒有設定</string>
+    <string name="ok">好的</string>
+    <string name="open_multi_target_mode_no_config">打開多目標模式（無配置）</string>
+    <string name="open_single_target_mode">打開單目標模式</string>
+    <string name="overlay_permission">覆蓋許可</string>
+    <string name="overlay_permission_text">授予此權限允許我們創建你用來控制自動點擊器的覆蓋層。</string>
+    <string name="overwrite_current_config">覆蓋當前配置？</string>
+    <string name="overwrite_current_config_confirm">確定覆蓋當前配置？</string>
+    <string name="pause_on_app_change">暫停應用程式更改</string>
+    <string name="pixels">像素</string>
+    <string name="please_note">請注意</string>
+    <string name="preserve_location">保留物理目標位置</string>
+    <string name="randomization_radius">隨機化半徑</string>
+    <string name="randomization_range">隨機化範圍</string>
+    <string name="remove">移除</string>
+    <string name="remove_ads">移除廣告</string>
+    <string name="remove_ads_description">從自動點擊器移除所有廣告。</string>
+    <string name="run_indefinitely">無限期運行</string>
+    <string name="runs">運行</string>
+    <string name="s1">儲存圖片</string>
+    <string name="s2">要允許廣告將圖片儲存在相片庫中嗎？</string>
+    <string name="s3">接受</string>
+    <string name="s4">拒絕</string>
+    <string name="s5">建立日曆活動</string>
+    <string name="s6">要允許廣告建立日曆活動嗎？</string>
+    <string name="s7">測試廣告</string>
+    <string name="save">儲存</string>
+    <string name="search_menu_title">搜尋</string>
+    <string name="select_type">選擇操作類型：</string>
+    <string name="set_config_copy_name">為此副本設定名稱：</string>
+    <string name="set_config_name">為此配置設定名稱：</string>
+    <string name="settings">設定</string>
+    <string name="show_active_targets">顯示活動目標</string>
+    <string name="skip">跳躍</string>
+    <string name="start_coordinates_noun">開始坐標</string>
+    <string name="start_delay_title_noun">開始延遲</string>
+    <string name="start_multi_target_mode">開始：多目標模式</string>
+    <string name="start_noun">開始</string>
+    <string name="start_single_target_mode">開始：單目標模式</string>
+    <string name="start_verb">開始</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stop_after">於此之後停止</string>
+    <string name="stop_after_amount_of_time">一段時間後停止</string>
+    <string name="stop_after_run_count">運行一定次數後停止</string>
+    <string name="stop_at_specific_time">在特定時間停止</string>
+    <string name="target_programmability">目標可編程性</string>
+    <string name="thanks_for_buying">感謝購買</string>
+    <string name="time_between_clicks">點擊的時間間隔</string>
+    <string name="title_disable_after">於此之後禁用</string>
+    <string name="title_duration">持續時間</string>
+    <string name="title_edit_action">編輯操作</string>
+    <string name="title_edit_configuration">編輯配置：%1$s</string>
+    <string name="title_repeat">重複</string>
+    <string name="title_saved_configurations">儲存的配置</string>
+    <string name="title_settings_auto_start">設定 - 自動開始</string>
+    <string name="title_settings_multi_target">設定 - 多目標</string>
+    <string name="title_settings_single_target">設定 - 單目標</string>
+    <string name="unknown">未知</string>
+    <string name="update">更新</string>
+    <string name="warning">警告</string>
+    <string name="welcome">歡迎</string>
+    <string name="welcome_text">開始自動輕擊/點擊前，你需要在設備上授予自動點擊器附加權限。</string>
+    <string name="why_ads">我們為什麼要顯示廣告？</string>
+    <string name="why_ads_body">"在SimpleHat Software，我們希望為所有用戶提供最好的付費或免費應用程式，不限制可用功能。
+
+但是，我們需要資助正在進行的新功能開發和新設備支持。
+
+我們的目標是讓這些廣告對用戶來說盡可能不顯眼。感謝你的理解。"</string>
+    <string name="yes">是</string>
+</resources>

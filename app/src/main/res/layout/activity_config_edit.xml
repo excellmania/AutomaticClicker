@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidDomInspection -->
+<android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/name_container" layout="@layout/view_setting" />
+        <simplehat.automaticclicker.views.StopAfterSettingView android:id="@id/stop_after_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:description="@string/description_stop_after" app:isGlobalDialog="true" app:title="@string/stop_after" />
+        <TextView android:textColor="@color/colorCallout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="25.0dip" android:layout_marginBottom="12.0dip" android:text="@string/header_actions" />
+        <android.support.v7.widget.RecyclerView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:fadeScrollbars="false" />
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fab_margin" android:backgroundTint="@color/colorPrimary" app:borderWidth="0.0dip" app:elevation="6.0dip" app:srcCompat="@drawable/ic_add_white_24dp" />
+</android.support.design.widget.CoordinatorLayout>

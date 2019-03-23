@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_ads">О наших объявлениях</string>
+    <string name="about_ads_body">"Когда окно становится синим, это значит, что оно готово к показу рекламы.
+
+При нажатии кнопки воспроизведения будет показано объявление, и окно приобретет свой обычный цвет. После того, как вы нажмете воспроизведение, клики возобновятся в обычном режиме.
+
+Окно готово к показу рекламы каждые несколько минут, но только не тогда, когда активно выполняются клики."</string>
+    <string name="accessibility_service">Специальные возможности</string>
+    <string name="accessibility_service_description">"Включение специальных возможностей позволит Автоматическому Кликеру выполнять нажатия/клики от вашего имени.
+
+Для всех специальных возможностей потребуется разрешение «Наблюдайте за вашими действиями» (Observe Your Actions). Наша программа никогда не будет отслеживать или собирать данные, которые вы не указали явным образом."</string>
+    <string name="accessibility_service_text">При запуске специальные возможности позволят Автоматическому Кликеру выполнять клики за вас. Вы можете отозвать разрешение в любое время, но оно необходимо для работы приложения.</string>
+    <string name="action_type">Тип действия</string>
+    <string name="app_name">Автоматический Кликер</string>
+    <string name="auto_start_settings">Настройки автоматического открытия</string>
+    <string name="cancel">Отменить</string>
+    <string name="change">Изменить</string>
+    <string name="click_duration">Длительность клика</string>
+    <string name="clickswipe_duration">Продолжительность клика / свайпа</string>
+    <string name="close">Закрыть</string>
+    <string name="config_already_exists">"Сохраненная конфигурация с таким именем уже существует.
+
+ Хотите перезаписать ее?"</string>
+    <string name="confirm_delete_target">Удалить эту цель?</string>
+    <string name="coordinates">Координаты</string>
+    <string name="copy">Копировать</string>
+    <string name="copy_verb">Копировать</string>
+    <string name="create">Создать</string>
+    <string name="current_configuration">Текущая конфигурация</string>
+    <string name="delay">Задержка</string>
+    <string name="delete">Удалить</string>
+    <string name="delete_action_confirm">Вы уверены, что хотите удалить это действие?</string>
+    <string name="delete_configuration_confirm">Удалить эту конфигурацию?</string>
+    <string name="description_auto_start">Выберите действие по умолчанию при открытии этого приложения.</string>
+    <string name="description_click_coordinates">Координаты на экране вашего телефона для выполнения кликов.</string>
+    <string name="description_click_duration">Установите, как долго будет удерживаться этот клик.</string>
+    <string name="description_click_duration_plural">Установите промежуток времени, в течение которого будет удерживаться каждый клик.</string>
+    <string name="description_clickswipe_duration_default">"Установите длительность по умолчанию для каждого действия.
+
+Для кликов эта функция определяет длительность удержания клика.
+
+Для свайпов эта функция контролирует, сколько времени будет выполняться свайп."</string>
+    <string name="description_delay">Установите задержку между кликами.</string>
+    <string name="description_disable_after">"Установите, сколько полных проходов нужно выполнить, прежде чем отключить это действие.
+
+Один полный проход включает в себя любое количество повторов. Другие действия не будут затронуты.
+
+(0 = не отключать)"</string>
+    <string name="description_end_coordinates">Конечные координаты для свайпа.</string>
+    <string name="description_end_delay">Установите задержку, которая будет применяться после этого действия.</string>
+    <string name="description_end_delay_default">Установите задержку по умолчанию, которая будет применяться после каждого действия.</string>
+    <string name="description_pause_on_app_change">"Если эта опция включена, при переключении между приложениями выполнение кликов будет приостановлено.
+
+Этот параметр также приостановит выполнение кликов, если раскрывающаяся панель уведомлений Android окажется в области клика."</string>
+    <string name="description_preserve_physical_target_location">"Когда эта опция включена, цели будут сохранять свое физическое положение при вращении экрана.
+
+Когда опция отключена, цели будут сохранять свое положение относительно верхнего левого угла вашего экрана."</string>
+    <string name="description_randomization_radius">"Установите радиус в пикселях вокруг цели, из которой будет случайным образом выбрана координата клика/свайпа.
+
+(0 = без рандомизации)"</string>
+    <string name="description_randomization_range">"Выберите временной интервал, из которого будет выведено случайное число.
+
+В дальнейшем это число будет случайным образом прибавляется или вычитается из значения задержки.
+
+(0 = без рандомизации)"</string>
+    <string name="description_repeat">"Укажите, сколько раз нужно повторить это действие, прежде чем переходить к следующему действию.
+
+(0 = не повторять)"</string>
+    <string name="description_show_active_targets">"Когда эта опция включена, при клике на экран цели будут видны и окрашены в зеленый цвет.
+
+Если опция отключена, цели будут невидимы при выполнении кликов."</string>
+    <string name="description_start_coordinates">Начальные координаты для свайпа.</string>
+    <string name="description_start_delay">Установите задержку, которая будет применяться перед этим действием.</string>
+    <string name="description_start_delay_default">Установите задержку по умолчанию, которая будет применяться перед каждым действием.</string>
+    <string name="description_stop_after">Выберите триггер для приостановки приложения.</string>
+    <string name="description_stop_after_amount_of_time">Установите, в течение какого времени вы хотите выполнять клики.</string>
+    <string name="description_stop_after_run_count">Установите, сколько раз вы хотите пройти через все поставленные цели.</string>
+    <string name="description_stop_at_specific_time">Установите время прекращения клика.</string>
+    <string name="description_swipe_duration">Установите, сколько времени нужно для выполнения свайпа.</string>
+    <string name="description_target_programmability">"Когда эта опция включена, при нажатии на цель вы сможете установить ее индивидуальные настройки.
+
+Когда опция отключена, цели можно только перемещать."</string>
+    <string name="disable">Отключить</string>
+    <string name="disabled">Отключено</string>
+    <string name="display_coordinates">X: %1$d Y: %2$d</string>
+    <string name="display_edit_target_number">Изменить цель: %1$d</string>
+    <string name="display_max">Макс: %1$d</string>
+    <string name="display_min">Мин: %1$d</string>
+    <string name="display_run_order_with_type">%1$d - Тип: %2$s</string>
+    <string name="display_stop_after">Остановить после: %1$s</string>
+    <string name="display_stop_after_runs">Остановить после: %1$s прохода(ов)</string>
+    <string name="display_value_with_range">%1$s ± %2$s</string>
+    <string name="display_value_with_unit">%1$s %2$s</string>
+    <string name="do_not_disable">не отключать</string>
+    <string name="do_not_repeat">не повторять</string>
+    <string name="do_nothing">Не делать ничего</string>
+    <string name="enable">Включить</string>
+    <string name="enabled">Включено</string>
+    <string name="end_coordinates_noun">Координаты конца</string>
+    <string name="end_delay_title_noun">Задержка окончания</string>
+    <string name="end_noun">Конец</string>
+    <string name="end_verb">Конец</string>
+    <string name="first_use_multi_mode_end">"Мы рекомендуем прочитать подробные инструкции, чтобы получить полное понимание этого приложения и его функций.
+
+Вы хотите сделать это сейчас?"</string>
+    <string name="first_use_multi_mode_start">"Похоже, вы впервые используете этот режим.
+
+Пожалуйста, найдите время и посмотрите на нашу контрольную карту:"</string>
+    <string name="first_use_single_mode">"Похоже, вы впервые используете этот режим.
+
+Пожалуйста, найдите время, чтобы прочитать инструкции и просмотреть все функции в приложении.
+
+Вы хотите сделать это сейчас?"</string>
+    <string name="grant_verb">Разрешить</string>
+    <string name="header_actions">Действия:</string>
+    <string name="header_advanced_settings">Расширенные настройки:</string>
+    <string name="header_basic_settings">Базовые настройки:</string>
+    <string name="header_default_settings">Настройки по умолчанию:</string>
+    <string name="header_delay">Задержка:</string>
+    <string name="header_randomization">Рандомизация:</string>
+    <string name="header_settings">Настройки:</string>
+    <string name="infinity">∞</string>
+    <string name="instructions">Инструкции</string>
+    <string name="instructions_emergency_stop">Экстренная остановка</string>
+    <string name="instructions_multi_target_configuring">Конфигурация цели</string>
+    <string name="instructions_multi_target_configuring_body">Если вы нажмете на цель, вы сможете настроить ее параметры. Каждая цель может быть индивидуально настроена с различными параметрами.</string>
+    <string name="instructions_multi_target_overlay">Окно многоцелевого режима имеет пять кнопок, функции которых различаются в зависимости от того, нажимаете ли вы их или удерживаете.</string>
+    <string name="instructions_multi_target_overlay_add_hold">Удержание: Добавить цель свайпа.</string>
+    <string name="instructions_multi_target_overlay_add_tap">Нажатие: Добавить цель клика.</string>
+    <string name="instructions_multi_target_overlay_collapse_hold">Удержание: Переместить окно.</string>
+    <string name="instructions_multi_target_overlay_collapse_tap">Нажатие: Свернуть все окна.</string>
+    <string name="instructions_multi_target_overlay_header">Использование окна</string>
+    <string name="instructions_multi_target_overlay_play_tap">Нажатие: Запустить/остановить клики.</string>
+    <string name="instructions_multi_target_overlay_remove_hold">Удержание: Удалить все цели.</string>
+    <string name="instructions_multi_target_overlay_remove_tap">Нажатие: Удалить последнюю добавленную цель.</string>
+    <string name="instructions_multi_target_overlay_settings_tap">Нажатие: Открыть параметры и настройки.</string>
+    <string name="instructions_multi_target_proper_settings">"В вашем телефоне и его различных приложениях установлены ограничения на способ и скорость выполнения кликов.
+
+Важно отметить, что клики со скоростью, превышающей 50 миллисекунд, могут привести к тому, что приложение не зарегистрирует клик или даже заблокирует ваш телефон.
+
+Если возникнет какая-либо из этих проблем, заблокируйте телефон или отключите экран, чтобы остановить приложение, а затем измените конфигурацию."</string>
+    <string name="instructions_multi_target_proper_settings_header">Настройки</string>
+    <string name="instructions_multi_target_subtitle">Многоцелевой режим</string>
+    <string name="instructions_multi_target_swipe">Удерживая знак плюс, вы сможете добавить на экран новую цель свайпа. При этом будет выполнен свайп из центра круга с надписью «начало» к центру круга с надписью «конец».</string>
+    <string name="instructions_multi_target_swipe_header">Установка цели свайпа</string>
+    <string name="instructions_multi_target_target">Нажатие на знак плюс создаст новую цель. Каждая цель пронумерована и будет работать последовательно. Все клики / свайпы выполняются из центра цели. После выполнения последней цели программа вернется к первой цели.</string>
+    <string name="instructions_multi_target_target_header">Добавление целей</string>
+    <string name="instructions_onoff_abort">"Блокировка телефона или выключение экрана приостановит приложение.
+
+Если ваш телефон не отвечает, или вам кажется, что он завис, нажмите кнопку питания один раз, чтобы принудительно остановить кликер."</string>
+    <string name="instructions_single_target_base">Пожалуйста, найдите время, чтобы прочитать наши инструкции и узнать, как пользоваться этим приложением.</string>
+    <string name="instructions_single_target_closing">Нажмите символ X, чтобы закрыть окно и остановить приложение.</string>
+    <string name="instructions_single_target_closing_header">Закрытие окна</string>
+    <string name="instructions_single_target_moving">" "<b>Перетащите</b> окно за одну из его сторон, чтобы переместить его по экрану.</string>
+    <string name="instructions_single_target_moving_header">Перемещение окна</string>
+    <string name="instructions_single_target_onoff">"Как только вы нажмете кнопку воспроизведения, окно станет зеленым и начнет выполнять за вас клики.
+
+Вы не сможете изменить положение окна, пока не нажмете кнопку паузы."</string>
+    <string name="instructions_single_target_onoff_header">Запуск и остановка</string>
+    <string name="instructions_single_target_subtitle">Режим одиночной цели</string>
+    <string name="instructions_single_target_target">" "<b>Нажмите</b> на края окна, чтобы изменить угол, из которого нужно кликать. Это позволит вам кликать в любом углу экрана.</string>
+    <string name="instructions_single_target_target_header">Изменение целевой зоны</string>
+    <string name="instructions_take_a_moment">Пожалуйста, найдите время, чтобы прочитать эти инструкции и узнать, как пользоваться приложением.</string>
+    <string name="load">Загрузить</string>
+    <string name="load_config">Загрузить конфигурацию:</string>
+    <string name="manage_configurations">Управление конфигурациями</string>
+    <string name="name">Имя</string>
+    <string name="no">Нет</string>
+    <string name="no_configs_to_load">У вас нет сохраненных конфигураций для загрузки.</string>
+    <string name="none">Отсутствует</string>
+    <string name="not_set">Не задано</string>
+    <string name="ok">ОК</string>
+    <string name="open_multi_target_mode_no_config">Открыть многоцелевой режим (без конфигурации)</string>
+    <string name="open_single_target_mode">Открыть режим одиночной цели</string>
+    <string name="overlay_permission">Разрешение на работу поверх других приложений</string>
+    <string name="overlay_permission_text">Предоставление этого разрешения позволит создать окно для управления Автоматическим Кликером.</string>
+    <string name="overwrite_current_config">Перезаписать текущую конфигурацию?</string>
+    <string name="overwrite_current_config_confirm">Вы уверены, что хотите перезаписать текущую конфигурацию?</string>
+    <string name="pause_on_app_change">Пауза при изменении приложения</string>
+    <string name="pixels">Пиксель(и)</string>
+    <string name="please_note">Пожалуйста, прочтите</string>
+    <string name="preserve_location">Сохранить физическое местоположение цели</string>
+    <string name="randomization_radius">Радиус рандомизации</string>
+    <string name="randomization_range">Диапазон рандомизации</string>
+    <string name="remove">Удалить</string>
+    <string name="remove_ads">Отключить рекламу</string>
+    <string name="remove_ads_description">Отключить всю рекламу в Автоматическом Кликере.</string>
+    <string name="run_indefinitely">Выполнять бесконечно</string>
+    <string name="runs">Проход(ы)</string>
+    <string name="save">Сохранить</string>
+    <string name="select_type">Выберите тип действия:</string>
+    <string name="set_config_copy_name">Введите имя для этой копии:</string>
+    <string name="set_config_name">Введите имя для этой конфигурации:</string>
+    <string name="settings">Настройки</string>
+    <string name="show_active_targets">Показать активные цели</string>
+    <string name="skip">Пропустить</string>
+    <string name="start_coordinates_noun">Координаты начала</string>
+    <string name="start_delay_title_noun">Задержка запуска</string>
+    <string name="start_multi_target_mode">Начало: многоцелевой режим</string>
+    <string name="start_noun">Начать</string>
+    <string name="start_single_target_mode">Начало: режим одиночной цели</string>
+    <string name="start_verb">Начать</string>
+    <string name="stop_after">Остановиться после</string>
+    <string name="stop_after_amount_of_time">Остановка после заданного промежутка времени</string>
+    <string name="stop_after_run_count">Остановка после определенного числа проходов</string>
+    <string name="stop_at_specific_time">Остановка в определенное время</string>
+    <string name="target_programmability">Программная настройка цели</string>
+    <string name="thanks_for_buying">Спасибо за покупку</string>
+    <string name="time_between_clicks">Время между кликами</string>
+    <string name="title_disable_after">Отключить после</string>
+    <string name="title_duration">Продолжительность</string>
+    <string name="title_edit_action">Изменить действие</string>
+    <string name="title_edit_configuration">Изменить конфигурацию: %1$s</string>
+    <string name="title_repeat">Повторить</string>
+    <string name="title_saved_configurations">Сохраненные конфигурации</string>
+    <string name="title_settings_auto_start">Настройки - Автозапуск</string>
+    <string name="title_settings_multi_target">Настройки - Несколько целей</string>
+    <string name="title_settings_single_target">Настройки - Одиночная цель</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="update">Обновить</string>
+    <string name="warning">Предупреждение</string>
+    <string name="welcome">ДОБРО ПОЖАЛОВАТЬ</string>
+    <string name="welcome_text">Перед запуском автоматических кликов/свайпов вам нужно предоставить приложению дополнительные права на вашем устройстве.</string>
+    <string name="why_ads">Почему мы показываем рекламу?</string>
+    <string name="why_ads_body">"В компании SimpleHat Software мы стремимся предоставлять всем нашим пользователям наши лучшие платные или бесплатные приложения без ограничения доступных функций.
+
+Однако нам необходимо оплачивать постоянную разработку новых функций и поддержку новых устройств.
+
+Наша цель - сделать рекламу максимально ненавязчивой для наших пользователей. Благодарим вас за понимание."</string>
+    <string name="yes">Да</string>
+</resources>

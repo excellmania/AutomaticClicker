@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_ads">Tentang Iklan Kami</string>
+    <string name="about_ads_body">"Saat overlay berwarna biru, itu berarti iklan siap ditampilkan
+
+Saat mengklik tombol putar, iklan akan ditampilkan dan overlay akan kembali ke warna normal - setelah ini, menekan putar akan mulai mengklik seperti biasa.
+
+Overlay akan menyiapkan iklan setiap beberapa menit namun tidak pernah saat mengklik secara aktif."</string>
+    <string name="accessibility_service">Layanan Aksesibilitas</string>
+    <string name="accessibility_service_description">"Mengaktifkan layanan aksesibilitas ini memungkinkan Pengklik Otomatis untuk mengirim ketukan/klik atas nama Anda.
+
+\"Perhatikan Tindakan Anda\" diperlukan untuk semua layanan aksesibilitas. Perangkat lunak kami tidak akan memantau atau mengumpulkan data apa pun yang tidak Anda perintahkan secara eksplisit."</string>
+    <string name="accessibility_service_text">Memulai layanan aksesibilitas Pengklik Otomatis memungkinkan aplikasi ini untuk mengirim klik/ketuk atas nama Anda. Anda dapat menonaktifkannya kapan saja, namun harus diaktifkan agar Pengklik Otomatis dapat berjalan.</string>
+    <string name="action_type">Jenis Tindakan</string>
+    <string name="app_name">Pengklik Otomatis</string>
+    <string name="auto_start_settings">Pengaturan Buka Otomatis</string>
+    <string name="cancel">Batal</string>
+    <string name="change">Ubah</string>
+    <string name="click_duration">Durasi Klik</string>
+    <string name="clickswipe_duration">Durasi Klik/Geser</string>
+    <string name="close">Tutup</string>
+    <string name="config_already_exists">"Konfigurasi tersimpan dengan nama itu sudah ada.
+
+Ingin menimpanya?"</string>
+    <string name="confirm_delete_target">Hapus target ini?</string>
+    <string name="coordinates">Koordinat</string>
+    <string name="copy">Salin</string>
+    <string name="copy_verb">Salin</string>
+    <string name="create">Buat</string>
+    <string name="current_configuration">Konfigurasi Saat Ini</string>
+    <string name="delay">Delay</string>
+    <string name="delete">Hapus</string>
+    <string name="delete_action_confirm">Yakin ingin menghapus tindakan ini?</string>
+    <string name="delete_configuration_confirm">Hapus konfigurasi ini?</string>
+    <string name="description_auto_start">Pilih tindakan default yang akan diambil saat membuka aplikasi ini.</string>
+    <string name="description_click_coordinates">Koordinat pada layar ponsel Anda untuk mengklik.</string>
+    <string name="description_click_duration">ATetapkan berapa lama klik ini akan ditahan.</string>
+    <string name="description_click_duration_plural">Tetapkan jumlah waktu setiap klik ditahan.</string>
+    <string name="description_clickswipe_duration_default">"Atur durasi default untuk tiap tindakan.
+
+Untuk klik, ini berarti berapa lama klik akan ditahan.
+
+Untuk geser, ini mengontrol berapa lama waktu geser akan selesai."</string>
+    <string name="description_delay">Atur jeda antara klik.</string>
+    <string name="description_disable_after">"Atur berapa banyak berjalan penuh untuk diselesaikan sebelum menonaktifkan tindakan ini.
+
+Satu berjalan penuh mencakup pengulangan apa pun. Tindakan lain tidak akan terpengaruh.
+
+(0 = Jangan Nonaktifkan)"</string>
+    <string name="description_end_coordinates">Koordinat akhir untuk menggeser.</string>
+    <string name="description_end_delay">Atur delay yang terjadi setelah tindakan ini.</string>
+    <string name="description_end_delay_default">Atur delay default yang terjadi setelah tiap tindakan.</string>
+    <string name="description_pause_on_app_change">"Saat diaktifkan, mengklik akan terjeda saat berganti aplikasi.
+
+Pengaturan ini juga akan menjeda mengklik jika bilah notifikasi pull down Android bergerak ke area klik."</string>
+    <string name="description_preserve_physical_target_location">"Saat diaktifkan, target akan mempertahankan posisi fisik mereka ketika mengitari layar Anda.
+
+Ketika dinonaktifkan, target akan mempertahankan posisinya sesuai sudut kiri atas layar Anda."</string>
+    <string name="description_randomization_radius">"Atur radius dalam piksel di sekitar target tempat di mana koordinat klik/gesek akan dipilih secara acak.
+
+(0 = Tidak Ada Pengacakan)"</string>
+    <string name="description_randomization_range">"Pilih interval waktu untuk mengambil nilai acak.
+
+Nilai ini kemudian ditambahkan atau dikurangi secara acak dari delay.
+
+(0 = Tidak Ada Pengacakan)"</string>
+    <string name="description_repeat">"Atur berapa kali tindakan ini diulangi sebelum melanjutkan ke tindakan berikutnya.
+
+(0 = Jangan Ulangi)"</string>
+    <string name="description_show_active_targets">"Saat diaktifkan, target akan terlihat dan berwarna hijau saat mengklik layar Anda.
+
+Jika dinonaktifkan, target tidak akan terlihat saat mengklik."</string>
+    <string name="description_start_coordinates">Koordinat awal untuk menggeser.</string>
+    <string name="description_start_delay">Atur delay yang terjadi sebelum tindakan ini.</string>
+    <string name="description_start_delay_default">Atur delay default yang terjadi sebelum tiap tindakan.</string>
+    <string name="description_stop_after">Pilih pemicu untuk menjeda aplikasi.</string>
+    <string name="description_stop_after_amount_of_time">Atur berapa lama Anda ingin mengklik.</string>
+    <string name="description_stop_after_run_count">Atur berapa kali ingin dijalankan pada semua target yang ditetapkan.</string>
+    <string name="description_stop_at_specific_time">Atur waktu untuk berhenti mengklik.</string>
+    <string name="description_swipe_duration">Atur berapa lama geser ini akan selesai.</string>
+    <string name="description_target_programmability">"Saat diaktifkan, mengetuk target akan memungkinkan Anda untuk mengatur pengaturan terpisahnya.
+
+ Saat dinonaktifkan, target hanya dapat dipindahkan."</string>
+    <string name="disable">Nonaktifkan</string>
+    <string name="disabled">Dinonaktifkan</string>
+    <string name="display_coordinates">X: %1$d Y: %2$d</string>
+    <string name="display_edit_target_number">Edit Target: %1$d</string>
+    <string name="display_max">Maks: %1$d</string>
+    <string name="display_min">Min: %1$d</string>
+    <string name="display_run_order_with_type">%1$d -Jenis: %2$s</string>
+    <string name="display_stop_after">Berhenti Setelah: %1$s</string>
+    <string name="display_stop_after_runs">Berhenti Setelah: %1$s Berjalan</string>
+    <string name="display_value_with_range">%1$s ± %2$s</string>
+    <string name="display_value_with_unit">%1$s %2$s</string>
+    <string name="do_not_disable">Jangan Nonaktifkan</string>
+    <string name="do_not_repeat">Jangan Ulangi</string>
+    <string name="do_nothing">Jangan Lakukan Apapun</string>
+    <string name="enable">Aktifkan</string>
+    <string name="enabled">Diaktifkan</string>
+    <string name="end_coordinates_noun">Koordinat Akhir</string>
+    <string name="end_delay_title_noun">Tunda Akhir</string>
+    <string name="end_noun">Akhir</string>
+    <string name="end_verb">Selesai</string>
+    <string name="first_use_multi_mode_end">"Kami sarankan membaca petunjuk lengkapnya untuk benar-benar memahami aplikasi ini dan fiturnya.
+
+Ingin ke sana sekarang?"</string>
+    <string name="first_use_multi_mode_start">"Sepertinya Anda menggunakan mode ini untuk pertama kalinya.
+
+Silakan luangkan waktu sejenak untuk melihat control map kami."</string>
+    <string name="first_use_single_mode">"Sepertinya Anda menggunakan mode ini untuk pertama kalinya.
+
+Silakan luangkan waktu sejenak untuk membaca petunjuk untuk melihat semua fitur dalam aplikasi.
+
+Ingin ke sana sekarang?"</string>
+    <string name="grant_verb">Izinkan</string>
+    <string name="header_actions">Tindakan:</string>
+    <string name="header_advanced_settings">Pengaturan Lanjutan:</string>
+    <string name="header_basic_settings">Pengaturan Dasar:</string>
+    <string name="header_default_settings">Pengaturan Default:</string>
+    <string name="header_delay">Delay:</string>
+    <string name="header_randomization">Pengacakan:</string>
+    <string name="header_settings">Pengaturan:</string>
+    <string name="infinity">∞</string>
+    <string name="instructions">Petunjuk</string>
+    <string name="instructions_emergency_stop">Berhenti Darurat</string>
+    <string name="instructions_multi_target_configuring">Mengkonfigurasi Target</string>
+    <string name="instructions_multi_target_configuring_body">Mengetuk target akan memungkinkan Anda mengonfigurasi pengaturannya. Setiap target dapat dikonfigurasi secara terpisah dengan beragam pengaturan.</string>
+    <string name="instructions_multi_target_overlay">Overlay mode multi target memiliki lima tombol yang fungsinya berbeda tergantung pada apakah Anda mengetuk atau menahannya.</string>
+    <string name="instructions_multi_target_overlay_add_hold">Tahan: Menambahkan target geser.</string>
+    <string name="instructions_multi_target_overlay_add_tap">Ketuk: Menambahkan target klik.</string>
+    <string name="instructions_multi_target_overlay_collapse_hold">Tahan: Mengubah posisi overlay.</string>
+    <string name="instructions_multi_target_overlay_collapse_tap">Ketuk: Menciutkan semua overlay.</string>
+    <string name="instructions_multi_target_overlay_header">Menggunakan Overlay</string>
+    <string name="instructions_multi_target_overlay_play_tap">Ketuk: Memulai/menghentikan klik.</string>
+    <string name="instructions_multi_target_overlay_remove_hold">Tahan: Menghapus semua target.</string>
+    <string name="instructions_multi_target_overlay_remove_tap">Ketuk: Menghapus target terakhir yang ditambahkan.</string>
+    <string name="instructions_multi_target_overlay_settings_tap">Ketuk: Membuka opsi dan pengaturan.</string>
+    <string name="instructions_multi_target_proper_settings">"Ponsel Anda dan berbagai aplikasinya memiliki batasan dalam cara serta kecepatan klik.
+
+Penting diketahui bahwa mengklik lebih cepat dari 50 milidetik dapat menyebabkan aplikasi tidak mendaftarkan klik atau mengunci ponsel Anda.
+
+Jika salah satu dari masalah ini terjadi, kunci ponsel Anda atau matikan layar untuk menghentikan aplikasi lalu ubah konfigurasinya."</string>
+    <string name="instructions_multi_target_proper_settings_header">Pengaturan yang Sesuai</string>
+    <string name="instructions_multi_target_subtitle">Mode Multi Target</string>
+    <string name="instructions_multi_target_swipe">Menahan tanda plus akan menambahkan target geser baru ke layar Anda. Ini akan menggeser dari bagian tengah lingkaran yang berlabel \"mulai\" ke bagian tengah lingkaran yang berlabel \"akhir\".</string>
+    <string name="instructions_multi_target_swipe_header">Menetapkan Target Geser</string>
+    <string name="instructions_multi_target_target">Mengetuk tanda plus akan membuat target baru. Setiap target diberi nomor dan akan berjalan secara berurutan. Semua klik/geser berasal dari pusat target. Setelah target terakhir berjalan, urutan akan kembali ke yang pertama.</string>
+    <string name="instructions_multi_target_target_header">Menambahkan Target</string>
+    <string name="instructions_onoff_abort">"Mengunci ponsel atau mematikan layar Anda akan menjeda aplikasi.
+
+Jika ponsel Anda tidak responsif atau hang, tekan tombol daya sekali untuk memaksa pengklik berhenti."</string>
+    <string name="instructions_single_target_base">Silakan luangkan waktu sejenak untuk membaca petunjuk kami dan mempelajari cara menggunakan aplikasi ini.</string>
+    <string name="instructions_single_target_closing">Mengetuk simbol X akan menutup overlay dan menghentikan aplikasi.</string>
+    <string name="instructions_single_target_closing_header">Menutup Overlay</string>
+    <string name="instructions_single_target_moving">" "<b>Seret</b> sisi-sisi overlay untuk memindahkannya di sekitar layar Anda.</string>
+    <string name="instructions_single_target_moving_header">Memindahkan Overlay</string>
+    <string name="instructions_single_target_onoff">"Saat mengetuk tombol putar, overlay akan berwarna hijau dan mulai mengklik untuk Anda.
+
+Anda tidak dapat memposisikan ulang overlay hingga Anda menekan tombol jeda."</string>
+    <string name="instructions_single_target_onoff_header">Memulai Dan Berhenti</string>
+    <string name="instructions_single_target_subtitle">Mode Target Tunggal</string>
+    <string name="instructions_single_target_target">" "<b>Ketuk</b> sisi-sisi overlay untuk mengubah sudut mana yang akan diklik. Ini memungkinkan Anda untuk mengklik sudut mana pun di layar.</string>
+    <string name="instructions_single_target_target_header">Mengubah Sudut Sasaran</string>
+    <string name="instructions_take_a_moment">Silakan luangkan waktu sejenak untuk membaca petunjuk ini dan mempelajari cara menggunakan aplikasi ini.</string>
+    <string name="load">Muat</string>
+    <string name="load_config">Muat Konfigurasi:</string>
+    <string name="manage_configurations">Atur Konfigurasi</string>
+    <string name="name">Nama</string>
+    <string name="no">Tidak</string>
+    <string name="no_configs_to_load">Anda tidak memiliki konfigurasi tersimpan untuk dimuat.</string>
+    <string name="none">Tidak Ada</string>
+    <string name="not_set">Belum diatur</string>
+    <string name="ok">Oke</string>
+    <string name="open_multi_target_mode_no_config">Buka Mode Multi Target (Tanpa Konfigurasi)</string>
+    <string name="open_single_target_mode">Buka Mode Target Tunggal</string>
+    <string name="overlay_permission">Izin Overlay</string>
+    <string name="overlay_permission_text">Memberikan izin ini memungkinkan kami untuk membuat overlay yang Anda gunakan untuk mengontrol Pengklik Otomatis.</string>
+    <string name="overwrite_current_config">Timpa konfigurasi saat ini?</string>
+    <string name="overwrite_current_config_confirm">Yakin ingin menimpa konfigurasi saat ini?</string>
+    <string name="pause_on_app_change">Jeda Pada Perubahan Aplikasi</string>
+    <string name="pixels">Piksel</string>
+    <string name="please_note">Harap Perhatikan</string>
+    <string name="preserve_location">Pertahankan Lokasi Fisik Target</string>
+    <string name="randomization_radius">Radius Pengacakan</string>
+    <string name="randomization_range">Rentang Pengacakan</string>
+    <string name="remove">Hapus</string>
+    <string name="remove_ads">Hilangkan Iklan</string>
+    <string name="remove_ads_description">Hilangkan semua iklan dari Pengklik Otomatis.</string>
+    <string name="run_indefinitely">Jalankan Tanpa Batas</string>
+    <string name="runs">Berjalan</string>
+    <string name="save">Simpan</string>
+    <string name="select_type">Pilih jenis tindakan:</string>
+    <string name="set_config_copy_name">Buat nama untuk salinan ini:</string>
+    <string name="set_config_name">Buat nama untuk konfigurasi ini:</string>
+    <string name="settings">Pengaturan</string>
+    <string name="show_active_targets">Tampilkan Target Aktif</string>
+    <string name="skip">Lewati</string>
+    <string name="start_coordinates_noun">Koordinat Awal</string>
+    <string name="start_delay_title_noun">Tunda Awal</string>
+    <string name="start_multi_target_mode">Mulai: Mode Multi Target</string>
+    <string name="start_noun">Awal</string>
+    <string name="start_single_target_mode">Mulai: Mode Target Tunggal</string>
+    <string name="start_verb">Mulai</string>
+    <string name="stop_after">Berhenti Setelah</string>
+    <string name="stop_after_amount_of_time">Berhenti Setelah Jumlah Waktu</string>
+    <string name="stop_after_run_count">Berhenti Setelah Jumlah Berjalan</string>
+    <string name="stop_at_specific_time">Berhenti Pada Waktu Tertentu</string>
+    <string name="target_programmability">Programabilitas Target</string>
+    <string name="thanks_for_buying">Terima Kasih Atas Pembelian Anda</string>
+    <string name="time_between_clicks">Waktu Antara Klik</string>
+    <string name="title_disable_after">Nonaktifkan Setelah</string>
+    <string name="title_duration">Durasi</string>
+    <string name="title_edit_action">Edit Tindakan</string>
+    <string name="title_edit_configuration">Edit Konfigurasi: %1$s</string>
+    <string name="title_repeat">Ulangi</string>
+    <string name="title_saved_configurations">Konfigurasi Tersimpan</string>
+    <string name="title_settings_auto_start">Pengaturan - Mulai Otomatis</string>
+    <string name="title_settings_multi_target">Pengaturan - Multi Target</string>
+    <string name="title_settings_single_target">Pengaturan - Target Tunggal</string>
+    <string name="unknown">Tidak dikenal</string>
+    <string name="update">Pembaruan</string>
+    <string name="warning">Peringatan</string>
+    <string name="welcome">SELAMAT DATANG</string>
+    <string name="welcome_text">Sebelum bisa mulai mengotomatiskan ketuk/klik. Anda harus memberikan izin tambahan kepada Pengklik Otomatis pada perangkat Anda.</string>
+    <string name="why_ads">Mengapa Kami Menampilkan Iklan?</string>
+    <string name="why_ads_body">"Di SimpleHat Software, kami ingin menawarkan aplikasi terbaik kepada semua pengguna, berbayar atau gratis, tanpa membatasi fitur apa yang tersedia.
+
+Akan tetapi, kami perlu mendanai pengembangan yang sedang berlangsung untuk fitur baru dan dukungan bagi perangkat baru.
+
+Kami ingin membuat iklan-iklan ini senyaman mungkin bagi para pengguna. Kami menghargai pengertian Anda."</string>
+    <string name="yes">Ya</string>
+</resources>

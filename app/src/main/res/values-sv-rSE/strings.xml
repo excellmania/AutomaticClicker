@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_ads">Om våra annonser</string>
+    <string name="about_ads_body">"När överlägget är blått innebär det att en annons kommer att visas.
+
+När du klickar på play-knappen kommer annonsen att visas och överlägget återgår till sin normala färg - efter du har tryckt på play-knappen börjar appen klicka som vanligt.
+
+Överlägget kommer ha en annons varje par minuter men aldrig medan appen aktivt klickar."</string>
+    <string name="accessibility_service">Åtkomsttjänst</string>
+    <string name="accessibility_service_description">"När du har aktiverat åtkomsttjänsten kan Automatisk Klickare skicka tryck / klick åt dig.
+
+\"Observera dina åtgärder\" krävs för alla åtkomsttjänster. Vår programvara kommer aldrig att övervaka eller samla in data som du inte uttryckligen instruerat den att göra."</string>
+    <string name="accessibility_service_text">Genom att starta Automatisk Klickares åtkomsttjänst kan applikation skicka klick / tryck åt dig. Du kan inaktivera det när som helst men det måste aktiveras för att Automatisk Klickare ska kunna köras.</string>
+    <string name="action_type">Åtgärdstyp</string>
+    <string name="app_name">Automatisk Klickare</string>
+    <string name="auto_start_settings">Automatiska öppningsinställningar</string>
+    <string name="cancel">Avbryt</string>
+    <string name="change">Byt</string>
+    <string name="click_duration">Klickvaraktighet</string>
+    <string name="clickswipe_duration">Klick- / Svepvaraktighet</string>
+    <string name="close">Stäng</string>
+    <string name="config_already_exists">"En sparad konfiguration med det namnet finns redan.
+
+ Vill du skriva över den?"</string>
+    <string name="confirm_delete_target">Ta bort det här målet?</string>
+    <string name="coordinates">Koordinater</string>
+    <string name="copy">Kopiera</string>
+    <string name="copy_verb">Kopiera</string>
+    <string name="create">Skapa</string>
+    <string name="current_configuration">Nuvarande konfiguration</string>
+    <string name="delay">Fördröjning</string>
+    <string name="delete">Radera</string>
+    <string name="delete_action_confirm">Är du säker på att du vill ta bort den här åtgärden?</string>
+    <string name="delete_configuration_confirm">Radera den här konfigurationen?</string>
+    <string name="description_auto_start">Välj den standardåtgärd som ska vidtas när du öppnar den här applikationen.</string>
+    <string name="description_click_coordinates">Koordinaterna på din telefons skärm för att klicka.</string>
+    <string name="description_click_duration">Ange hur länge det här klicket kommer att hållas ned.</string>
+    <string name="description_click_duration_plural">Ange hur länge varje klick hålls ned.</string>
+    <string name="description_clickswipe_duration_default">"Ange standardvaraktigheten för varje åtgärd.
+
+För klick innebär det hur länge klicket hålls ned.
+
+För svep innebär det hur länge svepet tar."</string>
+    <string name="description_delay">Ange fördröjning mellan klick.</string>
+    <string name="description_disable_after">"Ange hur många fulla körningar som ska slutföras innan du inaktiverar den här åtgärden.
+
+En full körning innehåller eventuella upprepningar. Andra åtgärder påverkas inte.
+
+(0 = Inaktivera inte)"</string>
+    <string name="description_end_coordinates">Slutkoordinerar för att svepa.</string>
+    <string name="description_end_delay">Ange fördröjning efter denna åtgärd.</string>
+    <string name="description_end_delay_default">Ange standardfördröjning som inträffar efter varje åtgärd.</string>
+    <string name="description_pause_on_app_change">"När den har aktiverats klickar du på paus när du växlar mellan appar.
+
+Den här inställningen pausar även om Androids meddelandepanel flyttas till klickområdet."</string>
+    <string name="description_preserve_physical_target_location">"När de är aktiverade kommer målen att behålla sin fysiska position när du roterar skärmen.
+
+När de är inaktiva kommer målen att behålla deras position i förhållande till det övre vänstra hörnet på skärmen."</string>
+    <string name="description_randomization_radius">"Ställ in som i pixlar den radie runt målet som klick- / svep-koordinaten kommer att väljas slumpmässigt från.
+
+(0 = ingen randomisering)"</string>
+    <string name="description_randomization_range">"Välj ett tidsintervall att dra ett slumpmässigt värde från.
+
+Detta värde läggs sedan slumpmässigt till eller subtraheras från fördröjningen.
+
+(0 = ingen randomisering)"</string>
+    <string name="description_repeat">"Välj hur många gånger du vill upprepa den här åtgärden innan du går vidare till nästa åtgärd.
+
+(0 = Upprepa inte)"</string>
+    <string name="description_show_active_targets">"När det är aktiverat kommer målen att vara synliga och färgade gröna när du klickar på skärmen.
+
+Om det är inaktiverat kommer målen att vara osynliga när du klickar."</string>
+    <string name="description_start_coordinates">Startkoordinater för att svepa.</string>
+    <string name="description_start_delay">Ange fördröjning före denna åtgärd.</string>
+    <string name="description_start_delay_default">Ange standardfördröjning före varje åtgärd.</string>
+    <string name="description_stop_after">Välj en trigger som pausar appen.</string>
+    <string name="description_stop_after_amount_of_time">Ange hur länge du vill klicka.</string>
+    <string name="description_stop_after_run_count">Ange hur många gånger du vill köra igenom alla inställda mål.</string>
+    <string name="description_stop_at_specific_time">Ange en tid för att sluta klicka.</string>
+    <string name="description_swipe_duration">Ange hur länge det här svepet kommer att ta.</string>
+    <string name="description_target_programmability">"När du har aktiverat ett mål kan du ställa in individuella inställningar.
+
+ När de är inaktiverade kan mål endast flyttas."</string>
+    <string name="disable">Inaktivera</string>
+    <string name="disabled">Inaktiverad</string>
+    <string name="display_coordinates">X: %1$d Y: %2$d</string>
+    <string name="display_edit_target_number">Redigera mål: %1$d</string>
+    <string name="display_max">Max: %1$d</string>
+    <string name="display_min">Min: %1$d</string>
+    <string name="display_run_order_with_type">%1$d - Typ: %2$s</string>
+    <string name="display_stop_after">Stoppa efter: %1$s</string>
+    <string name="display_stop_after_runs">Stoppa efter: %1$s körning(ar)</string>
+    <string name="display_value_with_range">%1$s ± %2$s</string>
+    <string name="display_value_with_unit">%1$s %2$s</string>
+    <string name="do_not_disable">Inaktivera inte</string>
+    <string name="do_not_repeat">Upprepa Inte</string>
+    <string name="do_nothing">Gör ingenting</string>
+    <string name="enable">Aktivera</string>
+    <string name="enabled">Aktiverad</string>
+    <string name="end_coordinates_noun">Slutkoordinater</string>
+    <string name="end_delay_title_noun">Slutfördröjning</string>
+    <string name="end_noun">Slut</string>
+    <string name="end_verb">Sluta</string>
+    <string name="first_use_multi_mode_end">"Vi rekommenderar att du läser de detaljerade anvisningarna för att helt förstå dig på appen och dess funktioner.
+
+Vill du gå dit nu?"</string>
+    <string name="first_use_multi_mode_start">"Det ser ut som om det här är första gången du använder det här läget.
+
+Titta på vår kontrollkarta:"</string>
+    <string name="first_use_single_mode">"Det ser ut som det här är första gången du använder det här läget.
+
+Läs gärna anvisningarnma för att se alla funktioner i appen.
+
+Vill du gå dit nu?"</string>
+    <string name="grant_verb">Bevilja</string>
+    <string name="header_actions">Åtgärder:</string>
+    <string name="header_advanced_settings">Avancerade inställningar:</string>
+    <string name="header_basic_settings">Grundinställningar:</string>
+    <string name="header_default_settings">Standardinställningar:</string>
+    <string name="header_delay">Fördröjning:</string>
+    <string name="header_randomization">Randomisering:</string>
+    <string name="header_settings">Inställningar:</string>
+    <string name="infinity">∞</string>
+    <string name="instructions">Instruktioner</string>
+    <string name="instructions_emergency_stop">Nödstopp</string>
+    <string name="instructions_multi_target_configuring">Konfigurera ett mål</string>
+    <string name="instructions_multi_target_configuring_body">Du konfigurera inställningarna genom att klicka på ett mål. Varje mål kan konfigureras individuellt med olika inställningar.</string>
+    <string name="instructions_multi_target_overlay">I flermålsläget har överlägget fem knappar som varierar beroende på om du trycker på dem eller håller ned dem.</string>
+    <string name="instructions_multi_target_overlay_add_hold">Håll ned: Lägg till ett svepmål.</string>
+    <string name="instructions_multi_target_overlay_add_tap">Tryck: Lägg till ett klickmål.</string>
+    <string name="instructions_multi_target_overlay_collapse_hold">Håll ned: Flytta överlägget.</string>
+    <string name="instructions_multi_target_overlay_collapse_tap">Tryck: Dölj alla överlägg.</string>
+    <string name="instructions_multi_target_overlay_header">Använda överlägget</string>
+    <string name="instructions_multi_target_overlay_play_tap">Tryck: Starta / stoppa klickning.</string>
+    <string name="instructions_multi_target_overlay_remove_hold">Håll ned: Ta bort alla mål.</string>
+    <string name="instructions_multi_target_overlay_remove_tap">Tryck: Ta bort det sista målet som lades till.</string>
+    <string name="instructions_multi_target_overlay_settings_tap">Tryck: Öppna alternativ och inställningar.</string>
+    <string name="instructions_multi_target_proper_settings">"Din telefon och dess olika appar har begränsningar för hur de kan klickas på och vid vilken hastighet.
+
+Det är viktigt att notera att om du klickar snabbare än var 50:e millisekund kan det hända att appen inte registrerar klicket eller så kan telefonen krascha.
+
+Om något av dessa problem uppstår, lås din telefon eller stäng av skärmen för att stoppa programmet och ändra sedan konfigurationen."</string>
+    <string name="instructions_multi_target_proper_settings_header">Rätt inställningar</string>
+    <string name="instructions_multi_target_subtitle">Flermålsläge</string>
+    <string name="instructions_multi_target_swipe">Om du håller ned plussymbolenlägger läggs ett nytt svepmål till skärmen. Dessa kommer att svepa från mitten av cirkeln märkt \"start\" mot mitten av cirkeln märkt \"slut\".</string>
+    <string name="instructions_multi_target_swipe_header">Ställ in ett svepmål</string>
+    <string name="instructions_multi_target_target">Du skapar ett nytt mål genom att trycka på plussymbolen. Varje mål är numrerat och körs i följd. Alla klick / svep kommer från målets mitt. Efter det sista målet körs börjar sekvensen om från början.</string>
+    <string name="instructions_multi_target_target_header">Lägga till mål</string>
+    <string name="instructions_onoff_abort">"Om du låser telefonen eller stänger av skärmen, pausar programmet.
+
+Om din telefon inte svarar eller verkar ha kraschat, tryck en gång på strömknappen för att tvinga klickaren att stanna."</string>
+    <string name="instructions_single_target_base">Läs gärna våra instruktioner och lär dig hur du använder den här appen.</string>
+    <string name="instructions_single_target_closing">Om du trycker på X-symbolen stängs överlägget och stoppar appen.</string>
+    <string name="instructions_single_target_closing_header">Stänga överlägget</string>
+    <string name="instructions_single_target_moving">" "<b>Dra</b> överläggets kanter för att flytta runt det på skärmen.</string>
+    <string name="instructions_single_target_moving_header">Flytta överlägget</string>
+    <string name="instructions_single_target_onoff">"När du trycker på play-knappen blir överlägget grönt och börjar klicka åt dig.
+
+Du kan inte flytta på överlägget tills du har tryckt på pausknappen."</string>
+    <string name="instructions_single_target_onoff_header">Start och stopp</string>
+    <string name="instructions_single_target_subtitle">Ett målläge</string>
+    <string name="instructions_single_target_target">" "<b>Tryck på</b> överläggets kanter för att ändra vilket hörn du vill klicka på. Det gör att du kan klicka i vilket hörn som helst på skärmen.</string>
+    <string name="instructions_single_target_target_header">Ändra målhörnet</string>
+    <string name="instructions_take_a_moment">Läsa gärna dessa instruktioner för att lära dig hur du använder appen.</string>
+    <string name="load">Ladda</string>
+    <string name="load_config">Ladda konfiguration:</string>
+    <string name="manage_configurations">Hantera konfigurationer</string>
+    <string name="name">Namn</string>
+    <string name="no">Nej</string>
+    <string name="no_configs_to_load">Du har inga sparade konfigurationer att ladda.</string>
+    <string name="none">Ingen</string>
+    <string name="not_set">Inte inställd</string>
+    <string name="ok">Ok</string>
+    <string name="open_multi_target_mode_no_config">Öppna flermålsläget (ingen konfiguration)</string>
+    <string name="open_single_target_mode">Öppna läge för ett mål</string>
+    <string name="overlay_permission">Överlagsbehörighet</string>
+    <string name="overlay_permission_text">Genom att bevilja denna behörighet kan vi skapa det överlag som du använder för att styra Automatisk Klickare.</string>
+    <string name="overwrite_current_config">Skriv över nuvarande konfiguration?</string>
+    <string name="overwrite_current_config_confirm">Är du säker på att du vill skriva över den aktuella konfigurationen?</string>
+    <string name="pause_on_app_change">Paus på vid app-byte</string>
+    <string name="pixels">Pixel (Pixlar)</string>
+    <string name="please_note">Notera</string>
+    <string name="preserve_location">Behåll fysisk målplats</string>
+    <string name="randomization_radius">Randomiseringsradius</string>
+    <string name="randomization_range">Randomiseringsområde</string>
+    <string name="remove">Ta bort</string>
+    <string name="remove_ads">Ta bort annonser</string>
+    <string name="remove_ads_description">Ta bort alla annonser från Automatisk Klickare.</string>
+    <string name="run_indefinitely">Kör på obestämd tid</string>
+    <string name="runs">Körning(ar)</string>
+    <string name="save">Spara</string>
+    <string name="select_type">Välj åtgärdstyp:</string>
+    <string name="set_config_copy_name">Ange ett namn för den här kopian:</string>
+    <string name="set_config_name">Ange ett namn för den här konfigurationen:</string>
+    <string name="settings">Inställningar</string>
+    <string name="show_active_targets">Visa aktiva mål</string>
+    <string name="skip">Hoppa över</string>
+    <string name="start_coordinates_noun">Startkoordinater</string>
+    <string name="start_delay_title_noun">Startfördröjning</string>
+    <string name="start_multi_target_mode">Start: Flermålsläge</string>
+    <string name="start_noun">Start</string>
+    <string name="start_single_target_mode">Start: Ett målläge</string>
+    <string name="start_verb">Starta</string>
+    <string name="stop_after">Stoppa efter</string>
+    <string name="stop_after_amount_of_time">Stoppa efter viss tid</string>
+    <string name="stop_after_run_count">Stoppa efter antal körningar</string>
+    <string name="stop_at_specific_time">Stoppa vid bestämd tid</string>
+    <string name="target_programmability">Målprogrammerbarhet</string>
+    <string name="thanks_for_buying">Tack för ditt köp</string>
+    <string name="time_between_clicks">Tid mellan klick</string>
+    <string name="title_disable_after">Inaktivera efter</string>
+    <string name="title_duration">Varaktighet</string>
+    <string name="title_edit_action">Redigera åtgärd</string>
+    <string name="title_edit_configuration">Redigera konfiguration:%1$s</string>
+    <string name="title_repeat">Upprepa</string>
+    <string name="title_saved_configurations">Sparade konfigurationer</string>
+    <string name="title_settings_auto_start">Inställningar - Automatisk start</string>
+    <string name="title_settings_multi_target">Inställningar - Flera mål</string>
+    <string name="title_settings_single_target">Inställningar - Ett mål</string>
+    <string name="unknown">Okänd</string>
+    <string name="update">Uppdatera</string>
+    <string name="warning">Varning</string>
+    <string name="welcome">VÄLKOMMEN</string>
+    <string name="welcome_text">Innan du kan börja automatisera tryck / klick måste du ge Automatisk Klickare ytterligare behörigheter på din enhet.</string>
+    <string name="why_ads">Varför visar vi annonser?</string>
+    <string name="why_ads_body">"På SimpleHat Software vill vi erbjuda de bästa apparna vi kan till alla våra användare, betalda eller gratis, utan att begränsa de funktioner som finns tillgängliga.
+
+Vi måste emellertid finansiera löpande utveckling av nya funktioner och stöd för nya enheter.
+
+Det är vårt mål att göra dessa annonser så diskreta som möjligt för våra användare. Vi tackar för din förståelse."</string>
+    <string name="yes">Ja</string>
+</resources>
